@@ -23,7 +23,7 @@
         <!-- End Button Mobile Nav -->
       </div>
       <!-- Navbar Mobile -->
-      <nav role="navigation" aria-label="Main" :class="{'flex': open, 'hidden': !open}" class="magic flex-col flex-grow hidden bg-white pb-4 lg:pb-0 lg:flex lg:justify-end lg:flex-row">
+      <nav role="navigation" aria-label="Main" :class="{'flex': open, 'hidden': !open}" class="prefetch flex-col flex-grow hidden bg-white pb-4 lg:pb-0 lg:flex lg:justify-end lg:flex-row">
         <?= import('/partials/navigation/mainmenu',['levels'=>1,]); ?>
       </nav>
     </div>
