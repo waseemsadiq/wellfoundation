@@ -15,6 +15,25 @@ RewriteEngine On
 Options +FollowSymlinks
 Options -Indexes
 
+## Begin - Redirects
+#
+  # Redirect IE to /browser-not-supported
+  RewriteRule ^browser-not-supported$ [NC,L]
+  RewriteCond %{HTTP_USER_AGENT} "MSIE [1-11]" [NC]
+  RewriteRule ^(.*)$ /browser-not-supported [R=301,L]
+  # Redirect http to https
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+  # Redirect none-www to www
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+  # Redirect /index.php/* to /*
+  RewriteCond %{THE_REQUEST} !^.*administrator [NC]
+  RewriteCond %{THE_REQUEST} ^.*index\.php [NC]
+  RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+#
+## End - Redirects
+
 ## Begin - Joomlatools Pages - static cache
 #
     # Define the filesystem locations (related to server root)
@@ -81,27 +100,6 @@ Options -Indexes
     Header set Cache-Control public,max-age=315360000 env=REDIRECT_IMAGE
 #
 ## End - Image cache
-
-## Begin - Redirects
-#
-  # Redirect IE to /browser-not-supported
-  RewriteRule ^browser-not-supported$ [NC,L]
-  RewriteCond %{HTTP_USER_AGENT} "MSIE [1-11]" [NC]
-  RewriteRule ^(.*)$ /browser-not-supported [R=301,L]
-  # Redirect http to https
-  #RewriteCond %{HTTPS} off
-  #RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-  # Redirect none-www to www
-  #RewriteCond %{HTTP_HOST} !^www\. [NC]
-  #RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-  # Redirect /index.php/* to /*
-  RewriteCond %{THE_REQUEST} !^.*administrator [NC]
-  RewriteCond %{THE_REQUEST} ^.*index\.php [NC]
-  RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
-#
-## End - Redirects
-
-## End - Custom redirects
 
 # RewriteBase /
 ## Begin - Joomla! core SEF Section.
