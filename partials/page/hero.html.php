@@ -1,5 +1,5 @@
 <? 
-if($slug == 'water'):
+if((isset($slug) && $slug == 'water')):
 $title = str_replace(", ", ",<br>", $title); 
 endif;
 ?>
