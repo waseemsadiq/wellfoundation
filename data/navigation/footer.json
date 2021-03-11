@@ -1,0 +1,34 @@
+{
+  "legal": [
+    {
+      "title": "Terms of Service",
+      "route": "legal/terms-and-conditions"
+    },
+    {
+      "title": "Privacy Policy",
+      "route": "legal/privacy"
+    },
+    {
+      "title": "Contact Us",
+      "route": "contact"
+    }
+  ],
+  "getinvolved": [
+    {
+      "title": "Who We Are",
+      "route": "about"
+    },
+    {
+      "title": "Sponsor A Well",
+      "url": "/water/#pricing"
+    },
+    {
+      "title": "Monthly Giving",
+      "url": "/donate/#bank-details"
+    },
+    {
+      "title": "One Time Giving",
+      "url": "/donate/#bank-details"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+/* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+/* hide x-cloak */
+[x-cloak] { display: none; }
+/* add tailwind classes to pagination select list so it's pretty */
+select.k-form-control {
+	@apply block appearance-none w-full bg-white border-2 border-gray-200 hover:border-gray-200 px-4 py-2 pr-8 rounded leading-tight focus:outline-none;
+}
+/* tailwind doesn't do multiple columns css, so let's do that ourselves */
+/* md screen and above only */
+@media (min-width: 768px) {
+	.projects-list {
+		column-count: 2;
+	}
+}

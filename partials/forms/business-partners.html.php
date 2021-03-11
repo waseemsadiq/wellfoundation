@@ -1,0 +1,111 @@
+<form method="post" action="<?= route('forms/business-partners') ?>" class="w-full max-w-4xl m-auto">
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Fullname" id="Fullname-ariaLabel">Contact Name</label>
+    </div>
+    <div class="md:w-2/3">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Fullname" name="Fullname" type="text" aria-labelledby="Fullname-ariaLabel" title="Contact Name. This is a required field">
+    </div>
+  </div>
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="CompanyName" id="CompanyName-ariaLabel">
+        Company Name
+      </label>
+    </div>
+    <div class="md:w-2/3">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="CompanyName" name="CompanyName" type="text" aria-labelledby="CompanyName-ariaLabel" title="Company Name. This is a required field">
+    </div>
+  </div>
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email" id="Email-ariaLabel">
+        Your Email
+      </label>
+    </div>
+    <div class="md:w-2/3">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" aria-labelledby="Email-ariaLabel" title="Company Name. This is a required field">
+    </div>
+  </div>
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Mobile" id="Mobile-ariaLabel">
+        Mobile
+      </label>
+    </div>
+    <div class="md:w-2/3">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Mobile" name="Mobile" type="text" aria-labelledby="Mobile-ariaLabel" title="Mobile. This is a required field">
+    </div>
+  </div>
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="WebsiteURL" id="WebsiteURL-ariaLabel">
+        Website URL
+      </label>
+    </div>
+    <div class="md:w-2/3">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="WebsiteURL" name="WebsiteURL" type="url" aria-labelledby="WebsiteURL-ariaLabel" title="Website URL">
+    </div>
+  </div>
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label for="Where_would_you_like_to_get_involved" class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+        Where would you like to get involved?
+      </label>
+    </div>
+    <div class="md:w-2/3">
+      <label class="md:w-2/3 block text-gray-500 font-bold">
+        <input class="mr-2 leading-tight" type="checkbox" value="Business Partnership at £350 per year" name="Where_would_you_like_to_get_involved[]">
+        <span class="text-sm">
+          Business Partnership at £350 per year
+        </span>
+      </label>
+
+      <label class="md:w-2/3 block text-gray-500 font-bold">
+        <input class="mr-2 leading-tight" type="checkbox" value="Place a Well Charity tub at your work" name="Where_would_you_like_to_get_involved[]">
+        <span class="text-sm">
+          Place a Well Charity tub at your work
+        </span>
+      </label>
+
+      <label class="md:w-full block text-gray-500 font-bold">
+        <input class="mr-2 leading-tight" type="checkbox" value="Active Campaign where donations go towards projects" name="Where_would_you_like_to_get_involved[]">
+        <span class="text-sm">
+          Active Campaign where donations go towards projects
+        </span>
+      </label>
+
+      <label class="md:w-2/3 block text-gray-500 font-bold">
+        <input class="mr-2 leading-tight" type="checkbox" value="Sponsorship of individual projects" name="Where_would_you_like_to_get_involved[]">
+        <span class="text-sm">
+          Sponsorship of individual projects
+        </span>
+      </label>
+
+      <label class="md:w-2/3 block text-gray-500 font-bold">
+        <input class="mr-2 leading-tight" type="checkbox" value="Other areas" name="Where_would_you_like_to_get_involved[]">
+        <span class="text-sm">
+          Other areas
+        </span>
+      </label>
+    </div>
+  </div>
+  <div class="md:flex md:items-center mb-6">
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"  for="Message" id="Message-ariaLabel">
+        Message
+      </label>
+    </div>
+    <div class="md:w-2/3">
+      <textarea id="Message" name="Message" cols="20" rows="3" aria-labelledby="Message-ariaLabel" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" title="Message. This is a required field"></textarea>
+    </div>
+  </div>  
+  <div class="md:flex md:items-center">
+    <div class="md:w-1/3"></div>
+    <div class="md:w-2/3">
+      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending">
+        Send
+      </button>
+    </div>
+  </div>
+</form>
