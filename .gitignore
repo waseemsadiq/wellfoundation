@@ -1,1 +1,9 @@
 .DS_Store
+/config.php
+/data/_config.php
+/pages/_blog
+/pages/unused
+/theme/node_modules
+/theme/package-lock.json
+/theme/package.json
+/logs
