@@ -1,6 +1,6 @@
-# March 2021 upgrade for [The Well Foundation](https://www.wellfoundation.org.uk), based on [Joomlatools Pages](https://github.com/joomlatools/joomlatools-pages/)
+## March 2021 upgrade for [The Well Foundation](https://www.wellfoundation.org.uk), based on [Joomlatools Pages](https://github.com/joomlatools/joomlatools-pages/)
 
-1. Update the values in config.php
+1. Update the values in `config.php`
 1. Add the files from `setup/place_in_server_root` in your Joomla root folder.
 
 **Images from: https://www.freepik.com - all rights reserved to original creators**
