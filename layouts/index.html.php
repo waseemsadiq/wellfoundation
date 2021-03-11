@@ -1,5 +1,5 @@
 <?= helper('behavior.prefetcher', [
-    'selector' => '.prefetch,
+    'selector' => '.prefetch',
     'debug'    =>  debug()
 ]) ?>
 <!DOCTYPE html>
