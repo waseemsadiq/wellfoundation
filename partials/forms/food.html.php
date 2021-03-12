@@ -1,4 +1,4 @@
-<form method="post" action="<?= route('forms/donate-hajj') ?>" class="w-full">
+<form method="post" action="<?= route('forms/food') ?>" class="w-full">
 
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
