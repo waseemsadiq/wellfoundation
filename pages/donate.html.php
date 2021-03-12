@@ -59,7 +59,7 @@ visible: false
               <p class="pr-0 mb-8 text-center text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Specify <strong class="uppercase">general fund</strong> as the payment reference and we will do the rest.<br>THE WELL Foundation ’s bank details are shown below.</p>
             </div>
             <div class="flex flex-wrap py-6 lg:px-20">
-              <div class="lg:w-1/2 px-6">
+              <div class="w-full lg:w-1/2 px-6">
                 <div class="bg-white shadow overflow-hidden sm:rounded-lg">
                   <div class="px-4 py-5 sm:px-6">
                     <h3 class="text-lg leading-6 font-medium text-gray-900">
@@ -101,13 +101,17 @@ visible: false
               </div>
               <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <div class="bg-blue-100 border-t-4 border-blue-500 rounded-b text-blue-900 px-4 py-3 shadow-md" role="alert">
-                  <div class="flex">
-                    <div class="py-1"><svg class="stroke-current h-6 w-6 text-blue-500 mr-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg></div>
-                    <div>
-                      <p class="font-bold">Donation by SMS</p>
-                      <p class="leading-relaxed">You can also make a donation by SMS (short message service) by texting Well78 £5 to 70070 You will be billed £5 (five pounds sterling) by your mobile phone operator.</p>
-                    </div>
-                  </div>
+                    <a class="md:cursor-default" href="sms:70070&body=Well78%20%C2%A35">
+                      <div class="flex">
+                        <div class="py-1">
+                          <svg class="stroke-current h-6 w-6 text-blue-500 mr-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+                        </div>
+                        <div>
+                          <p class="font-bold" x-data><span x-show="!$screen('md')">Click here to </span>Donate by SMS</p>
+                          <p class="leading-relaxed">You can also make a donation by SMS (short message service) by texting Well78 £5 to 70070 You will be billed £5 (five pounds sterling) by your mobile phone operator.</p>
+                        </div>
+                      </div>
+                    </a>
                 </div>
               </div>
             </div>
@@ -119,3 +123,5 @@ visible: false
     <!-- Start Testimonials -->
     <?= import('/partials/features/testimonials'); ?>
     <!-- End Testimonials-->
+
+<script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.0.x/dist/screen.min.js"></script>
