@@ -107,7 +107,7 @@ visible: false
                       </div>
                       <div>
                         <a class="md:cursor-default mb-2" href="sms:70085&body=WFMB">
-                          <p class="font-bold" x-data><span x-show="!$screen('lg')">Click here to </span>Donate by SMS</p>
+                          <p class="font-bold" x-data><span x-show="!$screen('lg')">Click here to d</span><span x-show="$screen('lg')">D</span>onate by SMS</p>
                           <p class="leading-relaxed mb-2">You can also make a donation by SMS (short message service) by texting <strong>WFMB</strong> to 70085 You will be billed £5 (five pounds sterling) by your mobile phone operator.</p>
                         </a>
                         <p class="leading-relaxed mb-2">For larger donations please visit <a class="text-indigo-500 underline" href="https://justgiving.com/welllivelihoods" target="_blank">justgiving.com/welllivelihoods</a></p>
