@@ -21,7 +21,7 @@ modalCount: 1
 
 
     <!-- Livelihoods header -->
-    <div class="relative px-8 py-10  border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
+    <div id="livelihoods" class="relative px-8 py-10  border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
         <div
             class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
             <div class="relative z-10 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pr-10">
