@@ -113,9 +113,55 @@
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3"></div>
     <div class="md:w-2/3">
-      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending">
+      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" onclick="return validChk()">
         Send
       </button>
     </div>
   </div>
 </form>
+<script>
+  function validChk() {
+    var radio = document.getElementsByName('JustGivingPage');
+    var lenRadio = radio.length;
+    //JustGivingPage
+    var valid=0;
+    for(var i=0;i<lenRadio;i++) {
+      if(radio[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    if(valid==0) {
+      msg='Please select whether or not you want us to set up a JustGiving page on your behalf';
+      alert(msg);
+      return false;
+    }
+
+    var valid2=0;
+    //Arrange
+    var chkBox = document.getElementsByName('Arrange[]');
+    var lenChkBox = chkBox.length;
+    for(var i=0;i<lenChkBox;i++) {
+      if(chkBox[i].checked==true) {
+        valid2=1;
+        break;
+      }
+    }
+    //Build
+    var chkBox2 = document.getElementsByName('Build[]');
+    var lenChkBox2 = chkBox2.length;
+    for(var i=0;i<lenChkBox2;i++) {
+      if(chkBox2[i].checked==true) {
+        valid2=1;
+        break;
+      }
+    }
+    if(valid2==0) {
+      msg='Please select what you would like us to arrange or build';
+      alert(msg);
+      return false;
+    }
+
+    return true;
+  }
+</script>

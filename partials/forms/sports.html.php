@@ -483,9 +483,29 @@
   <div class="md:flex md:items-center">
     <div class="md:w-1/3"></div>
     <div class="md:w-2/3">
-      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending">
+      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" onclick="return validChk()">
         Send
       </button>
     </div>
   </div>
 </form>
+<script>
+  function validChk() {
+    var radio = document.getElementsByName('MaleFemale');
+    var lenRadio = radio.length;
+    //Where_would_you_like_to_get_involved
+    var valid=0;
+    for(var i=0;i<lenRadio;i++) {
+      if(radio[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    if(valid==0) {
+      msg='Please select whether the person you are registering for is male or female';
+      alert(msg);
+      return false;
+    }
+    return true;
+  }
+</script>

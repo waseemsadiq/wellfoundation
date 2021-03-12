@@ -24,6 +24,7 @@ form:
         PhoneNumber: [string, required]
         Dateofbirth: [string, required]
         MedicalConditions: [string, required]
+        MedicalConditionsMessage: [string]
         Activities: [string, required]
     redirect: thank-you
     honeypot: well_786d3z07

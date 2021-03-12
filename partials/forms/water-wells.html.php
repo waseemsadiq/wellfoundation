@@ -152,9 +152,56 @@
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3"></div>
     <div class="md:w-2/3 text-left">
-      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending">
+      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending"onclick="return validChk()">
         Send
       </button>
     </div>
   </div>
 </form>
+<script>
+  function validChk() {
+    var valid=0;
+    //HandPumps
+    var radio = document.getElementsByName('HandPumps');
+    var lenRadio = radio.length;
+    for(var i=0;i<lenRadio;i++) {
+      if(radio[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    //SolarPowerWaterWells
+    var radio2 = document.getElementsByName('SolarPowerWaterWells');
+    var lenRadio2 = radio2.length;
+    for(var i=0;i<lenRadio2;i++) {
+      if(radio2[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    //DigaWell
+    var radio3 = document.getElementsByName('DigaWell');
+    var lenRadio3 = radio3.length;
+    for(var i=0;i<lenRadio3;i++) {
+      if(radio3[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    //CommunityBoreWells
+    var radio4 = document.getElementsByName('CommunityBoreWells');
+    var lenRadio4 = radio4.length;
+    for(var i=0;i<lenRadio4;i++) {
+      if(radio4[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    if(valid==0) {
+      msg='Please select which type of well you would like to donate towards';
+      alert(msg);
+      return false;
+    }
+    return true;
+  }
+</script>

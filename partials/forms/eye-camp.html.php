@@ -62,9 +62,30 @@
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3"></div>
     <div class="md:w-2/3">
-      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending">
+      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" onclick="return validChk()">
         Send
       </button>
     </div>
   </div>
 </form>
+
+<script>
+  function validChk() {
+    var radio = document.getElementsByName('CataractOperation');
+    var lenRadio = radio.length;
+    //CataractOperation
+    var valid=0;
+    for(var i=0;i<lenRadio;i++) {
+      if(radio[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    if(valid==0) {
+      msg='Please select your donation type';
+      alert(msg);
+      return false;
+    }
+    return true;
+  }
+</script>

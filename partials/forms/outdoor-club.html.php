@@ -29,7 +29,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="TownCity">Town / City</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4"  id="TownCity" name="TownCity" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4"  id="TownCity" name="TownCity" type="text" placeholder="Motherwell" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">

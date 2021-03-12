@@ -16,7 +16,7 @@ form:
             subject: New registration from the Well foundation 7s league form
     schema:
         Name: [string, required]
-        Address: [string]
+        Address: [string, required]
         Addressline2: [string]
         TownCity: [string]
         Postcode: [string]
@@ -24,6 +24,7 @@ form:
         PhoneNumber: [string, required]
         Dateofbirth: [string, required]
         MedicalConditions: [string, required]
+        MedicalConditionsMessage: [string]
         Activities: [string, required]
     redirect: thank-you
     honeypot: well_786d3z07

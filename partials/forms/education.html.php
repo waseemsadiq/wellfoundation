@@ -124,9 +124,56 @@
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3"></div>
     <div class="md:w-2/3">
-      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending">
+      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" onclick="return validChk()">
         Send
       </button>
     </div>
   </div>
 </form>
+<script>
+  function validChk() {
+    var valid=0;
+    //Classrooms
+    var chkBox = document.getElementsByName('Classrooms[]');
+    var lenChkBox = chkBox.length;
+    for(var i=0;i<lenChkBox;i++) {
+      if(chkBox[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    //Mosques
+    var chkBox2 = document.getElementsByName('Mosques[]');
+    var lenChkBox2 = chkBox2.length;
+    for(var i=0;i<lenChkBox2;i++) {
+      if(chkBox2[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    //SchoolEssentials
+    var chkBox3 = document.getElementsByName('SchoolEssentials[]');
+    var lenChkBox3 = chkBox3.length;
+    for(var i=0;i<lenChkBox3;i++) {
+      if(chkBox3[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    //MosqueEssentials
+    var chkBox4 = document.getElementsByName('MosqueEssentials[]');
+    var lenChkBox4 = chkBox4.length;
+    for(var i=0;i<lenChkBox4;i++) {
+      if(chkBox4[i].checked==true) {
+        valid=1;
+        break;
+      }
+    }
+    if(valid==0) {
+      msg='Please select what you would like to donate towards';
+      alert(msg);
+      return false;
+    }
+    return true;
+  }
+</script>
