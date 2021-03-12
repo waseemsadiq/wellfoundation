@@ -5,7 +5,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name">Name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Name" name="Name" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Name" name="Name" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -13,7 +13,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="MobilePhoneNumber">Mobile Number</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="MobilePhoneNumber" name="MobilePhoneNumber" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="MobilePhoneNumber" name="MobilePhone" type="tel" placeholder="07723456789" pattern="[0-9]{11}" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -21,7 +21,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Postcode">Postcode</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Postcode" name="Postcode" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Postcode" name="Postcode" type="text" placeholder="ML4 1AJ" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -29,7 +29,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="NamesofpeopleforQurbani">Names of people for Qurbani</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="NamesofpeopleforQurbani" name="NamesofpeopleforQurbani" type="text">
+      <textarea id="NamesofpeopleforQurbani" name="NamesofpeopleforQurbani" cols="20" rows="3" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" placeholder="Firstname Lastname - one on each line" required></textarea>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">

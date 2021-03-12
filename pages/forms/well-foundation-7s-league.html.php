@@ -15,7 +15,7 @@ form:
             title: Well foundation 7s league Registration Form
             subject: New registration from the Well foundation 7s league form
     schema:
-        YourName: [string, required]
+        Name: [string, required]
         Address: [string]
         Addressline2: [string]
         TownCity: [string]

@@ -15,8 +15,7 @@ form:
             title: In loving memory Form
             subject: New notification from the In loving memory form
     schema:
-        Firstname: [string, required]
-        Lastname: [string, required]
+        Name: [string, required]
         Email: [email, required]
         PhoneNumber: [string, required]
         Town: [string, required]

@@ -15,10 +15,9 @@ form:
             title: Water Wells Form
             subject: New donation from the water wells form
     schema:
-        Firstname: [string, required]
-        Lastname: [string, required]
+        Name: [string, required]
         Email: [email, required]
-        Mobile: [string, required]
+        MobilePhone: [string, required]
         NameonPlaque: [string, required]
         Town: [string, required]
         HandPumps: [string]

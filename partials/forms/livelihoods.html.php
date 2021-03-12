@@ -1,27 +1,19 @@
 <form method="post" action="<?= route('forms/livelihoods') ?>" class="w-full">
 
  <div class="md:flex md:items-center mb-6">
-  <div class="md:w-1/3">
-    <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Firstname">First Name</label>
+    <div class="md:w-1/3">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name" required>Name</label>
+    </div>
+    <div class="md:w-2/3">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Name" name="Name" type="text" placeholder="Firstname Lastname" required>
+    </div>
   </div>
-  <div class="md:w-2/3">
-    <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Firstname" name="Firstname" type="text">
-  </div>
-</div>
-<div class="md:flex md:items-center mb-6">
-  <div class="md:w-1/3">
-    <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Lastname">Lastname</label>
-  </div>
-  <div class="md:w-2/3">
-    <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Lastname" name="Lastname" type="text">
-  </div>
-</div>
 <div class="md:flex md:items-center mb-6">
   <div class="md:w-1/3">
     <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="PhoneNumber">Phone Number</label>
   </div>
   <div class="md:w-2/3">
-    <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="PhoneNumber" name="PhoneNumber" type="text">
+    <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="PhoneNumber" name="PhoneNumber" type="tel" placeholder="07723456789" pattern="[0-9]{11}" required>
   </div>
 </div>
 <div class="md:flex md:items-center mb-6">
@@ -29,7 +21,7 @@
     <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Town">Town</label>
   </div>
   <div class="md:w-2/3">
-    <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Town" name="Town" type="text">
+    <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Town" name="Town" type="text" placeholder="Motherwell" required>
   </div>
 </div>
 <div class="md:flex md:items-center mb-6">

@@ -15,8 +15,7 @@ form:
             title: Well foundation Outdoor Club Form
             subject: New notification from the Well foundation Outdoor Club form
     schema:
-        Firstname: [string, required]
-        LastName: [string, required]
+        Name: [string, required]
         Address: [string, required]
         Addressline2: [string]
         TownCity: [string, required]

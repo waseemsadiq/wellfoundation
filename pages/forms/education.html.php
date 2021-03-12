@@ -15,8 +15,7 @@ form:
             title: Well foundation Education Form
             subject: New notification from the Well foundation Education form
     schema:
-        Firstname: [string, required]
-        Lastname: [string, required]
+        Name: [string, required]
         Email: [email, required]
         PhoneNumber: [string, required]
         Town: [string, required]

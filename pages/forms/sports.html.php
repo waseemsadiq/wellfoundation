@@ -15,14 +15,12 @@ form:
             title: Sports Academy Registration Form
             subject: New registration from the sports academy form
     schema:
-        ParentFirstname: [string, required]
-        ParentLastname: [string, required]
-        ChildFirstname: [string]
-        ChildLastname: [string]
+        ParentName: [string, required]
+        ChildName: [string]
         DateofBirth: [date, required]
         MaleFemale: [string, required]
         Email: [email, required]
-        MobilePhoneNumber: [string, required]
+        MobilePhone: [string, required]
         Address: [string, required]
         AddressLine2: [string]
         Postcode: [string, required]

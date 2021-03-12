@@ -2,10 +2,10 @@
 
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="YourName">Your Name</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name">Your Name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="YourName" name="YourName" type="text" title="Your Name. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Name" name="Name" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -13,7 +13,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Address">Address</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Address" name="Address" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Address" name="Address" type="text" placeholder="Address Line 1">
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -37,7 +37,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Postcode">Postcode</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Postcode" name="Postcode" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Postcode" name="Postcode" type="text" placeholder="ML4 1AJ">
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -45,7 +45,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email">Your Email</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Email" name="Email" type="text" title="Your Email. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Email" name="Email" type="email" placeholder="you@example.com" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -53,7 +53,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="PhoneNumber">Your contact telephone number</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="PhoneNumber" name="PhoneNumber" type="text" title="Your contact telephone number. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="PhoneNumber" name="PhoneNumber" type="tel" placeholder="07723456789" pattern="[0-9]{11}" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -61,7 +61,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Dateofbirth">Date of birth</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Dateofbirth" name="Dateofbirth" type="date" title="Your date of birth. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Dateofbirth" name="Dateofbirth" type="date" required>
     </div>
   </div>
 

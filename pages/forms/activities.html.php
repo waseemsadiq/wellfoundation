@@ -15,8 +15,7 @@ form:
             title: Well foundation Activities Form
             subject: New request from the Well foundation Activities form
     schema:
-        Firstname: [string, required]
-        Lastname: [string, required]
+        Name: [string, required]
         Email: [email, required]
         MobilePhoneNumber: [string, required]
         Postcode: [string, required]
