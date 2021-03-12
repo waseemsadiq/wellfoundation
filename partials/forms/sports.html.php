@@ -494,15 +494,48 @@
     var radio = document.getElementsByName('MaleFemale');
     var lenRadio = radio.length;
     //Where_would_you_like_to_get_involved
-    var valid=0;
+    var radioValid=0;
     for(var i=0;i<lenRadio;i++) {
       if(radio[i].checked==true) {
-        valid=1;
+        radioValid=1;
         break;
       }
     }
-    if(valid==0) {
+    var chkBoxValid=0;
+    //MaleSports
+    var chkBox = document.getElementsByName('MaleSports[]');
+    var lenChkBox = chkBox.length;
+    for(var i=0;i<lenChkBox;i++) {
+      if(chkBox[i].checked==true) {
+        chkBoxValid=1;
+        break;
+      }
+    }
+    //FemaleSports
+    var chkBox2 = document.getElementsByName('FemaleSports[]');
+    var lenChkBox2 = chkBox2.length;
+    for(var i=0;i<lenChkBox2;i++) {
+      if(chkBox2[i].checked==true) {
+        chkBoxValid=1;
+        break;
+      }
+    }
+    //MonthlyEvents
+    var chkBox3 = document.getElementsByName('MonthlyEvents[]');
+    var lenChkBox3 = chkBox3.length;
+    for(var i=0;i<lenChkBox3;i++) {
+      if(chkBox3[i].checked==true) {
+        chkBoxValid=1;
+        break;
+      }
+    }
+    if(radioValid==0) {
       msg='Please select whether the person you are registering for is male or female';
+      alert(msg);
+      return false;
+    }
+    if(chkBoxValid==0) {
+      msg='Please select the activities you would like to register for';
       alert(msg);
       return false;
     }
