@@ -15,9 +15,8 @@ form:
             title: Well foundation Eye camp Form
             subject: New notification from the Well foundation Eye camp form
     schema:
-        Firstname: [string, required]
-        Lastname: [string, required]
-        Mobilenumber: [string, required]
+        Name: [string, required]
+        MobileNumber: [string, required]
         Email: [email, required]
         DonationAmount: [string]
         CataractOperation: [string]

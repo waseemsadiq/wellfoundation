@@ -15,10 +15,9 @@ form:
             title: Well foundation Hoodies Form
             subject: New request from the Well foundation Hoodies form
     schema:
-        Firstname: [string, required]
-        LastName: [string, required]
+        Name: [string, required]
         Address: [string, required]
-        Addressline2: [string, required]
+        Addressline2: [string]
         TownCity: [string, required]
         Postcode: [string, required]
         MobileNumber: [string, required]

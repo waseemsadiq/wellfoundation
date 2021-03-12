@@ -25,7 +25,7 @@ form:
         Player7: [string]
         FullName: [string, required]
         PhoneNumber: [string, required]
-        ContactE-mail: [email, required]
+        Email: [email, required]
     redirect: thank-you
     honeypot: well_786d3z05
 ---

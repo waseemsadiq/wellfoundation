@@ -2,26 +2,18 @@
 
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Firstname">First Name</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name" required>Name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Firstname" name="Firstname" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Name" name="Name" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Lastname">Lastname</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="MobileNumber">Mobile phone number</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Lastname" name="Lastname" type="text">
-    </div>
-  </div>
-  <div class="md:flex md:items-center mb-6">
-    <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Mobilenumber">Mobile phone number</label>
-    </div>
-    <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Mobilenumber" name="Mobilenumber" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="MobileNumber" name="MobileNumber" type="tel" placeholder="07723456789" pattern="[0-9]{11}" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -29,7 +21,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email">Your Email</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Email" name="Email" type="email">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Email" name="Email" type="email" placeholder="you@example.com" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">

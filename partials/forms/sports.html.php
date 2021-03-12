@@ -2,39 +2,20 @@
 
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ParentFirstname">Firstname</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ParentName">Your / Parent's name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ParentFirstname" name="ParentFirstname" type="text" title="ParentFirstname. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ParentFirstname" name="ParentFirstname" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
 
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ParentLastname">Lastname</label>
-    </div>
-    <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ParentLastname" name="ParentLastname" type="text" title="ParentLastname. This is a required field">
-    </div>
-  </div>
-
-  <div class="md:flex md:items-center mb-6">
-    <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ChildFirstname">Child Firstname</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ChildName">Child's name</label>
       <p class="text-sm md:text-right mb-1 md:mb-0 pr-4">If registering for one of our kids' clubs</p>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ChildFirstname" name="ChildFirstname" type="text">
-    </div>
-  </div>
-
-  <div class="md:flex md:items-center mb-6">
-    <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ChildLastname">Child Lastname</label>
-      <p class="text-sm md:text-right mb-1 md:mb-0 pr-4">If registering for one of our kids' clubs</p>
-    </div>
-    <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ChildLastname" name="ChildLastname" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ChildName" name="ChildName" type="text" placeholder="Firstname Lastname">
     </div>
   </div>
 
@@ -44,7 +25,7 @@
       <p class="text-sm md:text-right mb-1 md:mb-0 pr-4">Of person you are registering for</p>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="DateofBirth" name="DateofBirth" type="date">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="DateofBirth" name="DateofBirth" type="date" required>
     </div>
   </div>
 
@@ -54,11 +35,11 @@
     </div>
     <div class="md:w-2/3">
       <label class="block text-gray-500 font-bold">
-        <input value="Male" id="MaleFemale_1" name="MaleFemale" class="mr-2 leading-tight" type="radio" title="Male. This is a required field">
+        <input value="Male" id="MaleFemale_1" name="MaleFemale" class="mr-2 leading-tight" type="radio">
         <span class="text-sm">Male</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input value="Female" id="MaleFemale_2" name="MaleFemale" class="mr-2 leading-tight" type="radio" title="Female. This is a required field">
+        <input value="Female" id="MaleFemale_2" name="MaleFemale" class="mr-2 leading-tight" type="radio">
         <span class="text-sm">Female</span>
       </label>
     </div>
@@ -69,7 +50,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email">Email</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" title="Female. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" placeholder="you@example.com" required>
     </div>
   </div>
 
@@ -78,7 +59,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="MobilePhone">Mobile Phone Number</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="MobilePhone" name="MobilePhone" type="text" title="Mobile Phone Number. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="MobilePhone" name="MobilePhone" type="tel" placeholder="07723456789" pattern="[0-9]{11}" required>
     </div>
   </div>
 
@@ -87,7 +68,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Address">Address</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Address" name="Address" type="text" title="Address. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Address" name="Address" type="text" placeholder="Address Line 1" required>
     </div>
   </div>
 
@@ -105,7 +86,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Postcode">Postcode</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Postcode" name="Postcode" type="text" title="Postcode. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Postcode" name="Postcode" type="text" placeholder="ML4 1AJ" required>
     </div>
   </div>
 
@@ -132,7 +113,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="DoctorsNumber">Doctor's Number</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="DoctorsNumber" name="DoctorsNumber" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="DoctorsNumber" name="DoctorsNumber" type="text" placeholder="Dr Khan">
     </div>
   </div>
 
@@ -141,7 +122,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Pleasetypeyourname">Please type your name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Pleasetypeyourname" name="Pleasetypeyourname" type="text" title="Please type your name. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Pleasetypeyourname" name="Pleasetypeyourname" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
 

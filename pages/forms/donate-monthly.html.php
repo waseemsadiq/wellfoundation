@@ -15,9 +15,8 @@ form:
             title: Monthly Blessings Form
             subject: New notification from the Monthly Blessings form
     schema:
-        Firstname: [string, required]
-        Lastname: [string, required]
-        Mobilenumber: [string, required]
+        Name: [string, required]
+        MobileNumber: [string, required]
     redirect: thank-you
     honeypot: well_786d3z14
 ---

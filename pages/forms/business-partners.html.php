@@ -15,10 +15,10 @@ form:
             title: Business Partners Signup Form
             subject: New enquiry from the business partners page
     schema:
-        Fullname: [string, required]
+        Name: [string, required]
         CompanyName: [string, required]
         Email: [email, required]
-        Mobile: [string, required]
+        MobileNumber: [string, required]
         WebsiteURL: [string]
         Where_would_you_like_to_get_involved: [string]
         Message: [string, required]

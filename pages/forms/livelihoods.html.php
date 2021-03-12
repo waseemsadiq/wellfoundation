@@ -15,8 +15,7 @@ form:
             title: Well foundation Livelihoods Form
             subject: New notification from the Well foundation Livelihoods form
     schema:
-        Firstname: [string, required]
-        Lastname: [string, required]
+        Name: [string, required]
         PhoneNumber: [string, required]
         Town: [string, required]
         FeedtheWorld: [string]

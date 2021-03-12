@@ -2,18 +2,10 @@
 
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Firstname" id="Firstname-ariaLabel">First Name</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name" require>Name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Firstname" name="Firstname" type="text" aria-labelledby="Firstname-ariaLabel" title="First Name. This is a required field" />
-    </div>
-  </div>
-  <div class="md:flex md:items-center mb-6">
-    <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Lastname" id="Lastname-ariaLabel">Lastname</label>
-    </div>
-    <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Lastname" name="Lastname" type="text" aria-labelledby="Lastname-ariaLabel" title="Lastname. This is a required field" />
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Name" name="Name" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -21,31 +13,31 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email" id="Email-ariaLabel">Your Email</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" aria-labelledby="Email-ariaLabel" title="Lastname. This is a required field" />
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" placeholder="you@example.com" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Mobile" id="Mobile-ariaLabel">Mobile</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="MobilePhone">Mobile</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Mobile" name="Mobile" type="text" aria-labelledby="Mobile-ariaLabel" title="Mobile. This is a required field" />
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Mobile" name="MobilePhone" type="tel" placeholder="07723456789" pattern="[0-9]{11}" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="NameonPlaque" id="NameonPlaque-ariaLabel">Name on Plaque</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="NameonPlaque">Name on Plaque</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="NameonPlaque" name="NameonPlaque" type="text" aria-labelledby="NameonPlaque-ariaLabel" title="Name on Plaque. This is a required field" />
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="NameonPlaque" name="NameonPlaque" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Town" id="Town-ariaLabel">Town</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Town">Town</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Town" name="Town" type="text" aria-labelledby="Town-ariaLabel" title="Town. This is a required field" />
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Town" name="Town" type="text" placeholder="Motherwell" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">

@@ -16,7 +16,7 @@ form:
             subject: New notification from the Well foundation Food Programme form
     schema:
         Name: [string, required]
-        MobileNumber: [email, required]
+        MobileNumber: [string, required]
         Town: [string, required]
     redirect: thank-you
     honeypot: well_786d3z18

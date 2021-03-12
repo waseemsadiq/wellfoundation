@@ -1,50 +1,50 @@
 <form method="post" action="<?= route('forms/business-partners') ?>" class="w-full max-w-4xl m-auto">
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Fullname" id="Fullname-ariaLabel">Contact Name</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name">Contact Name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Fullname" name="Fullname" type="text" aria-labelledby="Fullname-ariaLabel" title="Contact Name. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Name" name="Name" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="CompanyName" id="CompanyName-ariaLabel">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="CompanyName">
         Company Name
       </label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="CompanyName" name="CompanyName" type="text" aria-labelledby="CompanyName-ariaLabel" title="Company Name. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="CompanyName" name="CompanyName" type="text" placeholder="Acme Ltd" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email" id="Email-ariaLabel">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email">
         Your Email
       </label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" aria-labelledby="Email-ariaLabel" title="Company Name. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" placeholder="you@example.com" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Mobile" id="Mobile-ariaLabel">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="MobileNumber">
         Mobile
       </label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Mobile" name="Mobile" type="text" aria-labelledby="Mobile-ariaLabel" title="Mobile. This is a required field">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="MobileNumber" name="MobileNumber" type="tel" placeholder="07723456789" pattern="[0-9]{11}" required>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="WebsiteURL" id="WebsiteURL-ariaLabel">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="WebsiteURL">
         Website URL
       </label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="WebsiteURL" name="WebsiteURL" type="url" aria-labelledby="WebsiteURL-ariaLabel" title="Website URL">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="WebsiteURL" name="WebsiteURL" type="url" placeholder="https://www.example.com">
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -92,12 +92,12 @@
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"  for="Message" id="Message-ariaLabel">
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Message" id="Message-ariaLabel">
         Message
       </label>
     </div>
     <div class="md:w-2/3">
-      <textarea id="Message" name="Message" cols="20" rows="3" aria-labelledby="Message-ariaLabel" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" title="Message. This is a required field"></textarea>
+      <textarea id="Message" name="Message" cols="20" rows="3" aria-labelledby="Message-ariaLabel" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" placeholder="Please add a message for our team" required></textarea>
     </div>
   </div>  
   <div class="md:flex md:items-center">
