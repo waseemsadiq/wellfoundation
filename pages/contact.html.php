@@ -16,7 +16,7 @@ form:
             title: Contact Us Form
             subject: New message from the contact page
     schema:
-        Fullname: [string, required]
+        Name: [string, required]
         Email: [email, required]
         Message: [string, required]
     redirect: thank-you
@@ -32,10 +32,10 @@ form:
             <form method="post" class="w-full">
               <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
-                  <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Fullname" id="Fullname-ariaLabel">Contact Name</label>
+                  <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name" id="Name-ariaLabel">Contact Name</label>
                 </div>
                 <div class="md:w-2/3">
-                  <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Fullname" name="Fullname" type="text" aria-labelledby="Fullname-ariaLabel" title="Contact Name. This is a required field">
+                  <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Name" name="Name" type="text" aria-labelledby="Name-ariaLabel" placeholder="Firstname Lastname" required>
                 </div>
               </div>
               <div class="md:flex md:items-center mb-6">
@@ -45,7 +45,7 @@ form:
                   </label>
                 </div>
                 <div class="md:w-2/3">
-                  <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" aria-labelledby="Email-ariaLabel" title="Company Name. This is a required field">
+                  <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" aria-labelledby="Email-ariaLabel" placeholder="you@example.com" required>
                 </div>
               </div>
               <div class="md:flex md:items-center mb-6">
@@ -55,7 +55,7 @@ form:
                   </label>
                 </div>
                 <div class="md:w-2/3">
-                  <textarea id="Message" name="Message" cols="20" rows="3" aria-labelledby="Message-ariaLabel" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" title="Message. This is a required field"></textarea>
+                  <textarea id="Message" name="Message" cols="20" rows="3" aria-labelledby="Message-ariaLabel" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" placeholder="Please leave a message for our team" required></textarea>
                 </div>
               </div>
               <div class="md:flex md:items-center">
