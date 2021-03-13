@@ -97,45 +97,80 @@
     </div>
     <div class="md:w-2/3">
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="None" id="Activities_3" name="Activities[]" type="checkbox" title="None. This is a required field">
+        <input class="mr-2 leading-tight" value="None" id="Activities_3" name="Activities[]" type="checkbox">
         <span class="text-sm">None</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="10k Charity Run" id="Activities_4" name="Activities[]" type="checkbox" title="10k Charity Run. This is a required field">
+        <input class="mr-2 leading-tight" value="10k Charity Run" id="Activities_4" name="Activities[]" type="checkbox">
         <span class="text-sm">10k Charity Run</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="47mile Bike Pedal for Scotland" id="Activities_5" name="Activities[]" type="checkbox" title="47mile Bike Pedal for Scotland. This is a required field">
+        <input class="mr-2 leading-tight" value="47mile Bike Pedal for Scotland" id="Activities_5" name="Activities[]" type="checkbox">
         <span class="text-sm">47mile Bike Pedal for Scotland</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="Become a Coach for kids under 16" id="Activities_6" name="Activities[]" type="checkbox" title="Become a Coach for kids under 16. This is a required field">
+        <input class="mr-2 leading-tight" value="Become a Coach for kids under 16" id="Activities_6" name="Activities[]" type="checkbox">
         <span class="text-sm">Become a Coach for kids under 16</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="Do First Aid Course" id="Activities_7" name="Activities[]" type="checkbox" title="Do First Aid Course. This is a required field">
+        <input class="mr-2 leading-tight" value="Do First Aid Course" id="Activities_7" name="Activities[]" type="checkbox">
         <span class="text-sm">Do First Aid Course</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="Referee Course" id="Activities_8" name="Activities[]" type="checkbox" title="Referee Course. This is a required field">
+        <input class="mr-2 leading-tight" value="Referee Course" id="Activities_8" name="Activities[]" type="checkbox">
         <span class="text-sm">Referee Course</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="Help with our Feed Scotland Project once a month" id="Activities_9" name="Activities[]" type="checkbox" title="Help with our Feed Scotland Project once a month. This is a required field">
+        <input class="mr-2 leading-tight" value="Help with our Feed Scotland Project once a month" id="Activities_9" name="Activities[]" type="checkbox">
         <span class="text-sm">Help with our Feed Scotland Project once a month</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" value="Other" id="Activities_10" name="Activities[]" type="checkbox" title="Other. This is a required field">
+        <input class="mr-2 leading-tight" value="Other" id="Activities_10" name="Activities[]" type="checkbox">
         <span class="text-sm">Other</span>
       </label>
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
-    <div class="md:w-1/3"></div>
+    <div class="md:w-1/3"><?= helper('form.honeypot', page('forms/well-foundation-7s-league')->form->honeypot); ?></div>
     <div class="md:w-2/3">
-      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending">
+      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" onclick="return validChk()">
         Send
       </button>
     </div>
   </div>
 </form>
+<script>
+  function validChk() {
+    var radio = document.getElementsByName('MedicalConditions');
+    var lenRadio = radio.length;
+    //Where_would_you_like_to_get_involved
+    var radioValid=0;
+    for(var i=0;i<lenRadio;i++) {
+      if(radio[i].checked==true) {
+        radioValid=1;
+        break;
+      }
+    }
+    var chkBoxValid=0;
+    //MaleSports
+    var chkBox = document.getElementsByName('Activities[]');
+    var lenChkBox = chkBox.length;
+    for(var i=0;i<lenChkBox;i++) {
+      if(chkBox[i].checked==true) {
+        chkBoxValid=1;
+        break;
+      }
+    }
+    if(radioValid==0) {
+      msg='Please select whether you have any pre-existing medical conditions';
+      alert(msg);
+      return false;
+    }
+    if(chkBoxValid==0) {
+      msg='Please select which other activities you would like to be involved with';
+      alert(msg);
+      return false;
+    }
+    return true;
+  }
+</script>
