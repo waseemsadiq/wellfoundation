@@ -64,8 +64,8 @@
     </div>
   </div>
   <div class="mb-6">
-    <p class="mb-2 text-base text-gray-600 sm:text-lg xl:text-xl">Contact Details</p>
-    <p class="mb-8 text-base text-gray-600">Please enter the contact details for your team's representative.</p>
+    <p class="mb-2 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">Contact Details</p>
+    <p class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600">Please enter the contact details for your team's representative.</p>
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">

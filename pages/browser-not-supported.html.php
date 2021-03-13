@@ -20,8 +20,8 @@ metadata:
 	<div class="container px-5 py-24 mx-auto">
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Sorry! We don't support this version of your browser</h1>
-			<p class="lg:w-2/3 mx-auto leading-relaxed text-base mb-6">You have been shown this page because we detected that you are using an unsupported browser. Unfortunately, your browser lacks some of the security features that we require.</p>
-			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">We recommend these more up-to-date browsers and would urge you update:</p>
+			<p class="lg:w-2/3 mx-auto leading-relaxed text-2xl md:text-xl lg:text-base   mb-6">You have been shown this page because we detected that you are using an unsupported browser. Unfortunately, your browser lacks some of the security features that we require.</p>
+			<p class="lg:w-2/3 mx-auto leading-relaxed text-2xl md:text-xl lg:text-base  ">We recommend these more up-to-date browsers and would urge you update:</p>
 		</div>
 		<div class="supported-browsers -m-4 text-center w-full">
 			<div class="p-4 md:w-1/4 sm:w-1/2 w-full">

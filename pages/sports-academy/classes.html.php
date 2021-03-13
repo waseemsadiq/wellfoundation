@@ -32,7 +32,7 @@ modalCount: 1
             <h1 class="px-5 mt-2 text-3xl font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl mb-4 xl:mb-8">
               <?= $title; ?>
             </h1>
-            <p class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+            <p class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
               <?= $summary; ?>
             </p>
             <p class="mb-0">
@@ -46,7 +46,7 @@ modalCount: 1
           </div>
 
           <div class="px-8 py-6 lg:pr-24 justify-center h-128 flex flex-col lg:w-1/2 md:w-full">
-            <div class="bg-indigo-500 text-white text-base font-bold px-5 py-2 shadow border-b border-gray-300 rounded-t-lg">
+            <div class="bg-indigo-500 text-white text-2xl md:text-xl lg:text-base   font-bold px-5 py-2 shadow border-b border-gray-300 rounded-t-lg">
               Well Foundation Sports Academy
             </div>
 
@@ -158,13 +158,13 @@ modalCount: 1
             <h1 class="px-5 mt-2 text-3xl font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl mb-4 xl:mb-8">
               Well Foundation Soccer Academy
             </h1>
-            <p class="mb-2 text-base text-gray-600">
+            <p class="mb-2 text-2xl md:text-xl lg:text-base   text-gray-600">
               Well Foundation Children Protection number: 1329
             </p>
-            <p class="mb-2 text-base text-gray-600">
+            <p class="mb-2 text-2xl md:text-xl lg:text-base   text-gray-600">
               Please make sure children are dropped off indoors and picked up indoors
             </p>
-            <p class="mb-8 text-base text-gray-600">
+            <p class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600">
               Make sure your child is registered.
             </p>
             <p class="mb-0">
@@ -174,7 +174,7 @@ modalCount: 1
           </div>
 
           <div class="px-8 py-6 lg:pr-24 justify-center h-128 flex flex-col lg:w-1/2 md:w-full">
-            <div class="bg-indigo-500 text-white text-base font-bold px-5 py-2 shadow border-b border-gray-300 rounded-t-lg">
+            <div class="bg-indigo-500 text-white text-2xl md:text-xl lg:text-base   font-bold px-5 py-2 shadow border-b border-gray-300 rounded-t-lg">
               Well Foundation Soccer Academy
             </div>
 
