@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto">
         <div class="flex-col items-center ">
             <div class="flex flex-col items-center justify-center w-full h-full max-w-2xl pr-8 mx-auto text-center">
-                <p class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase">Some words from our donors</p>
+                <p class="my-5 text-2xl md:text-xl lg:text-base   font-medium tracking-tight text-indigo-500 uppercase">Some words from our donors</p>
                 <h2 class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
                     All donations received with thanks!
                 </h2>
@@ -22,10 +22,10 @@
                                 <path
                                     d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z" />
                             </svg>
-                            <p class="mt-2 text-base text-gray-600"><?= $item->quote ?></p>
+                            <p class="mt-2 text-2xl md:text-xl lg:text-base   text-gray-600"><?= $item->quote ?></p>
                         </div>
 
-                        <h3 class="pl-12 mt-3 text-base font-medium leading-5 text-gray-800 truncate"><?= $item->name ?></h3>
+                        <h3 class="pl-12 mt-3 text-2xl md:text-xl lg:text-base   font-medium leading-5 text-gray-800 truncate"><?= $item->name ?></h3>
                     </div>
                     <?=  import('/partials/images/random', [
                         'folder' => 'images://livelihoods-donate-monthly',

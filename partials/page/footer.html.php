@@ -4,7 +4,7 @@
             <a href="/" class="flex justify-start block text-left sm:text-center lg:text-left sm:justify-center lg:justify-start text-gray-500 no-underline hover:text-gray-600">
                 <?= import('/partials/logos/wellfoundation'); ?>
             </a>
-            <p class="mt-6 mr-4 text-base text-gray-500">Fresh, clean drinking water for all! It's a simple ask.
+            <p class="mt-6 mr-4 text-2xl md:text-xl lg:text-base   text-gray-500">Fresh, clean drinking water for all! It's a simple ask.
             </p>
         </div>
         <div class="block w-full pl-10 mt-6 text-sm lg:w-3/4 sm:flex lg:mt-0">

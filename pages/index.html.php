@@ -18,7 +18,7 @@ visible: false
 
             <div class="p-16">
 
-                <h2 class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase text-center mx-auto">Our Projects</h2>
+                <h2 class="my-5 text-2xl md:text-xl lg:text-base   font-medium tracking-tight text-indigo-500 uppercase text-center mx-auto">Our Projects</h2>
                 <h3 class="max-w-2xl px-5 mt-2 text-3xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl mb-4 xl:mb-8  mx-auto">Where your donations make the difference</h3>
                 
                 <div class="grid justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-4 m-5 mb-10">
@@ -66,7 +66,7 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Water</h4>
-                        <p class="relative mt-2 text-base text-center text-gray-600">The Well Foundation at it's heart is a water charity</p>
+                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">The Well Foundation at it's heart is a water charity</p>
                         <a href="/water" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
                     </div>
                     <!-- END FT1 -->
@@ -113,7 +113,7 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Food</h4>
-                        <p class="relative mt-2 text-base text-center text-gray-600">With your help, we aim to provide meals in 26 countries every 26 weeks.</p>
+                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">With your help, we aim to provide meals in 26 countries every 26 weeks.</p>
                         <a href="food" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
                     </div>
                     <!-- END FT2 -->
@@ -156,7 +156,7 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Education</h4>
-                        <p class="relative mt-2 text-base text-center text-gray-600">Providing a path out of the poverty life-cycle through education.</p>
+                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Providing a path out of the poverty life-cycle through education.</p>
                         <a href="education" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
                     </div>
                     <!-- END FT2 -->
@@ -199,7 +199,7 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Health & Livelihoods</h4>
-                        <p class="relative mt-2 text-base text-center text-gray-600">Our eye camp programme and livelihoods projects.</p>
+                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Our eye camp programme and livelihoods projects.</p>
                         <a href="/health-and-livelihoods" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn  More</a>
                     </div>
                     <!-- END FT3 -->
@@ -243,7 +243,7 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Mosques</h4>
-                        <p class="relative mt-2 text-base text-center text-gray-600">Amazing Sadkha for you or your loved ones.</p>
+                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Amazing Sadkha for you or your loved ones.</p>
                         <a href="/mosques" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
                     </div>
                     <!-- END FT4 -->
@@ -287,7 +287,7 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">26th Initiative Sadaqah Project</h4>
-                        <p class="relative mt-2 text-base text-center text-gray-600">Providing you with rewards for the rest of your life.</p>
+                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Providing you with rewards for the rest of your life.</p>
                         <a href="/26th-initiative-sadaqah-project" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
                     </div>
                     <!-- END FT5 -->
@@ -337,7 +337,7 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Sports Academy</h4>
-                        <p class="relative mt-2 text-base text-center text-gray-600">Providing access to sports and activities</p>
+                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Providing access to sports and activities</p>
                         <a href="/sports-academy" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
                     </div>
                     <!-- END FT6 -->

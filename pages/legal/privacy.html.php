@@ -11,7 +11,7 @@ visible: false
     <h2 class="text-gray-500 text-sm font-medium leading-5 list-outside list-none mb-0 ml-0 mr-0 mt-0 normal-case"> Effective Date: January 01, 2021</h2>
     <h1 class="w-full mt-2 text-2xl font-black leading-tight text-gray-900 sm:mt-0 sm:text-6xl mb-8"><?= $title ?></h1>
 
-    <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+    <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
       <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> The information that we store </h3>
 
       <p class="mb-4">All requests to The Well Foundation start a session which stores the IP address in the session data and creates a session cookie in the user's browser. The IP address is used as a security measure to help protect against potential session hijacking attacks and this information is deleted once the session has expired and its data purged. The session cookie's name is based on a randomly generated hash and therefore does not have a constant identifier. The session cookie is destroyed once the session has expired or the user has exited their browser.</p>
@@ -20,7 +20,7 @@ visible: false
 
     </div>
 
-    <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+    <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
       <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> How we use the information that we store </h3>
 
       <p class="mb-4">The Well Foundation integrates with Google's reCAPTCHA system as a spam protection service. As part of this service, the IP address of the user answering the captcha challenge is transmitted to Google.</p>
@@ -33,7 +33,7 @@ visible: false
 
     </div>
 
-    <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+    <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
       <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> Cookies </h3>
 
       <p class="mb-4">We use cookies on our Website only to enhance the customer experience. Cookies are small files that are sent to and stored by your browser on your computer's hard drive to track site usage as a further means of developing, improving and personalising our website. These do not in themselves identify who you are or provide us with any other data or information about you.</p>
@@ -44,7 +44,7 @@ visible: false
 
     </div>
 
-    <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+    <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
       <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> Data Protection Officer </h3>
 
       <p class="mb-8">The Well Foundation is based in Bellshill, Scotland. The Well Foundation has appointed an internal data protection officer for you to contact if you have any questions or concerns about The Well Foundation’s personal data policies or practices. The Well Foundation’s data protection officer’s name and contact information are as follows:</p>
@@ -58,7 +58,7 @@ visible: false
 
     </div>
 
-    <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+    <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
       <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> Data subject rights </h3>
 
       <p>This Privacy Notice is intended to provide you with information about what personal data The Well Foundation collects about you and how it is used. If you have any questions, please contact us at <a href="mailto:<?= config()->site->site_email ?>" class="text-indigo-500 underline"><?= config()->site->site_email ?></a>

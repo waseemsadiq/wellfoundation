@@ -10,7 +10,7 @@ visible: false
 
       <h2 class="text-gray-500 text-sm font-medium leading-5 list-outside list-none mb-0 ml-0 mr-0 mt-0 normal-case"> Effective Date: January 01, 2021</h2>
       <h1 class="w-full mt-2 text-2xl font-black leading-tight text-gray-900 sm:mt-0 sm:text-6xl mb-8">Terms Of Service</h1>
-      <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+      <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
         <p>These terms and conditions regulate the business relationship between you and us. By using Our Website in any way, or by buying from us, you agree to be bound by them.
         </p>
         <p class="mt-2">We are
@@ -38,7 +38,7 @@ visible: false
       <h2 class="w-full mt-2 text-xl font-black leading-tight text-gray-900 sm:mt-0 sm:text-4xl mb-8">The terms and conditions</h2>
       <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 1. Definitions
       </h3>
-      <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+      <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
         <p>In this agreement:
         </p>
         <p>"Carrier" means any person or business contracted by us to carry Articles from us to you, whether all or part of the distance.
@@ -57,7 +57,7 @@ visible: false
 
     <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 2. Our contract with you
     </h3>
-    <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+    <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
       <p>These terms and conditions apply:
       </p>
       <p>
@@ -96,7 +96,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 3. Your account with us
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>3.1
             </strong> You agree that you have provided, and will continue to provide accurate, up to date, and complete information about yourself. We need this information to provide you with the Articles.
@@ -117,7 +117,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 4. Price and Payment 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>4.1
             </strong> We endeavour to keep our website prices updated and accurate but it is possible that the price may have increased from that published. If that happens, we will not send your order until you have confirmed that you wish to order at the new price.
@@ -134,7 +134,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 5. Delivery 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>5.1
             </strong> Deliveries will be made via post to the address stipulated in your order. You must ensure that someone is present to accept delivery.
@@ -155,7 +155,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 6. Cancellation of order 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>6.1
             </strong> If you are a citizen of the European Union, and you bought the Articles as a Consumer, you may cancel your order at any time before we despatch your order or before the expiry of 1 working day from the date you receive your order, not including the day you received it.
@@ -210,7 +210,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 7. Articles returned 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>7.1
             </strong> Our most important task is to ensure your absolute satisfaction. We will always strive to reach that target. However, we acknowledge that mistakes are made occasionally. This paragraph covers that possibility. If you are not wholly satisfied with the Article, please tell us at the earliest opportunity:
@@ -261,7 +261,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 8. Disclaimers 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>8.1
             </strong> We or our Content suppliers may make improvements or changes to Our Website, the Content, or to any of the Articles, at any time and without advance notice.
@@ -306,7 +306,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 9. Content and Intellectual Property Rights 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>9.1
             </strong> We will defend the intellectual property rights in connection with our Articles and Our Website, including copyright in the Content whether provided by us or by any other content provider (including copyright in text, graphics, logos, icons, images, audio clips, digital downloads, data, and software).
@@ -331,7 +331,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 10. Your email address 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>10.1
             </strong> You represent that any username or email address selected by you, when used alone or combined with a second or third level domain name, does not interfere with the rights of any third party and has not been selected for any unlawful purpose.
@@ -348,7 +348,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 11. Your Material 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>11.1
             </strong> If you post any Material in Our Website, you warrant that you own the copyright in it and you accept all risk and responsibility for it. You grant to us the right to edit, copy, publish, distribute, translate and otherwise use it in any medium and for any purpose.
@@ -376,7 +376,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 12. System Security 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>12.1
             </strong> We will do our best to maintain Our Website so that you have constant use, but there will be times when your use may be interrupted.
@@ -397,7 +397,7 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 13. Acceptable use Policy 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>As a condition of your use of Our Website, you agree to comply with these provisions:
           </p>
           <p>
@@ -429,14 +429,14 @@ visible: false
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> 14. Indemnity 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>You agree to indemnify us against any claim or demand, including reasonable lawyers' fees, made by any third party due to or arising in any way out of your use of Our Web Site, your posting any Material, or the infringement by you, or by any other person using your computer, of any intellectual property or other right of any person.
           </p>
         </div>
 
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4">  15. Miscellaneous provisions 
         </h3>
-        <div class="mb-8 text-base text-gray-600 sm:text-lg xl:text-xl">
+        <div class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">
           <p>
             <strong>15.1
             </strong> When we communicate with you we do so by email. You agree that email communications are contractually binding in the same way as properly signed and dated paper sent by post.

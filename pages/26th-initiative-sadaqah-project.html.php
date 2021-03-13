@@ -21,14 +21,14 @@ modalCount: 1
     <div class="relative px-8 py-10  border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
         <!-- Pricing Section -->
         <div id="pricing" class="container flex flex-col items-center h-full max-w-7xl mx-auto">
-            <h2 class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase">A contribution that goes a long way</h2>
+            <h2 class="my-5 text-2xl md:text-xl lg:text-base   font-medium tracking-tight text-indigo-500 uppercase">A contribution that goes a long way</h2>
             <h3
                 class="w-full max-w-4xl px-5 px-8 mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">
                  Over 100 people contributing</h3>
             <div class="relative lg:px-20">
-              <p class="pr-0 mb-8 text-center text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Although we think that £10 is just right for making a wholesome difference, you can set up a Direct Debit for more or less. The Sadaqah projects are an amazing opportunity for you to contribute towards a collective goal and leave a little legacy of change. You can even set up the sadaqah for your loved ones.</p>
-              <p class="pr-0 mb-8 text-center text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">This is an amazing opportunity to Build a well, Give someone Education and donate a livelihood project every year. Providing you with the rewards for the rest of your life.</p>
-              <p class="pr-0 mb-8 text-center text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Update reports are emailed every 4 months.</p>
+              <p class="pr-0 mb-8 text-center text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Although we think that £10 is just right for making a wholesome difference, you can set up a Direct Debit for more or less. The Sadaqah projects are an amazing opportunity for you to contribute towards a collective goal and leave a little legacy of change. You can even set up the sadaqah for your loved ones.</p>
+              <p class="pr-0 mb-8 text-center text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">This is an amazing opportunity to Build a well, Give someone Education and donate a livelihood project every year. Providing you with the rewards for the rest of your life.</p>
+              <p class="pr-0 mb-8 text-center text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Update reports are emailed every 4 months.</p>
             </div>
             <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4">£10 per month, where does it go?</h3>
             
@@ -125,7 +125,7 @@ modalCount: 1
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-16">
             <h3 class="w-full max-w-4xl px-5 px-8 mx-auto mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">A few of the projects that have been put in place:</h3>
-              <div class="lg:w-2/3 mx-auto leading-relaxed text-base projects-list">
+              <div class="lg:w-2/3 mx-auto leading-relaxed text-2xl md:text-xl lg:text-base   projects-list">
                 <? foreach (data('projects')->sadaqah as $item) : ?>
                     <div class="flex items-start text-gray-600 mb-2">
                         <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
