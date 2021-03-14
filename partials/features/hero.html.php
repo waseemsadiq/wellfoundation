@@ -38,7 +38,7 @@ endif;
         </div>
         <div class="relative z-10 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
             <div class="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
-                <img src="<?= $image ?>" class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-20 rounded-3xl" alt="<?= $title ?>">
+                <img src="<?= (isset($slug) && $slug == 'home') ? 'images://waterspout-cover.jpg' : $image  ?>" class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-20 rounded-3xl" alt="<?= $title ?>">
             </div>
         </div>
     </div>
