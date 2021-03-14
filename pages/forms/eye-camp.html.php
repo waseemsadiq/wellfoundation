@@ -7,7 +7,7 @@ slug: eye-camp
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: eye-camp-form
     processors:

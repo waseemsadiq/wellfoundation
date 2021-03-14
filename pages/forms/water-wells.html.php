@@ -7,7 +7,7 @@ slug: water-wells
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: water-wells-form
     processors:

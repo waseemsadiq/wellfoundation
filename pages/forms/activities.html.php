@@ -7,7 +7,7 @@ slug: activities
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: activities-form
     processors:

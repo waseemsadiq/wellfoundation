@@ -7,7 +7,7 @@ slug: well-foundation-7s-league
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: well-foundation-7s-league-form
     processors:

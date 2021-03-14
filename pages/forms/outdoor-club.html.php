@@ -7,7 +7,7 @@ slug: outdoor-club
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: outdoor-club-form
     processors:

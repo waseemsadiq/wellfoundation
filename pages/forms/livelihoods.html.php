@@ -7,7 +7,7 @@ slug: livelihoods
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: livelihoods-form
     processors:

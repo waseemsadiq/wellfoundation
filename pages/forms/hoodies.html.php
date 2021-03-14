@@ -7,7 +7,7 @@ slug: hoodies
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: hoodies-form
     processors:

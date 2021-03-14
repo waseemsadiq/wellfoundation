@@ -7,7 +7,7 @@ slug: sports
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: sports-academy-form
     processors:

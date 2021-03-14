@@ -7,7 +7,7 @@ slug: loving-memory
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: loving-memory-form
     processors:

@@ -7,7 +7,7 @@ slug: business-partners
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: business-partners-signup-form
     processors:

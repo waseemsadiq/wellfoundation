@@ -7,7 +7,7 @@ slug: qurbani
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: qurbani-form
     processors:

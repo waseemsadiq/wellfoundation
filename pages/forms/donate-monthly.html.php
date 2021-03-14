@@ -7,7 +7,7 @@ slug: donate-monthly
 visible: false
 metadata:
     og:type: false
-    robots: none
+    robots: [none]
 form:
     name: donate-monthly-form
     processors:
