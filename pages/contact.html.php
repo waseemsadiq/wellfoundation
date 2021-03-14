@@ -2,7 +2,7 @@
 layout: default
 name: Contact
 title: Contact Us 
-summary: Please send us a message using the following contact form
+summary: Please send us a message using this contact form
 image: images://contact-cover.jpg
 slug: contact
 visible: false
