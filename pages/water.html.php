@@ -6,7 +6,7 @@ summary: The Well foundation at its heart is a water charity with the primary ai
 image: images://office-watercooler.jpg
 slug: water
 metadata:
-og:type: article
+  og:type: article
 modalCount: 1
 ---
 
