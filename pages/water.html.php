@@ -2,7 +2,7 @@
 layout: default
 name: Water
 title: Give Life, Give Water.
-summary: The Well foundation at its heart is a water charity with the primary aim to raise money to install hand pumps, deep bore wells and establish health and sanitation programmes in order to provide <strong>safe clean drinking water for all</strong>
+summary: The Well foundation at its heart is a water charity with the primary aim to raise money to install hand pumps, deep bore wells and establish health and sanitation programmes in order to provide safe clean drinking water for all
 cover_img: images://office-watercooler.jpg
 slug: water
 modalCount: 1

@@ -1,6 +1,9 @@
 ---
 layout: index
 ---
+<?
+$summary = str_replace('Fahim Baqir', '<a href="mailto:'.config()->site->contact_email.'" class="text-indigo-700 underline">Fahim Baqir</a>', $summary);
+?>
 <body class="overflow-x-hidden antialiased">
     <!-- main-content -->
     <div class="w-full bg-gray-100">

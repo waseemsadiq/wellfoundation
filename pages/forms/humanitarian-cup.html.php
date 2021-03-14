@@ -2,7 +2,7 @@
 layout: form
 name: Humanitarian Cup Form
 title: Humanitarian Cup Registration
-summary: Please complete this form to register your team. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
+summary: Please complete this form to register your team. If you need more info please contact Fahim Baqir.
 slug: humanitarian-cup
 visible: false
 metadata:

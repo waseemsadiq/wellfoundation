@@ -2,7 +2,7 @@
 layout: form
 name: Activities Form
 title: Activities
-summary: Please complete this form to request your Well foundation Activities. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
+summary: Please complete this form to request your Well foundation Activities. If you need more info please contact Fahim Baqir.
 slug: activities
 visible: false
 metadata:
