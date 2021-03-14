@@ -152,7 +152,7 @@
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3"><?= helper('form.honeypot', page('forms/water-wells')->form->honeypot); ?></div>
     <div class="md:w-2/3 text-left">
-      <button class="shadow bg-purple-500 hover:bg-purple-400 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending"onclick="return validChk()">
+      <button class="shadow bg-purple-600 hover:bg-purple-500 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending"onclick="return validChk()">
         Send
       </button>
     </div>
