@@ -47,6 +47,6 @@
     </div>
     <div class="pt-4 pt-6 mt-10 text-center text-sm text-gray-400 border-t border-gray-100">
         <p>&copy;<?= date('now', 'Y'); ?> <?= config()->site->name ?>. <?= config()->site->footer_address ?></p>
-        <p class="text-xs mt-3">built by <a href="<?= config()->site->built_by_link ?>" class="text-indigo-500 underline" rel="noopener noreferrer" target="_blank"><?= config()->site->built_by ?></a> with <a href="https://github.com/joomlatools/joomlatools-pages/" class="text-indigo-500 underline" rel="noopener noreferrer" target="_blank">Joomlatools Pages</a>. </p>
+        <p class="text-xs mt-3">built by <a href="<?= config()->site->built_by_link ?>" class="text-gray-500" rel="noopener noreferrer" target="_blank"><?= config()->site->built_by ?></a> with <a href="https://github.com/joomlatools/joomlatools-pages/" class="text-gray-500" rel="noopener noreferrer" target="_blank">Joomlatools Pages</a>. </p>
     </div>
 </footer>
