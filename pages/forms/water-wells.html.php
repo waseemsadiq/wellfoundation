@@ -2,7 +2,7 @@
 layout: form
 name: Water Wells Form
 title: Donate a water well
-summary: Please complete this form to purchase your water well(s) If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
+summary: Please complete this form to purchase your water well(s) If you need more info please contact Fahim Baqir.
 slug: water-wells
 visible: false
 metadata:
