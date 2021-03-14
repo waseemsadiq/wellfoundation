@@ -24,7 +24,7 @@ modalCount: 1
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Pakistan Mosques are built in 
                     <br class="hidden lg:inline-block">Layyah area or Sindh
                 </h1>
-                <p class="mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl">Mosques are around the following size:</p>
+                <p class="mb-8 text-base   text-gray-600 md:text-lg xl:text-xl">Mosques are around the following size:</p>
                 <p class="flex items-center text-gray-600 mb-2">
                     <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
@@ -46,7 +46,7 @@ modalCount: 1
                         </svg>
                     </span>Sahin: 22x20
                 </p>
-                <p class="pr-0 mb-8 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Please follow this link to:</p>
+                <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Please follow this link to:</p>
                 <div class="flex justify-center">
                     <?= import('/partials/buttons/modal',[
                       'form' => 'education',
