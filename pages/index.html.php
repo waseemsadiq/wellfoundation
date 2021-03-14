@@ -24,7 +24,7 @@ visible: false
                 <div class="grid justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-4 md:m-5 mb-10">
                     
                     <!-- BEGIN FT1 -->
-                    <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
+                    <a href="/water" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 fill-current" viewBox="0 0 377 340" xmlns="http://www.w3.org/2000/svg">
                             <path d="M342.8 3.7c24.7 14 18.1 75 22.1 124s18.6 85.8 8.7 114.2c-9.9 28.4-44.4 48.3-76.4 62.4-32 14.1-61.6 22.4-95.9 28.9-34.3 6.5-73.3 11.1-95.5-6.2-22.2-17.2-27.6-56.5-47.2-96C38.9 191.4 5 151.5.9 108.2-3.1 64.8 22.7 18 61.8 8.7c39.2-9.2 91.7 19 146 16.6 54.2-2.4 110.3-35.6 135-21.6z" />
                         </svg>
@@ -67,12 +67,12 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Water</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">The Well Foundation at it's heart is a water charity</p>
-                        <a href="/water" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation">Learn More</a>
-                    </div>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                    </a>
                     <!-- END FT1 -->
 
                     <!-- BEGIN FT2 -->
-                    <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
+                    <a href="/food" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 fill-current" viewBox="0 0 358 372" xmlns="http://www.w3.org/2000/svg">
                             <path d="M315.7 6.5c30.2 15.1 42.6 61.8 41.5 102.5-1.1 40.6-15.7 75.2-24.3 114.8-8.7 39.7-11.3 84.3-34.3 107.2-23 22.9-66.3 23.9-114.5 30.7-48.2 6.7-101.3 19.1-123.2-4.1-21.8-23.2-12.5-82.1-21.6-130.2C30.2 179.3 2.6 141.9.7 102c-2-39.9 21.7-82.2 57.4-95.6 35.7-13.5 83.3 2.1 131.2 1.7 47.9-.4 96.1-16.8 126.4-1.6z" />
                         </svg>
@@ -114,12 +114,12 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Food</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">With your help, we aim to provide meals in 26 countries every 26 weeks.</p>
-                        <a href="food" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation food programme">Learn More</a>
-                    </div>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                    </a>
                     <!-- END FT2 -->
 
                     <!-- BEGIN FT2 -->
-                    <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
+                    <a href="/education" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 fill-current" viewBox="0 0 378 410" xmlns="http://www.w3.org/2000/svg">
                             <path d="M305.9 14.4c23.8 24.6 16.3 84.9 26.6 135.1 10.4 50.2 38.6 90.3 43.7 137.8 5.1 47.5-12.8 102.4-50.7 117.4-37.9 15.1-95.7-9.8-151.7-12.2-56.1-2.5-110.3 17.6-130-3.4-19.7-20.9-4.7-82.9-11.5-131.2C25.5 209.5-3 174.7 1.2 147c4.2-27.7 41-48.3 75-69.6C110.1 56.1 141 34.1 184 17.5c43.1-16.6 98.1-27.7 121.9-3.1z" />
                         </svg>
@@ -157,12 +157,12 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Education</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Providing a path out of the poverty life-cycle through education.</p>
-                        <a href="education" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation education programmes">Learn More</a>
-                    </div>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                    </a>
                     <!-- END FT2 -->
 
                     <!-- BEGIN FT3 -->
-                    <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
+                    <a href="/health-and-livelihoods" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 fill-current" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
                             <path d="M442,314Q449,378,395,413.5Q341,449,279,466Q217,483,155.5,456.5Q94,430,99,361.5Q104,293,70,240Q36,187,75,139.5Q114,92,165.5,57Q217,22,276.5,42Q336,62,364,110.5Q392,159,413.5,204.5Q435,250,442,314Z"></path>
                         </svg>
@@ -200,13 +200,13 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Health & Livelihoods</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Our eye camp programme and livelihoods projects.</p>
-                        <a href="/health-and-livelihoods" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation's Health and Livelihoods programmes">Learn  More</a>
-                    </div>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn  More</span>
+                    </a>
                     <!-- END FT3 -->
 
                     <!-- BEGIN FT4 -->
 
-                    <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
+                    <a href="/mosques" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 fill-current" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
                             <path d="M413,288Q407,326,385,358.5Q363,391,329.5,421Q296,451,247.5,463Q199,475,150,455.5Q101,436,92,383Q83,330,45.5,290Q8,250,21,198Q34,146,92.5,136Q151,126,173,68Q195,10,246.5,25.5Q298,41,346.5,54.5Q395,68,410.5,116.5Q426,165,422.5,207.5Q419,250,413,288Z"></path>
                         </svg>
@@ -244,12 +244,12 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Mosques</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Amazing Sadkha for you or your loved ones.</p>
-                        <a href="/mosques" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation Mosque building programme">Learn More</a>
-                    </div>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                    </a>
                     <!-- END FT4 -->
 
                     <!-- BEGIN FT5 -->
-                    <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
+                    <a href="/26th-initiative-sadaqah-project" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 fill-current" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
                             <path d="M439.5,299Q454,348,430,396.5Q406,445,348,434.5Q290,424,244.5,449Q199,474,166,435.5Q133,397,96.5,369.5Q60,342,71,296Q82,250,59.5,198.5Q37,147,84,123.5Q131,100,171,90.5Q211,81,249,84Q287,87,329.5,92Q372,97,390.5,135.5Q409,174,417,212Q425,250,439.5,299Z"></path>
                         </svg>
@@ -288,8 +288,8 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">26th Initiative Sadaqah Project</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Providing you with rewards for the rest of your life.</p>
-                        <a href="/26th-initiative-sadaqah-project" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation monthly donations programme">Learn More</a>
-                    </div>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                    </a>
                     <!-- END FT5 -->
 
                     <!-- BEGIN FT6 -->
@@ -297,7 +297,7 @@ visible: false
                     <!-- END FT5 -->
 
                     <!-- BEGIN FT6 -->
-                    <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
+                    <a href="/sports-academy" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 fill-current" viewBox="0 0 358 372" xmlns="http://www.w3.org/2000/svg">
                             <path d="M315.7 6.5c30.2 15.1 42.6 61.8 41.5 102.5-1.1 40.6-15.7 75.2-24.3 114.8-8.7 39.7-11.3 84.3-34.3 107.2-23 22.9-66.3 23.9-114.5 30.7-48.2 6.7-101.3 19.1-123.2-4.1-21.8-23.2-12.5-82.1-21.6-130.2C30.2 179.3 2.6 141.9.7 102c-2-39.9 21.7-82.2 57.4-95.6 35.7-13.5 83.3 2.1 131.2 1.7 47.9-.4 96.1-16.8 126.4-1.6z" />
                         </svg>
@@ -338,8 +338,8 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Sports Academy</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Providing access to sports and activities</p>
-                        <a href="/sports-academy" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation Sports Academy">Learn More</a>
-                    </div>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                    </a>
                     <!-- END FT6 -->
                 </div>
             </div>
