@@ -5,6 +5,9 @@ title: Qurbani Program
 summary: Please complete this form to donate to Well foundation Qurbani Program. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: qurbani
 visible: false
+metadata:
+    og:type: false
+    robots: [noindex, nofollow]
 form:
     name: qurbani-form
     processors:

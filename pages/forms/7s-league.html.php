@@ -5,6 +5,9 @@ title: Well foundation 7s league Registration
 summary: Please complete this form to register for the Well foundation 7s league. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: 7s-league
 visible: false
+metadata:
+    og:type: false
+    robots: [noindex, nofollow]
 form:
     name: 7s-league-form
     processors:

@@ -5,6 +5,9 @@ title: Livelihoods
 summary: Please complete this form to donate to Well foundation Livelihoods. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: livelihoods
 visible: false
+metadata:
+    og:type: false
+    robots: [noindex, nofollow]
 form:
     name: livelihoods-form
     processors:
