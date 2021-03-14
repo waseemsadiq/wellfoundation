@@ -33,18 +33,18 @@ layout: index
     <div class="h-screen w-full flex flex-col">
         <!-- Header Section -->
         <?= import('/partials/page/header'); ?>
-        <!-- End Header Section-->
+        <!-- End Header Section -->
         
-        <!-- main-content -->
+        <!-- Main Section -->
         <div class="w-full bg-white">
 
             <ktml:content>
 
         </div>
-        <!-- /main-content -->
+        <!-- End Main Section -->
         
-        <!-- Header Section -->
+        <!-- Footer Section -->
         <?= import('/partials/page/footer'); ?>
-        <!-- End Header Section-->
+        <!-- End Footer Section -->
     </div>
 </body>
