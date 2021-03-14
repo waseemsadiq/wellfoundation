@@ -2,7 +2,7 @@
 layout: default
 name: Contact
 title: Contact Us 
-summary: The Well Foundation is a volunteer-staffed charity, as such we don't have an office telephone number, or a full-time admin team. Whilst we try to answer all messages and enquiries quickly, please bear with us if you send us a message, one of our volunteers will respond to your enquiry as soon as possible.
+summary: Please send us a message using this contact form
 image: images://contact-cover.jpg
 slug: contact
 visible: false
