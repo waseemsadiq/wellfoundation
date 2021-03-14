@@ -5,7 +5,7 @@ if(isset($slug)):
         $title = str_replace(", ", ",<br>", $title);
         $summary = str_replace("safe clean drinking water for all", "<strong>safe clean drinking water for all</strong>", $summary);
         break;
-    case ('about' || 'education'):
+    case ('about'):
         $summary = str_replace(". ", ".<br><br>", $summary);
         break;
     case 'food':
