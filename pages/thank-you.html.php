@@ -21,5 +21,3 @@ metadata:
 <!-- Start Testimonials -->
 <?= import('/partials/features/testimonials'); ?>
 <!-- End Testimonials-->
-
-<script>gtag('event', 'conversion', {'send_to': 'AW-408347838/kos0CJKKx_oBEL7J28IB'});</script>

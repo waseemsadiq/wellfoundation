@@ -41,15 +41,18 @@
     <ktml:script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js"  defer="defer" module="nomodule" />
 
     <? if (config()->ga_code): ?>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=<?= config()->ga_code ?>"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '<?= config()->ga_code ?>');
-    </script>
-    <!-- End Google Analytics -->
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=<?= config()->ga_code ?>"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '<?= config()->ga_code ?>');
+        </script>
+        <? if (page()->name =='Thank You'): ?>
+        <script>gtag('event', 'conversion', {'send_to': 'AW-408347838/kos0CJKKx_oBEL7J28IB'});</script>
+        <? endif; ?>
+        <!-- End Google Analytics -->
     <? endif; ?>
 
     <noscript>
