@@ -3,13 +3,13 @@ layout: default
 name: Education
 title: Education provides a path out of the poverty life-cycle.
 summary: Many children come from families who struggle to feed themselves, they are forced to sell land and livestock to buy food. They have to cut back on education and often children are forced to work instead of going to school. We work with organisations to help provide safe environments for children’s free education, schools are built from scratch or buildings repaired. Children are provided with equipment and resources to give them the very best chance to succeed.
-cover_img: images://education-cover.jpg
+image: images://education-cover.jpg
 slug: education
 modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/page/hero',[
+    <?= import('/partials/features/hero',[
       'form' => 'education',
       'form_title' => 'Please complete all sections',
       'button_colour' => 'green'

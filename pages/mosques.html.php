@@ -3,13 +3,13 @@ layout: default
 name: Mosques
 title: Amazing sadaqah for you or your loved ones
 summary: Once built, mosques offer all Namazes, Children’s Hifiz, Islamic Education, Trawia and Jumma
-cover_img: images://prayer-cover.jpg
+image: images://prayer-cover.jpg
 slug: mosques
 modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/page/hero'); ?>
+    <?= import('/partials/features/hero'); ?>
     <!-- HERO SECTION END -->
 
     <div class="relative px-8 py-10  border-t border-gray-200 xl:px-0">

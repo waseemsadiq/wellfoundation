@@ -4,13 +4,13 @@ name: 26th Initiative
 title: What is Sadaqah?
 sub_title: Sadaqah or Sadaka
 summary: Sadaqah or Sadaka in the modern context has come to signify "voluntary charity". According to the Quran, the word means voluntary offering, the amount of which is at the will of the "benefactor".
-cover_img: images://26th-cover.jpg
+image: images://26th-cover.jpg
 slug: 26th-initiative-sadaqah-project
 modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/page/hero',[
+    <?= import('/partials/features/hero',[
       'form' => 'donate-monthly',
       'form_title' => 'Rewards for the rest of your life',
       'button_text' => 'Donate monthly',

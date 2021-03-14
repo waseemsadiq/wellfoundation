@@ -3,13 +3,13 @@ layout: default
 name: Food
 title: Food Programme
 summary: Over 500m children, throughout the World, are going to sleep every night without having had a decent meal that day. With your help, The Well foundation food programme aims to provide meals in 26 countries every 26 weeks
-cover_img: images://food-cover.jpg
+image: images://food-cover.jpg
 slug: food
 modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/page/hero',[
+    <?= import('/partials/features/hero',[
       'form' => 'food',
       'form_title' => 'Feed the World',
       'button_text' => 'Register now!',

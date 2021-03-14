@@ -4,12 +4,12 @@ name: Business Partners
 title: The Proposal
 sub_title: Get involved
 summary: Our proposal is based around the basic costing of the benefits we can provide to you; we ask that a basic minimum cost of £350 be applied to open the affiliation. We then add you to our Business Partners portfolio thus your business becomes an official charity business partner. You would ask what does this mean and why the cost? The money will be used for the cost of resources to promote your business throughout the year at our events and for published media i.e. charity pamphlets, pop up boards. Your business’s name will also be carried on our Website and Facebook pages adding greater exposure for your business throughout the year.
-cover_img: images://business-cover.jpg
+image: images://business-cover.jpg
 slug: business-partners
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/page/hero',[
+    <?= import('/partials/features/hero',[
       'form'=>NULL,
       'button_url'=>'#form',
       'button_text'=>'Work With Us!',

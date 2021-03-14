@@ -3,13 +3,13 @@ layout: default
 name: Sports
 title: Providing access to sports & activities
 summary: The Well Foundation Community Sports hub and Sports academy has been incredibly successful in providing access which is often lacking to sports and activities to children within the BME community. The collaboration with youth football teams allows integration of children from all backgrounds to enjoy sport in safe and professional environments.
-cover_img: images://sports-cover.jpg
+image: images://sports-cover.jpg
 slug: sports-academy
 modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/page/hero',[
+    <?= import('/partials/features/hero',[
       'button_url'=>route('sports-academy/classes'),
       'button_text'=>'View all sports and activities',
     ]); ?>
