@@ -20,7 +20,7 @@ modalCount: 1
     <div class="relative px-8 py-10  border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
 
         <div id="education-projects" class="container flex flex-col items-center h-full max-w-7xl mx-auto">
-            <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-500 uppercase">A path out of poverty.</h2>
+            <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-700 uppercase">A path out of poverty.</h2>
             <div class="relative lg:px-20">
               <p class="pr-0 mb-8 text-center text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">
                   At some stage in our lives we were afforded the opportunity by someone to get ahead in life. People struggling to make it are just looking for their chance and a helping hand. Our Education projects give children that opportunity and help restore self-confidence and pride.

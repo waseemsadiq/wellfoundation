@@ -268,14 +268,14 @@
       <label class="block text-gray-500 font-bold">
         <input class="mr-2 leading-tight" type="checkbox" name="MaleSports[]" value="Sat - Park-run 5k" id="MaleSports_22">
         <span class="text-sm">
-          Sat - Park-run 5k<span class="block ml-6 font-normal text-gray-400">9.30pm - Strathclyde Park - Free - Register here - <a class="relative flex text-sm font-medium text-indigo-500 underline" href="https://www.parkrun.org.uk/strathclyde/" target="_blank" rel="noopener noreferrer">https://www.parkrun.org.uk/strathclyde</a></span>
+          Sat - Park-run 5k<span class="block ml-6 font-normal text-gray-400">9.30pm - Strathclyde Park - Free - Register here - <a class="relative flex text-sm font-medium text-indigo-700 underline" href="https://www.parkrun.org.uk/strathclyde/" target="_blank" rel="noopener noreferrer">https://www.parkrun.org.uk/strathclyde</a></span>
         </span>
       </label>
 
       <label class="block text-gray-500 font-bold">
         <input class="mr-2 leading-tight" type="checkbox" name="MaleSports[]" value="Sat - Motherwell FC toddler Football" id="MaleSports_23">
         <span class="text-sm">
-          Sat - Motherwell FC toddler Football<span class="block ml-6 font-normal text-gray-400">Fir Park - ages 18months - 5 years old - <a class="relative flex text-sm font-medium text-indigo-500 underline" href="https://www.motherwellfcct.co.uk" target="_blank" rel="noopener noreferrer">www.motherwellfcct.co.uk</a> or call 01698 239926.</span>
+          Sat - Motherwell FC toddler Football<span class="block ml-6 font-normal text-gray-400">Fir Park - ages 18months - 5 years old - <a class="relative flex text-sm font-medium text-indigo-700 underline" href="https://www.motherwellfcct.co.uk" target="_blank" rel="noopener noreferrer">www.motherwellfcct.co.uk</a> or call 01698 239926.</span>
         </span>
       </label>
 
@@ -409,12 +409,12 @@
 
       <label class="block text-gray-500 font-bold">
         <input class="mr-2 leading-tight" type="checkbox" name="FemaleSports[]" value="Fri - Motherwell FC Girls Football" id="FemaleSports_44">
-        <span class="text-sm">Fri - Motherwell FC Girls Football<span class="block ml-6 font-normal text-gray-400">6pm - 7pm - Fir Park, Motherwell - under 12s - Cost TBC - Contact <a class="relative flex text-sm font-medium text-indigo-500 underline" href="https://www.motherwellfcct.co.uk" target="_blank" rel="noopener noreferrer">www.motherwellfcct.co.uk</a> or call 01698 239926.</span></span>
+        <span class="text-sm">Fri - Motherwell FC Girls Football<span class="block ml-6 font-normal text-gray-400">6pm - 7pm - Fir Park, Motherwell - under 12s - Cost TBC - Contact <a class="relative flex text-sm font-medium text-indigo-700 underline" href="https://www.motherwellfcct.co.uk" target="_blank" rel="noopener noreferrer">www.motherwellfcct.co.uk</a> or call 01698 239926.</span></span>
       </label>
 
       <label class="block text-gray-500 font-bold">
         <input class="mr-2 leading-tight" type="checkbox" name="FemaleSports[]" value="Sat - Female Parkrun 5k" id="FemaleSports_45">
-        <span class="text-sm">Sat - Parkrun 5k<span class="block ml-6 font-normal text-gray-400">9.30pm - Strathclyde Park - Free - Register here - <a class="relative flex text-sm font-medium text-indigo-500 underline" href="https://www.parkrun.org.uk/strathclyde/" target="_blank" rel="noopener noreferrer">https://www.parkrun.org.uk/strathclyde</a></span></span>
+        <span class="text-sm">Sat - Parkrun 5k<span class="block ml-6 font-normal text-gray-400">9.30pm - Strathclyde Park - Free - Register here - <a class="relative flex text-sm font-medium text-indigo-700 underline" href="https://www.parkrun.org.uk/strathclyde/" target="_blank" rel="noopener noreferrer">https://www.parkrun.org.uk/strathclyde</a></span></span>
       </label>
 
       <label class="block text-gray-500 font-bold">

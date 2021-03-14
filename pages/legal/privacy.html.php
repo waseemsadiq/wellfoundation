@@ -53,7 +53,7 @@ visible: false
         <br>Bellshill, 
         <br>ML4 1AJ, 
         <br>Scotland
-        <br>Email: <a href="mailto:<?= config()->site->contact_email ?>" class="text-indigo-500 underline"><?= config()->site->contact_email ?></a>
+        <br>Email: <a href="mailto:<?= config()->site->contact_email ?>" class="text-indigo-700 underline"><?= config()->site->contact_email ?></a>
       </p>
 
     </div>
@@ -61,7 +61,7 @@ visible: false
     <div class="mb-8 text-base   text-gray-600 md:text-lg xl:text-xl">
       <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> Data subject rights </h3>
 
-      <p>This Privacy Notice is intended to provide you with information about what personal data The Well Foundation collects about you and how it is used. If you have any questions, please contact us at <a href="mailto:<?= config()->site->site_email ?>" class="text-indigo-500 underline"><?= config()->site->site_email ?></a>
+      <p>This Privacy Notice is intended to provide you with information about what personal data The Well Foundation collects about you and how it is used. If you have any questions, please contact us at <a href="mailto:<?= config()->site->site_email ?>" class="text-indigo-700 underline"><?= config()->site->site_email ?></a>
       </p>
     </div>
 

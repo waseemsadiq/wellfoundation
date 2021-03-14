@@ -2,7 +2,7 @@
 layout: form
 name: In loving memory Form
 title: In loving memory Projects
-summary: If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-500 underline">Fahim Baqir</a>.
+summary: If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: loving-memory
 visible: false
 form:
