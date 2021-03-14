@@ -15,6 +15,22 @@
     <ktml:script>
 
     <title><?= title() ?></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content="Well Foundation"/>
+        
+    <link href="theme://images/favicon.ico" rel="shortcut icon" type="image/ico" />
+    <link href="theme://images/favicon.png" rel="icon" type="image/png" />
+    <link href="theme://images/xtouch-icon.png" rel="apple-touch-icon" />
+    <link href="theme://images/safari-pinned-tab.svg" rel="mask-icon" />
+    <link href="theme://manifest.json" rel="manifest" />
+
+    <meta name="msapplication-TileColor" content="#51cc41"/>
+    <meta name="msapplication-config" content="theme://browserconfig.xml"/>
+    <meta name="theme-color" content="#51cc41"/>
         
     <ktml:style src="theme://css/output.min.css" rel="preload" as="style" />
 
