@@ -32,7 +32,7 @@ endif ?>
 	<? foreach($images as $i => $image): ?>
 	<div class="flex flex-wrap w-1/2 <?= $mdColumns ?>">
 		<div class="w-full max-h-56 p-1 md:p-2">
-			<img class="block object-cover object-center w-full h-full rounded-lg tns-lazy" src="<?= $image ?>" data-lazyload="progressive,inline">
+			<img class="block object-cover object-center w-full h-full rounded-lg tns-lazy" src="<?= $image ?>" alt="Randomly generated image showing completed Well Foundation project" data-lazyload="progressive,inline">
 		</div>
 	</div>
 	<? endforeach; ?>

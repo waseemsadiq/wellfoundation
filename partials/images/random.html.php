@@ -34,7 +34,7 @@ endif ?>
   	<? foreach($images as $i => $image): ?>
   	<div class="flex flex-wrap w-1/2 <?= $mdColumns ?>">
   		<div class="w-full max-h-56 p-1 md:p-2">
-  			<img class="<?= $class ?>" src="<?= $image ?>" data-lazyload="progressive,inline">
+  			<img class="<?= $class ?>" alt="Randomly generated image showing completed Well Foundation project" src="<?= $image ?>" data-lazyload="progressive,inline">
   		</div>
   	</div>
   	<? endforeach; ?>
@@ -51,7 +51,7 @@ endif ?>
         if (in_array($ext, $svg)) :?>
       <?= $image; ?>
     <? else:  ?>
-      <img class="<?= $class ?>" src="<?= $image ?>" data-lazyload="progressive,inline">
+      <img class="<?= $class ?>" src="<?= $image ?>" data-lazyload="progressive,inline" alt="Randomly generated image showing completed Well Foundation project">
     <? endif; ?>
 
   <? endforeach; ?>

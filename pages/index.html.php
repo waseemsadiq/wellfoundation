@@ -16,12 +16,12 @@ visible: false
     <div id="features" class="relative w-full px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
         <div class="container h-full mx-auto">
 
-            <div class="p-16">
+            <div class="md:p-16">
 
-                <h2 class="my-5 text-2xl md:text-xl lg:text-base   font-medium tracking-tight text-indigo-500 uppercase text-center mx-auto">Our Projects</h2>
+                <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-500 uppercase text-center mx-auto">Our Projects</h2>
                 <h3 class="max-w-2xl px-5 mt-2 text-3xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl mb-4 xl:mb-8  mx-auto">Where your donations make the difference</h3>
                 
-                <div class="grid justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-4 m-5 mb-10">
+                <div class="grid justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-4 md:m-5 mb-10">
                     
                     <!-- BEGIN FT1 -->
                     <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
@@ -66,8 +66,8 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Water</h4>
-                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">The Well Foundation at it's heart is a water charity</p>
-                        <a href="/water" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
+                        <p class="relative mt-2 text-base   text-center text-gray-600">The Well Foundation at it's heart is a water charity</p>
+                        <a href="/water" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation">Learn More</a>
                     </div>
                     <!-- END FT1 -->
 
@@ -113,8 +113,8 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Food</h4>
-                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">With your help, we aim to provide meals in 26 countries every 26 weeks.</p>
-                        <a href="food" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
+                        <p class="relative mt-2 text-base   text-center text-gray-600">With your help, we aim to provide meals in 26 countries every 26 weeks.</p>
+                        <a href="food" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation food programme">Learn More</a>
                     </div>
                     <!-- END FT2 -->
 
@@ -156,8 +156,8 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Education</h4>
-                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Providing a path out of the poverty life-cycle through education.</p>
-                        <a href="education" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
+                        <p class="relative mt-2 text-base   text-center text-gray-600">Providing a path out of the poverty life-cycle through education.</p>
+                        <a href="education" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation education programmes">Learn More</a>
                     </div>
                     <!-- END FT2 -->
 
@@ -199,8 +199,8 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Health & Livelihoods</h4>
-                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Our eye camp programme and livelihoods projects.</p>
-                        <a href="/health-and-livelihoods" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn  More</a>
+                        <p class="relative mt-2 text-base   text-center text-gray-600">Our eye camp programme and livelihoods projects.</p>
+                        <a href="/health-and-livelihoods" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation's Health and Livelihoods programmes">Learn  More</a>
                     </div>
                     <!-- END FT3 -->
 
@@ -243,8 +243,8 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Mosques</h4>
-                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Amazing Sadkha for you or your loved ones.</p>
-                        <a href="/mosques" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
+                        <p class="relative mt-2 text-base   text-center text-gray-600">Amazing Sadkha for you or your loved ones.</p>
+                        <a href="/mosques" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation Mosque building programme">Learn More</a>
                     </div>
                     <!-- END FT4 -->
 
@@ -276,9 +276,9 @@ visible: false
                                                     <use fill="#000" filter="url(#filter-3Icon6)" xlink:href="#path-2Icon6" />
                                                     <use fill="url(#linearGradient-1Icon6)" xlink:href="#path-2Icon6" />
                                                 </g>
-                                                <g transform="matrix(0.0511864,0,0,0.0498446,11.0686,13.4336)" fill="#FFF" fill-rule="nonzero">
-                                                    <path d="M304.468,3.651C289.491,1.194 275.927,0 262.999,0C122.392,0 7.999,114.841 7.999,256C7.999,397.159 122.392,512 262.999,512C371.485,512 468.02,441.828 503.214,337.384C505.538,330.487 502.575,322.916 496.187,319.428C489.798,315.941 481.828,317.543 477.284,323.227C442.85,366.298 392.083,391 337.999,391C238.747,391 157.999,310.252 157.999,211C157.999,123.852 219.734,49.075 304.791,33.199C311.952,31.862 317.118,25.574 317.038,18.289C316.958,11.005 311.656,4.831 304.468,3.651ZM127.999,211C127.999,326.794 222.205,421 337.999,421C373.99,421 408.702,411.674 439.338,394.379C397.689,448.612 333.169,482 262.999,482C138.934,482 37.999,380.617 37.999,256C37.999,144.321 119.072,51.3 225.201,33.189C163.13,73.036 127.999,141.02 127.999,211Z" style="fill-rule:nonzero;"/>
-                                                    <path d="M427.719,176.963C425.962,171.56 421.304,167.613 415.686,166.767L361.103,158.551L336.416,109.165C333.876,104.082 328.681,100.872 322.999,100.872C317.317,100.872 312.122,104.082 309.582,109.165L284.895,158.551L230.312,166.767C224.694,167.613 220.036,171.559 218.279,176.963C216.523,182.366 217.969,188.297 222.016,192.285L261.337,231.028L252.274,285.485C251.341,291.089 253.656,296.74 258.252,300.081C262.848,303.421 268.938,303.88 273.98,301.262L323,275.828L372.02,301.262C377.063,303.878 383.151,303.422 387.748,300.081C392.344,296.74 394.658,291.09 393.726,285.485L384.663,231.028L423.984,192.285C428.028,188.298 429.475,182.366 427.719,176.963ZM358.058,215.125C354.579,218.551 352.988,223.456 353.788,228.272L359.205,260.816L329.907,245.615C327.741,244.491 325.37,243.929 322.999,243.929C320.628,243.929 318.257,244.491 316.091,245.615L286.793,260.816L292.21,228.272C293.011,223.456 291.419,218.551 287.94,215.125L264.439,191.969L297.062,187.059C301"/>
+                                                <g transform="matrix(0.30931,0,0,0.339413,12.888,13.1258)">
+                                                    <path d="M41.825,9.559C42.125,9.378 42.31,9.052 42.31,8.702C42.31,8.153 41.858,7.702 41.31,7.702C41.238,7.702 41.168,7.709 41.098,7.724C21.459,12.038 7.345,29.587 7.345,49.695C7.345,73.268 26.743,92.666 50.316,92.666C61.71,92.666 72.649,88.134 80.705,80.076C86.523,74.282 90.542,66.927 92.275,58.901C92.29,58.831 92.297,58.761 92.297,58.69C92.297,58.141 91.846,57.69 91.297,57.69C90.947,57.69 90.621,57.874 90.44,58.174C88.979,60.589 87.228,62.818 85.227,64.81C78.595,71.442 69.589,75.173 60.208,75.173C40.798,75.173 24.826,59.201 24.826,39.791C24.826,30.411 28.557,21.405 35.19,14.772C37.181,12.771 39.41,11.02 41.825,9.559ZM22.826,39.791C22.826,39.791 22.826,39.791 22.826,39.791C22.826,60.299 39.701,77.173 60.208,77.173C70.119,77.173 79.634,73.232 86.642,66.224C87.381,65.485 88.07,64.713 88.737,63.928C82.794,79.962 67.412,90.665 50.312,90.665C27.832,90.665 9.333,72.167 9.333,49.686C9.333,38.822 13.654,28.391 21.337,20.709C25.504,16.527 30.532,13.303 36.071,11.262C35.286,11.929 34.515,12.619 33.775,13.358C26.757,20.358 22.814,29.878 22.826,39.791L22.826,39.791Z" style="fill:white;fill-rule:nonzero;"/>
+                                                    <path d="M58.832,25.66C58.9,26.086 59.236,26.423 59.663,26.492L70.591,28.233L72.312,39.164C72.388,39.648 72.81,40.008 73.3,40.008C73.675,40.008 74.02,39.797 74.19,39.463L79.223,29.607L90.151,31.348C90.203,31.356 90.255,31.36 90.308,31.36C90.857,31.36 91.308,30.909 91.308,30.36C91.308,30.096 91.203,29.841 91.016,29.654L83.198,21.822L88.23,11.967C88.302,11.826 88.34,11.67 88.34,11.512C88.34,10.964 87.888,10.512 87.34,10.512C87.182,10.512 87.027,10.549 86.887,10.621L77.023,15.636L69.204,7.804C69.017,7.616 68.762,7.511 68.497,7.511C67.948,7.511 67.497,7.962 67.497,8.511C67.497,8.563 67.501,8.615 67.509,8.666L69.231,19.598L59.367,24.613C58.982,24.809 58.766,25.233 58.832,25.66ZM70.785,21.051C71.169,20.855 71.386,20.431 71.319,20.004L69.963,11.395L76.12,17.563C76.426,17.868 76.896,17.943 77.281,17.748L85.05,13.799L81.086,21.56C80.891,21.945 80.965,22.415 81.269,22.721L87.426,28.889L78.82,27.518C78.393,27.451 77.969,27.666 77.772,28.051L73.809,35.812L72.453,27.204C72.385,26.777 72.049,26.44 71.623,26.372L63.016,25.001L70.785,21.051Z" style="fill:white;fill-rule:nonzero;"/>
                                                 </g>
                                             </g>
                                         </g>
@@ -287,8 +287,8 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">26th Initiative Sadaqah Project</h4>
-                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Providing you with rewards for the rest of your life.</p>
-                        <a href="/26th-initiative-sadaqah-project" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
+                        <p class="relative mt-2 text-base   text-center text-gray-600">Providing you with rewards for the rest of your life.</p>
+                        <a href="/26th-initiative-sadaqah-project" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation monthly donations programme">Learn More</a>
                     </div>
                     <!-- END FT5 -->
 
@@ -337,8 +337,8 @@ visible: false
                             </g>
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Sports Academy</h4>
-                        <p class="relative mt-2 text-2xl md:text-xl lg:text-base   text-center text-gray-600">Providing access to sports and activities</p>
-                        <a href="/sports-academy" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</a>
+                        <p class="relative mt-2 text-base   text-center text-gray-600">Providing access to sports and activities</p>
+                        <a href="/sports-academy" class="relative flex mt-2 text-sm font-medium text-indigo-500 underline" title="Learn more about The Well Foundation Sports Academy">Learn More</a>
                     </div>
                     <!-- END FT6 -->
                 </div>

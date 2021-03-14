@@ -20,13 +20,13 @@ metadata:
 	<div class="container px-5 py-24 mx-auto">
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Sorry! We don't support this version of your browser</h1>
-			<p class="lg:w-2/3 mx-auto leading-relaxed text-2xl md:text-xl lg:text-base   mb-6">You have been shown this page because we detected that you are using an unsupported browser. Unfortunately, your browser lacks some of the security features that we require.</p>
-			<p class="lg:w-2/3 mx-auto leading-relaxed text-2xl md:text-xl lg:text-base  ">We recommend these more up-to-date browsers and would urge you update:</p>
+			<p class="lg:w-2/3 mx-auto leading-relaxed text-base   mb-6">You have been shown this page because we detected that you are using an unsupported browser. Unfortunately, your browser lacks some of the security features that we require.</p>
+			<p class="lg:w-2/3 mx-auto leading-relaxed text-base  ">We recommend these more up-to-date browsers and would urge you update:</p>
 		</div>
 		<div class="supported-browsers -m-4 text-center w-full">
 			<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
 				<div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-					<a class="update-browser" href="https://www.google.com/chrome/" target="_blank">
+					<a class="update-browser" href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">
 						<svg xmlns="http://www.w3.org/2000/svg" class="text-green-300 hover:text-green-500 stroke-current w-48 h-48 mb-3 inline-block" width="96" height="96" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 							<circle cx="12" cy="12" r="9" />
@@ -41,7 +41,7 @@ metadata:
 			</div>
 			<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
 				<div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-					<a class="update-browser" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">
+					<a class="update-browser" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener noreferrer">
 						<svg xmlns="http://www.w3.org/2000/svg" class="text-green-300 hover:text-green-500 stroke-current w-48 h-48 mb-3 inline-block" width="96" height="96" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 							<path d="M4.028 7.82a9 9 0 1 0 12.823 -3.4c-1.636 -1.02 -3.064 -1.02 -4.851 -1.02h-1.647" />
@@ -53,7 +53,7 @@ metadata:
 			</div>
 			<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
 				<div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-					<a class="update-browser" href="https://support.apple.com/downloads/safari" target="_blank">
+					<a class="update-browser" href="https://support.apple.com/downloads/safari" target="_blank" rel="noopener noreferrer">
 						<svg xmlns="http://www.w3.org/2000/svg" class="text-green-300 hover:text-green-500 stroke-current w-48 h-48 mb-3 inline-block" width="96" height="96" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 							<polyline points="8 16 10 10 16 8 14 14 8 16" />
@@ -65,7 +65,7 @@ metadata:
 			</div>
 			<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
 				<div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-					<a class="update-browser" href="https://www.opera.com/download" target="_blank">
+					<a class="update-browser" href="https://www.opera.com/download" target="_blank" rel="noopener noreferrer">
 						<svg xmlns="http://www.w3.org/2000/svg" class="text-green-300 hover:text-green-500 stroke-current w-48 h-48 mb-3 inline-block" width="96" height="96" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 							<circle cx="12" cy="12" r="9" />

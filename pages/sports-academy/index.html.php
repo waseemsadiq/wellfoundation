@@ -18,7 +18,7 @@ modalCount: 1
     <div class="relative px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 lg:pb-40 lg:px-20 xl:py-40 xl:px-20">
 
       <div class="relative pb-20 lg:pb-40 lg:px-20">
-          <p class="px-8 mb-6 text-2xl md:text-xl lg:text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">The Well Foundation works with a number of organisations including Scottish Football Association, Motherwell FC, The Rangers FC and The Princes' Trust, ensuring opportunities for sport and participation are made available to everyone regardless of their background or abilities.</p>
+          <p class="px-8 mb-6 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">The Well Foundation works with a number of organisations including Scottish Football Association, Motherwell FC, The Rangers FC and The Princes' Trust, ensuring opportunities for sport and participation are made available to everyone regardless of their background or abilities.</p>
           <p class="mb-6 px-8 lg:px-20">
             <?= import('/partials/buttons/modal',[
               'form' => 'sports',
@@ -59,7 +59,7 @@ modalCount: 1
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-16">
             <h3 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Rangers FC training kit project</h3>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-2xl md:text-xl lg:text-base  ">Well Foundation are working with Rangers FC delivering kit and training equipment, to countries in Asia and Africa, helping those communities with much needed sports equipment.</p>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base  ">Well Foundation are working with Rangers FC delivering kit and training equipment, to countries in Asia and Africa, helping those communities with much needed sports equipment.</p>
           </div>
 
           <?=  import('/partials/images/random', [

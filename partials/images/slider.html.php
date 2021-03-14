@@ -33,9 +33,9 @@ endif ?>
       <? foreach((array)$images as $i => $image): ?>
         <li class="splide__slide">
         <? if($i == 0): ?>
-          <img class="rounded w-full object-cover object-center bg-center tns-lazy" src="<?= $image ?>" data-lazyload="progressive,inline">
+          <img class="rounded w-full object-cover object-center bg-center tns-lazy" src="<?= $image ?>" alt="Randomly generated image showing completed Well Foundation project" data-lazyload="progressive,inline">
         <? else : ?>
-          <img class="rounded w-full object-cover object-center bg-center tns-lazy" src="<?= helper('image.url', $image) ?>" >
+          <img class="rounded w-full object-cover object-center bg-center tns-lazy" src="<?= helper('image.url', $image) ?>"  alt="Randomly generated image showing completed Well Foundation project">
         </li>
         <? endif; ?>
       <? endforeach; ?>
