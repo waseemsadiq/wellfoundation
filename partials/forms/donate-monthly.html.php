@@ -6,7 +6,7 @@
       <div>
         <p class="font-bold mb-2">&pound;10 per month, where does it go?</p>
         <p class="text-sm leading-relaxed mb-2">The Well Foundation monthly blessings project uses your &pound;10 monthly donations to support many projects, in over 30 countries. From providing Qurans, Chicken Farms, Food, Stationary, Rickshaws, Gardening equipment to give many that better life.</p>
-        <p class="text-sm leading-relaxed">Please Save <a href="https://api.whatsapp.com/send?phone=447714247787" class="text-indigo-500 underline" rel="noopener noreferrer">07714 247787</a> under Well Foundation in your contacts so you can get <i>WhatsApp Broadcast</i> messages for all completed Projects.</p>
+        <p class="text-sm leading-relaxed">Please Save <a href="https://api.whatsapp.com/send?phone=447714247787" class="text-indigo-700 underline" rel="noopener noreferrer">07714 247787</a> under Well Foundation in your contacts so you can get <i>WhatsApp Broadcast</i> messages for all completed Projects.</p>
       </div>
     </div>
   </div>

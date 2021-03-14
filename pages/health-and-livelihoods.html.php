@@ -31,7 +31,7 @@ modalCount: 1
                 </div>
             </div>
             <div class="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
-                <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-500 uppercase">Empowering the poor by supporting their income-generating activities.</h2>
+                <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-700 uppercase">Empowering the poor by supporting their income-generating activities.</h2>
                 <h1 class="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8">The Well Foundation livelihoods project </h1>
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Give a Man a fish he will eat for a day, Teach him to fish he will eat for a lifetime</p>
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Over 1 billion people live on less than £1.25 a day. Nearly 250 million children have to work to help their families. More than 1.3 billion around the world live in extreme poverty</p>

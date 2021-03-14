@@ -18,7 +18,7 @@ visible: false
 
             <div class="md:p-16">
 
-                <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-500 uppercase text-center mx-auto">Our Projects</h2>
+                <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-700 uppercase text-center mx-auto">Our Projects</h2>
                 <h3 class="max-w-2xl px-5 mt-2 text-3xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl mb-4 xl:mb-8  mx-auto">Where your donations make the difference</h3>
                 
                 <div class="grid justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-4 md:m-5 mb-10">
@@ -67,7 +67,7 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Water</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">The Well Foundation at it's heart is a water charity</p>
-                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn More</span>
                     </a>
                     <!-- END FT1 -->
 
@@ -114,7 +114,7 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Food</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">With your help, we aim to provide meals in 26 countries every 26 weeks.</p>
-                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn More</span>
                     </a>
                     <!-- END FT2 -->
 
@@ -157,7 +157,7 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Education</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Providing a path out of the poverty life-cycle through education.</p>
-                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn More</span>
                     </a>
                     <!-- END FT2 -->
 
@@ -200,7 +200,7 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Health & Livelihoods</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Our eye camp programme and livelihoods projects.</p>
-                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn  More</span>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn  More</span>
                     </a>
                     <!-- END FT3 -->
 
@@ -244,7 +244,7 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Mosques</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Amazing Sadkha for you or your loved ones.</p>
-                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn More</span>
                     </a>
                     <!-- END FT4 -->
 
@@ -288,7 +288,7 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">26th Initiative Sadaqah Project</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Providing you with rewards for the rest of your life.</p>
-                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn More</span>
                     </a>
                     <!-- END FT5 -->
 
@@ -338,7 +338,7 @@ visible: false
                         </svg>
                         <h4 class="relative mt-6 text-2xl text-center font-bold">Sports Academy</h4>
                         <p class="relative mt-2 text-base   text-center text-gray-600">Providing access to sports and activities</p>
-                        <span class="relative flex mt-2 text-sm font-medium text-indigo-500 underline">Learn More</span>
+                        <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn More</span>
                     </a>
                     <!-- END FT6 -->
                 </div>

@@ -13,7 +13,7 @@ visible: false
             class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
             <div
                 class="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
-                <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-500 uppercase"><?= $sub_title ?></h2>
+                <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-700 uppercase"><?= $sub_title ?></h2>
                 <h1 class="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8"><?= $title ?></h1>
                 <div class="pr-0 mb-8 space-y-6 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">
                   <p>100% of the money you donate to The Well Foundation is spent on our projects.</p>
@@ -50,7 +50,7 @@ visible: false
     <div class="relative px-8 py-10  border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
 
         <div id="bank-details" class="container flex flex-col items-center h-full max-w-7xl mx-auto">
-            <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-500 uppercase">You can set up a standing order from your own bank account</h2>
+            <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-700 uppercase">You can set up a standing order from your own bank account</h2>
             <h3
                 class="w-full max-w-4xl px-5 px-8 mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">
                  Set up a standing order</h3>
@@ -113,8 +113,8 @@ visible: false
                     </div>
                   </div>
                 </a>
-                <p class="leading-relaxed mb-2">For larger donations please visit <a class="text-indigo-500 underline" href="https://justgiving.com/welllivelihoods" target="_blank" rel="noopener noreferrer">justgiving.com/welllivelihoods</a></p>
-                <p class="leading-relaxed">View our <a class="text-indigo-500 underline" href="https://linktr.ee/wellfoundation" target="_blank" rel="noopener noreferrer">linktree</a></p>
+                <p class="leading-relaxed mb-2">For larger donations please visit <a class="text-indigo-700 underline" href="https://justgiving.com/welllivelihoods" target="_blank" rel="noopener noreferrer">justgiving.com/welllivelihoods</a></p>
+                <p class="leading-relaxed">View our <a class="text-indigo-700 underline" href="https://linktr.ee/wellfoundation" target="_blank" rel="noopener noreferrer">linktree</a></p>
               </div>
             </div>
         </div>

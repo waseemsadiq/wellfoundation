@@ -2,7 +2,7 @@
 layout: form
 name: Well foundation Hoodies Form
 title: Well foundation Hoodies
-summary: Please complete this form to request your Well foundation Hoodies. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-500 underline">Fahim Baqir</a>.
+summary: Please complete this form to request your Well foundation Hoodies. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: hoodies
 visible: false
 form:
