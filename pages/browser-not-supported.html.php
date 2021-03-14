@@ -6,7 +6,7 @@ class: bg-gray-50
 visible: false
 metadata:
     og:type: false
-    robots: [none]
+    robots: none
 ---
 <style>
 .supported-browsers {

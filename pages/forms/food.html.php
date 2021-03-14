@@ -7,7 +7,7 @@ slug: food
 visible: false
 metadata:
     og:type: false
-    robots: [noindex, nofollow]
+    robots: none
 form:
     name: food-form
     processors:

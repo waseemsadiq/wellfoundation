@@ -7,7 +7,7 @@ slug: education
 visible: false
 metadata:
     og:type: false
-    robots: [noindex, nofollow]
+    robots: none
 form:
     name: education-form
     processors:

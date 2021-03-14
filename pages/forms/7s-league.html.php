@@ -7,7 +7,7 @@ slug: 7s-league
 visible: false
 metadata:
     og:type: false
-    robots: [noindex, nofollow]
+    robots: none
 form:
     name: 7s-league-form
     processors:
