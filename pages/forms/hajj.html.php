@@ -5,6 +5,9 @@ title: Hajj
 summary: Please complete this form for each person that you would like to send on Hajj. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: hajj
 visible: false
+metadata:
+    og:type: false
+    robots: [none]
 form:
     name: hajj-form
     processors:

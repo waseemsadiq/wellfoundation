@@ -5,6 +5,9 @@ title: Outdoor Club
 summary: Please complete this form to register your interest in the Well foundation's Outdoor Club. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: outdoor-club
 visible: false
+metadata:
+    og:type: false
+    robots: [none]
 form:
     name: outdoor-club-form
     processors:

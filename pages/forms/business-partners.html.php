@@ -5,6 +5,9 @@ title: Business Partners' registration
 summary: Please click the Gift aid box as this is used for future repairs to any Water Wells, there is also a small percentage added to each project for the maintenance and upkeep of all water projects thus ensuring longevity of all projects. If you need more info please contact <a href="mailto:fahim.baqir@wellfoundation.org.uk" class="text-indigo-700 underline">Fahim Baqir</a>.
 slug: business-partners
 visible: false
+metadata:
+    og:type: false
+    robots: [none]
 form:
     name: business-partners-signup-form
     processors:

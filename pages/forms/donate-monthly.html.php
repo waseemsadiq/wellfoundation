@@ -5,6 +5,9 @@ title: Monthly Donation
 summary: You can set up a standing order of &pound;10 per month so you get Sadaqah to all of our monthly blessings projects, You will be whatsApp'ed all of the completed projects.<br><br><strong>Account name:</strong> Well Foundation<br> <strong>Sort code:</strong> 832226<br> <strong>Account number:</strong> 00629281<br> <strong>Reference:</strong> [YOUR NAME] / MB.
 slug: donate-monthly
 visible: false
+metadata:
+    og:type: false
+    robots: [none]
 form:
     name: donate-monthly-form
     processors:
