@@ -8,11 +8,11 @@ visible: false
 <div class="relative px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 lg:pb-40 lg:px-20 xl:py-40 xl:px-20">
   <div class="container flex flex-col h-full px-8 lg:px-20">
 
-    <h2 class="text-gray-500 text-sm font-medium leading-5 list-outside list-none mb-0 ml-0 mr-0 mt-0 normal-case"> Effective Date: January 01, 2021</h2>
+    <p class="text-gray-500 text-sm font-medium leading-5 list-outside list-none mb-0 ml-0 mr-0 mt-0 normal-case"> Effective Date: January 01, 2021</p>
     <h1 class="w-full mt-2 text-2xl font-black leading-tight text-gray-900 sm:mt-0 sm:text-6xl mb-8"><?= $title ?></h1>
 
     <div class="mb-8 text-base   text-gray-600 md:text-lg xl:text-xl">
-      <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> The information that we store </h3>
+      <h2 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4"> The information that we store </h2>
 
       <p class="mb-4">All requests to The Well Foundation start a session which stores the IP address in the session data and creates a session cookie in the user's browser. The IP address is used as a security measure to help protect against potential session hijacking attacks and this information is deleted once the session has expired and its data purged. The session cookie's name is based on a randomly generated hash and therefore does not have a constant identifier. The session cookie is destroyed once the session has expired or the user has exited their browser.</p>
       <p class="mb-4">The Well Foundation's logging system records the IP address of the visitor which led to a message being written to its log files. These log files are used to record various activity on The Well Foundation, including information related to core updates, invalid login attempts, unhandled errors, and development information such as the use of deprecated APIs.</p>
