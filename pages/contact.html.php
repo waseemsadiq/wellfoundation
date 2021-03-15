@@ -2,7 +2,7 @@
 layout: default
 name: Contact
 title: Contact Us 
-summary: Please send us a message using this contact form
+summary: The Well Foundation is a volunteer-staffed charity, as such we don't have a full-time admin team, or an office telephone number. Whilst we try to answer all messages and enquiries quickly, please bear with us if you send us a message, one of our volunteers will respond as soon as possible.
 image: images://contact-cover.jpg
 slug: contact
 visible: false
@@ -28,7 +28,7 @@ form:
     <div class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
         <div class="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
             <h1 class="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8"><?= $title ?></h1>
-            <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20"><?= $summary ?></p>
+            <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl"><?= $summary ?></p>
             <form method="post" class="w-full">
               <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
