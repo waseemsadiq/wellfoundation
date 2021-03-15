@@ -675,9 +675,9 @@ video {
   background-color: rgba(79, 70, 229, var(--tw-bg-opacity));
 }
 
-.bg-purple-500 {
+.bg-purple-600 {
   --tw-bg-opacity: 1;
-  background-color: rgba(139, 92, 246, var(--tw-bg-opacity));
+  background-color: rgba(124, 58, 237, var(--tw-bg-opacity));
 }
 
 .bg-brand {
@@ -690,9 +690,9 @@ video {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-.hover\:bg-purple-400:hover {
+.hover\:bg-purple-500:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(167, 139, 250, var(--tw-bg-opacity));
+  background-color: rgba(139, 92, 246, var(--tw-bg-opacity));
 }
 
 .focus\:bg-white:focus {
