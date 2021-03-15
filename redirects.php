@@ -20,4 +20,5 @@ return array(
     '/well-foundation-7s-league'		=> '/forms/well-foundation-7s-league',
     '/7s-league'						=> '/forms/7s-league',
     '/projects'							=> '/',
+    '/component/content/article/[**]'   => '/',
 );

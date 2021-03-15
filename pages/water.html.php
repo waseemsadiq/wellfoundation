@@ -248,8 +248,8 @@ modalCount: 1
 
     </div>
 
-  <div class="relative lg:px-20">
-    <p class="px-8 mb-2 lg:mt-20 text-base text-gray-600 md:text-lg xl:text-xl lg:px-20">We work with our donors and provide feedback which includes project report and pictures of the wells and construction. All wells are personalised with a Plaque of the donors name or name chosen by the donor.</p>
+  <div class="relative lg:px-20 lg:mt-20 lg:-mb-20">
+    <p class="px-8 mb-2 text-base text-gray-600 md:text-lg xl:text-xl lg:px-20">We work with our donors and provide feedback which includes project report and pictures of the wells and construction. All wells are personalised with a Plaque of the donors name or name chosen by the donor.</p>
     <p class="px-8 mb-24 text-base text-gray-600 md:text-lg xl:text-xl lg:px-20">Please click the Gift aid box as this is used for future repairs to any Water Wells, there is also a small percentage added to each project for the maintenance and upkeep of allwater projects thus ensuring longevity of all projects.</p>
   </div>
 
