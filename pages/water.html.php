@@ -14,10 +14,10 @@ modalCount: 1
 <?= import('/partials/features/hero'); ?>
 <!-- HERO SECTION END -->
 
-<div class="relative px-8 py-10  border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
+<div class="relative px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0">
 
-  <div id="pricing" class="container flex flex-col items-center h-full max-w-7xl mx-auto">
-    <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-700 uppercase">Today, nearly 1 billion people in the developing world don't have access to clean drinking water.</h2>
+  <div id="pricing" class="container flex flex-col items-center max-w-7xl mx-auto">
+    <h2 class="my-5 text-base font-medium tracking-tight text-indigo-700 uppercase">Today, nearly 1 billion people in the developing world don't have access to clean drinking water.</h2>
     <h3 class="w-full max-w-4xl px-5 px-8 mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">300 million do not have access to any water at all!!</h3>
     <div class="relative lg:px-20">
       <p class="pr-0 mb-8 text-center text-base text-gray-600 md:text-lg xl:text-xl lg:pr-20">Over 14 million women and 4 million children spend over one hour a day collecting drinking water in sub Saharan Africa, often trekking through harsh terrain facing animal and human predators.</p>
@@ -245,15 +245,33 @@ modalCount: 1
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 8/9 months as can only be built during certain times of the year.</p>
         </div>
       </div>
-
     </div>
 
-  <div class="relative lg:px-20 lg:mt-20 lg:-mb-20">
-    <p class="px-8 mb-2 text-base text-gray-600 md:text-lg xl:text-xl lg:px-20">We work with our donors and provide feedback which includes project report and pictures of the wells and construction. All wells are personalised with a Plaque of the donors name or name chosen by the donor.</p>
-    <p class="px-8 mb-24 text-base text-gray-600 md:text-lg xl:text-xl lg:px-20">Please click the Gift aid box as this is used for future repairs to any Water Wells, there is also a small percentage added to each project for the maintenance and upkeep of allwater projects thus ensuring longevity of all projects.</p>
   </div>
 
+  <div class="container mt-10 md:mt-16 lg:mt-24 xl:mt-40 max-w-7xl mx-auto">
+    <div class="px-6 py-6 bg-purple-700 dark:bg-gray-800 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 text xl:flex xl:items-center">
+        <div class="xl:w-0 xl:flex-1 text-center lg:text-left">
+            <h2 class="text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl sm:leading-9">
+                A personalised plaque for you or your loved one
+            </h2>
+            <p class="mt-3 max-w-3xl text-lg leading-6 text-indigo-200">
+                We work with our donors and provide feedback, which includes project reports and pictures of the wells and construction. All wells are personalised with a plaque of the donor's name (or a name chosen by the donor of donated on behalf of a loved one).
+            </p>
+        </div>
+        <div class="mt-8 sm:w-full sm:max-w-md sm:m-auto xl:mt-0 xl:ml-8 text-center lg:text-left">
+            <p class="mt-8 xl:mt-3 m-auto lg:ml-0 text-white">
+                <?= import('/partials/logos/giftaid',[
+                  'class' => 'text-white',
+                ]); ?>
+            </p>
+            <p class="mt-3 text-sm leading-5 text-indigo-200">
+                Please click the Gift aid box as this is used for future repairs to any Water Wells. We proportion a small percentage of the gift aid from each project for the maintenance and upkeep of all water projects, thus ensuring the longevity of all of the projects.
+            </p>
+        </div>
+    </div>
   </div>
+
 </div>
 
 <!-- Start Testimonials -->
