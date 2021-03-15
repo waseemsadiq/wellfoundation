@@ -256,7 +256,7 @@ modalCount: 1
                 A personalised plaque for you or your loved one
             </h2>
             <p class="mt-3 max-w-3xl text-lg leading-6 text-indigo-200">
-                We work with our donors and provide feedback, which includes project reports and pictures of the wells and construction. All wells are personalised with a plaque of the donor's name (or a name chosen by the donor of donated on behalf of a loved one).
+                We work with our donors and provide feedback, which includes project reports and pictures of the wells and construction. All wells are personalised with a plaque of the donor's name (or a name chosen by the donor if donated on behalf of a loved one).
             </p>
         </div>
         <div class="mt-8 sm:w-full sm:max-w-md sm:m-auto xl:mt-0 xl:ml-8 text-center lg:text-left">
