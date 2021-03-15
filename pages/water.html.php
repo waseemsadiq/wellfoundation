@@ -6,7 +6,7 @@ summary: The Well foundation at its heart is a water charity with the primary ai
 image: images://office-watercooler.jpg
 slug: water
 metadata:
-  og:type: article
+    og:type: article
 modalCount: 1
 ---
 
@@ -18,14 +18,14 @@ modalCount: 1
 
   <div id="pricing" class="container flex flex-col items-center h-full max-w-7xl mx-auto">
     <h2 class="my-5 text-base   font-medium tracking-tight text-indigo-700 uppercase">Today, nearly 1 billion people in the developing world don't have access to clean drinking water.</h2>
-    <h3 class="w-full max-w-4xl px-5 px-8 mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">
-      300 million do not have access to any water at all!!
-    </h3>
+    <h3 class="w-full max-w-4xl px-5 px-8 mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">300 million do not have access to any water at all!!</h3>
     <div class="relative lg:px-20">
-      <p class="pr-0 mb-8 text-center text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Over 14 million women and 4 million children spend over one hour a day collecting drinking water in sub Saharan Africa, often trekking through harsh terrain facing animal and human predators.</p>
-      <p class="pr-0 mb-8 text-center text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Yet, we take it for granted, we waste it, and we even pay too much to drink it from little plastic bottles.</p>
+      <p class="pr-0 mb-8 text-center text-base text-gray-600 md:text-lg xl:text-xl lg:pr-20">Over 14 million women and 4 million children spend over one hour a day collecting drinking water in sub Saharan Africa, often trekking through harsh terrain facing animal and human predators.</p>
+      <p class="pr-0 mb-8 text-center text-base text-gray-600 md:text-lg xl:text-xl lg:pr-20">Yet, we take it for granted, we waste it, and we even pay too much to drink it from little plastic bottles.</p>
     </div>
+    
     <div class="flex flex-wrap -m-4">
+      
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
         <div class="h-full p-6 rounded-lg border-2 border-gray-200 flex flex-col relative overflow-hidden">
           <h2 class="text-sm tracking-widest title-font mb-1 font-medium upercase">Tube/Hand Pumps</h2>
@@ -88,6 +88,7 @@ modalCount: 1
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 4/6 weeks as can only be built during certain times of the year.</p>
         </div>
       </div>
+      
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
         <div class="h-full p-6 rounded-lg border-2 border-gray-200 flex flex-col relative overflow-hidden">
           <h2 class="text-sm tracking-widest title-font mb-1 font-medium upercase">Solar Powered Wells</h2>
@@ -115,6 +116,7 @@ modalCount: 1
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 4/6 weeks as can only be built during certain times of the year.</p>
         </div>
       </div>
+      
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
         <div class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
           <span class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
@@ -186,6 +188,7 @@ modalCount: 1
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 4/5 months as can only be built during certain times of the year.</p>
         </div>
       </div>
+      
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
         <div class="h-full p-6 rounded-lg border-2 border-gray-200 flex flex-col relative overflow-hidden">
           <h2 class="text-sm tracking-widest title-font mb-1 font-medium upercase">Community Bore Wells</h2>
@@ -242,14 +245,15 @@ modalCount: 1
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 8/9 months as can only be built during certain times of the year.</p>
         </div>
       </div>
+
     </div>
-  </div>
 
   <div class="relative lg:px-20">
-    <p class="px-8 mb-2 lg:-mt-20 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">We work with our donors and provide feedback which includes project report and pictures of the wells and construction. All wells are personalised with a Plaque of the donors name or name chosen by the donor.</p>
-    <p class="px-8 mb-24 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">Please click the Gift aid box as this is used for future repairs to any Water Wells, there is also a small percentage added to each project for the maintenance and upkeep of allwater projects thus ensuring longevity of all projects.</p>
+    <p class="px-8 mb-2 lg:mt-20 text-base text-gray-600 md:text-lg xl:text-xl lg:px-20">We work with our donors and provide feedback which includes project report and pictures of the wells and construction. All wells are personalised with a Plaque of the donors name or name chosen by the donor.</p>
+    <p class="px-8 mb-24 text-base text-gray-600 md:text-lg xl:text-xl lg:px-20">Please click the Gift aid box as this is used for future repairs to any Water Wells, there is also a small percentage added to each project for the maintenance and upkeep of allwater projects thus ensuring longevity of all projects.</p>
   </div>
 
+  </div>
 </div>
 
 <!-- Start Testimonials -->
