@@ -36,7 +36,7 @@ layout: index
         <!-- End Header Section -->
         
         <!-- Main Section -->
-        <div class="w-full bg-white">
+        <div class="main-wrapper w-full bg-white">
 
             <ktml:content>
 
@@ -47,4 +47,5 @@ layout: index
         <?= import('/partials/page/footer'); ?>
         <!-- End Footer Section -->
     </div>
+    <?= import('/partials/page/cookieconsent'); ?>
 </body>

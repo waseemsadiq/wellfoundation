@@ -2,18 +2,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* custom */
-/* hide x-cloak */
-[x-cloak] { display: none; }
-/* add tailwind classes to pagination select list so it's pretty */
-select.k-form-control {
-	@apply block appearance-none w-full bg-white border-2 border-gray-200 hover:border-gray-200 px-4 py-2 pr-8 rounded leading-tight focus:outline-none;
-}
-/* tailwind doesn't do multiple columns css, so let's do that ourselves */
-/* md screen and above only */
-@media (min-width: 768px) {
-	.projects-list {
-		column-count: 2;
+@layer base {
+	/*
+	* Smooth scrolling IF user doesn't have a preference due to motion sensitivities
+	*/
+	@media screen and (prefers-reduced-motion: no-preference) {
+		html,
+		body {
+			scroll-behavior: smooth;
+		}
 	}
+	/* Boost rendering performance, see: https://web.dev/content-visibility */
+	.main-wrapper,
+	header,
+	footer {
+		content-visibility: auto;
+	}
+	/* Set the header and footer's intrinsic size so we don't get screen flicker */
+	header {
+		contain-intrinsic-size: 100px;
+	}
+	footer {
+		contain-intrinsic-size: 400px;
+	}
+	/* responsive font size for browsers that understand: https://caniuse.com/mdn-css_types_clamp; */
+	body > * {
+		font-size: clamp(0.75rem, 4vw, 1rem);
+	}
+	/* hide x-cloak */
+	[x-cloak] {
+		display: none;
+	}
+	/* add tailwind classes to pagination select list so it's pretty */
+	select.k-form-control {
+		@apply block appearance-none w-full bg-white border-2 border-gray-200 hover:border-gray-200 px-4 py-2 pr-8 rounded leading-tight focus:outline-none;
+	}
+	/* tailwind doesn't do multiple columns css, so let's do that ourselves */
+	/* md screen and above only */
+	@media (min-width: 768px) {
+		.projects-list {
+			column-count: 2;
+		}
+	}
+}
+/* CSS Vars */
+#cookieconsent {
+  /* Cookie consent colours */
+  --green-500:rgba(81,204,65,0.9);
+  --purple-700:rgba(109,40,217,1);
 }

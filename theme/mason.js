@@ -4,7 +4,7 @@ async function postcss() {
   await mason.css.process(`css/input.css`, `css/output.css`, {
     tailwind: {    
       purge: {
-        enabled: true,
+        enabled: 1,
         content: [
           '../**/*.html.php',
         ],
@@ -84,7 +84,16 @@ async function postcss() {
         require('@tailwindcss/typography'),
         require('@tailwindcss/aspect-ratio'),
       ],
+    },
+
+    postcssPresetEnv: {
+      stage: 2, // default is 2 (A Working Draft championed by a W3C Working Group.)
+      autoprefixer: { cascade: true },
+      features: {
+          //'focus-within-pseudo-class': false, // Uncomment this if purge is set to false
+      },
     }
+
   });
 }
 
