@@ -47,5 +47,7 @@ layout: index
         <?= import('/partials/page/footer'); ?>
         <!-- End Footer Section -->
     </div>
-    <?= import('/partials/page/cookieconsent'); ?>
+    <?= import('/partials/page/cookieconsent',[
+        'close_button' => "That's Fine",
+    ]); ?>
 </body>
