@@ -31,14 +31,18 @@
     <meta name="msapplication-TileColor" content="#51cc41"/>
     <meta name="msapplication-config" content="theme://browserconfig.xml"/>
     <meta name="theme-color" content="#51cc41"/>
-        
+
     <ktml:style src="theme://css/output.min.css" rel="preload" as="style" />
 
     <link rel="preconnect" href="https://cdn.jsdelivr.net/"  />
     <link rel="preconnect" href="https://unpkg.com/"  />
 
     <ktml:script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer="defer" />
+
+    <!--[if IE]>
     <ktml:script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js"  defer="defer" module="nomodule" />
+    <![endif]-->
+
 
     <? if (config()->ga_code): ?>
         <!-- Google Analytics -->

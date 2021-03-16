@@ -30,7 +30,7 @@ layout: index
 </style>
 <body 
     class="<?= isset(page()->class) ? config()->site->body_class . ' ' . page()->class : config()->site->body_class ?>" <?= $xData ?>>
-    <div class="h-screen w-full flex flex-col">
+    <div class="main-wrapper h-screen w-full flex flex-col">
         <!-- Header Section -->
         <?= import('/partials/page/header'); ?>
         <!-- End Header Section -->
@@ -47,4 +47,5 @@ layout: index
         <?= import('/partials/page/footer'); ?>
         <!-- End Footer Section -->
     </div>
+    <?= import('/partials/page/cookieconsent'); ?>
 </body>
