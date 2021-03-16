@@ -6,9 +6,9 @@
     container: document.getElementById("cookieconsent"),
     palette:{
      // green-500
-     popup: {background: "rgba(81,204,65,0.9)"},
+     popup: {background: "var(--green-500)"},
      // purple-700
-     button: {background: "rgba(109,40,217,1)"},
+     button: {background: "var(--purple-700)"},
     },
     revokable: true,
     onStatusChange: function(status) {

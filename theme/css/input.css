@@ -2,7 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* custom */
 @layer base {
 	/*
 	* Smooth scrolling IF user doesn't have a preference due to motion sensitivities
@@ -45,4 +44,10 @@
 			column-count: 2;
 		}
 	}
+}
+/* CSS Vars */
+#cookieconsent {
+  /* Cookie consent colours */
+  --green-500:rgba(81,204,65,0.9);
+  --purple-700:rgba(109,40,217,1);
 }

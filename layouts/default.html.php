@@ -30,13 +30,13 @@ layout: index
 </style>
 <body 
     class="<?= isset(page()->class) ? config()->site->body_class . ' ' . page()->class : config()->site->body_class ?>" <?= $xData ?>>
-    <div class="main-wrapper h-screen w-full flex flex-col">
+    <div class="h-screen w-full flex flex-col">
         <!-- Header Section -->
         <?= import('/partials/page/header'); ?>
         <!-- End Header Section -->
         
         <!-- Main Section -->
-        <div class="w-full bg-white">
+        <div class="main-wrapper w-full bg-white">
 
             <ktml:content>
 
