@@ -15,7 +15,7 @@
      console.log(this.hasConsented() ?
       'enable cookies' : 'disable cookies');
     },
-    "position": "bottom-left",
+    "position": "bottom-right",
     "theme": "classic",
     "domain": "<?= JUri::base() ?>",
     "secure": true,
