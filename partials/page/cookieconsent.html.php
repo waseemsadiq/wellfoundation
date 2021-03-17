@@ -33,7 +33,7 @@
       link: "<?= isset($link_text) ? $link_text : 'Learn more' ?>",
       href: "<?= isset($link_url) ? $link_url : 'https://www.cookiesandyou.com' ?>",
       close: '&#x274c;',
-      policy: "<?= isset($privacy_policy_text) ? $privacy_policy_text : 'Privacy Policy' ?>",
+      policy: "<?= isset($policy_text) ? $policy_text : 'Cookie Policy' ?>",
       target: "_blank",
       }
    });
