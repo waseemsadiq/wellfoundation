@@ -10,7 +10,7 @@
 
 <!-- Modal Window -->
 <div
-  class="fixed inset-0 w-full h-full z-50 bg-gray-300 duration-300 overflow-y-auto"
+  class="fixed inset-0 w-full h-full z-50 bg-gray-300 duration-300 overflow-y-auto modal-window"
   x-cloak 
   x-show="showModal<?= (isset($modal_window)) ? $modal_window : 1 ?>"
   x-transition:enter="transition duration-300"

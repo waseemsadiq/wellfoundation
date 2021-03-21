@@ -29,7 +29,7 @@ layout: index
     }
 </style>
 <body 
-    class="<?= isset(page()->class) ? config()->site->body_class . ' ' . page()->class : config()->site->body_class ?>" <?= $xData ?>>
+    class="<?= isset(page()->class) ? config()->site->body_class . ' ' . page()->path . ' ' . page()->class : config()->site->body_class . ' ' . page()->path; ?>" <?= $xData ?>>
     <div class="h-screen w-full flex flex-col">
         <!-- Header Section -->
         <?= import('/partials/page/header'); ?>

@@ -13,6 +13,8 @@
 		}
 	}
 	/* Boost rendering performance, see: https://web.dev/content-visibility */
+	.main-content,
+	.modal-window,
 	header,
 	footer {
 		content-visibility: auto;
@@ -20,6 +22,10 @@
 	/* Set the header and footer's intrinsic size so we don't get screen flicker */
 	header {
 		contain-intrinsic-size: 100px;
+	}
+	.main-content,
+	.modal-window {
+		contain-intrinsic-size: 100vh;
 	}
 	footer {
 		contain-intrinsic-size: 400px;
