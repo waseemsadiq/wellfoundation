@@ -13,7 +13,6 @@
 		}
 	}
 	/* Boost rendering performance, see: https://web.dev/content-visibility */
-	.main-wrapper,
 	header,
 	footer {
 		content-visibility: auto;
