@@ -3,12 +3,12 @@ layout: index
 ---
 <?
     $xData = '';
-    if (isset(page()->modalCount)) :
+    if (isset($modalCount)) :
         # code...
         $showModal = '';
         $overflow = '';
-        for ($k = 0 ; $k < page()->modalCount; $k++) :
-            if (($k + 1) < page()->modalCount):
+        for ($k = 0 ; $k < $modalCount; $k++) :
+            if (($k + 1) < $modalCount):
                 $showModal .= 'showModal'.($k + 1). ': false, ';
                 $overflow .= 'showModal'.($k + 1). ' || ';
             else: 
@@ -29,7 +29,7 @@ layout: index
     }
 </style>
 <body 
-    class="<?= isset(page()->class) ? config()->site->body_class . ' ' . page()->path . ' ' . page()->class : config()->site->body_class . ' ' . page()->path; ?>" <?= $xData ?>>
+    class="<?= isset($class) ? config()->site->body_class . ' ' . $class : config()->site->body_class; ?>" <?= $xData ?>>
     <div class="h-screen w-full flex flex-col">
         <!-- Header Section -->
         <?= import('/partials/page/header'); ?>
