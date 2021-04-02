@@ -24,7 +24,9 @@ modalCount: 1
           <h2 class="w-full max-w-4xl px-5 px-8 mt-2 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">
                Will you help us provide meals in these 26 countries every 26 weeks?</h2>
           <div class="flex px-5 py-24 md:flex-row flex-col items-center">
-            <?= import('/partials/images/maps'); ?>
+            <?=  import('/partials/images/images-data-grid', [
+                'data' => 'food-countries',
+            ]); ?>
           </div>
           <div class="text-center">
             <span id="copy1"></span>

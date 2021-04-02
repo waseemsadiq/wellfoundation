@@ -1,0 +1,132 @@
+[
+	{
+		"name" : "Burkina Faso",
+		"image" : "burkina-faso.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Cambodia",
+		"image" : "cambodia.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Cameroon",
+		"image" : "cameroon.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Chad",
+		"image" : "chad.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Ethiopia",
+		"image" : "ethiopia.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Gambia",
+		"image" : "gambia.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Ghana",
+		"image" : "ghana.svg",
+		"description" : ""
+	},
+	{
+		"name" : "India",
+		"image" : "india.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Kenya",
+		"image" : "kenya.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Madagascar",
+		"image" : "madagascar.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Malawi",
+		"image" : "malawi.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Mali",
+		"image" : "mali.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Mauritania",
+		"image" : "mauritania.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Nepal",
+		"image" : "nepal.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Niger",
+		"image" : "niger.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Nigeria",
+		"image" : "nigeria.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Pakistan",
+		"image" : "pakistan.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Palestine",
+		"image" : "palestine.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Rohingya",
+		"image" : "rohingya.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Sierra Leone",
+		"image" : "sierra-leone.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Sri Lanka",
+		"image" : "sri-lanka.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Sudan",
+		"image" : "sudan.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Togo",
+		"image" : "togo.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Uganda",
+		"image" : "uganda.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Zanzibar",
+		"image" : "zanzibar.svg",
+		"description" : ""
+	},
+	{
+		"name" : "Zimbabwe",
+		"image" : "zimbabwe.svg",
+		"description" : ""
+	}
+]
