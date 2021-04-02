@@ -6,11 +6,15 @@ sub_title: Giving the gift of sight
 summary: The Well Foundation Eye and Health care programme has been implemented in Punjab Pakistan. There is a real need for support and help for the people who are poverty stricken. In a nation of 180 million cataract accounts for nearly 66 percent of all blindness.
 image: images://eyecamp-cover.jpg
 slug: health-and-livelihoods
-modalCount: 1
+modalCount: 2
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero'); ?>
+    <?= import('/partials/features/hero',[
+      'form' => 'eye-camp',
+      'form_title' => 'Please complete all sections',
+      'button_colour' => 'green'
+    ]); ?>
     <!-- HERO SECTION END -->
 
     <div class="relative lg:pb-40 lg:px-20">
@@ -40,7 +44,8 @@ modalCount: 1
                     <?= import('/partials/buttons/modal',[
                       'form' => 'livelihoods',
                       'form_title' => 'Please complete all sections',
-                      'button_colour' => 'green'
+                      'button_colour' => 'green',
+                      'modal_window' => '2',
                     ]); ?>
                 </p>
             </div>

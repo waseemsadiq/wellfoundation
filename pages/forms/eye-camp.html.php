@@ -23,7 +23,7 @@ form:
         Email: [email, required]
         DonationAmount: [string]
         CataractOperation: [string]
-    redirect: https://justgiving.com/wfeye20
+    redirect: https://justgiving.com/wfeye21
     honeypot: well_786d3z11
 ---
 <!-- Form -->
