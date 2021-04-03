@@ -26,6 +26,7 @@ modalCount: 1
           <div class="flex px-5 py-24 md:flex-row flex-col items-center">
             <?=  import('/partials/images/images-data-grid', [
                 'data' => 'food-countries',
+                'columns' => 4
             ]); ?>
           </div>
           <div class="text-center">

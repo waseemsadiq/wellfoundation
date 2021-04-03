@@ -35,6 +35,8 @@ async function postcss() {
           'md:w-1/3',
           'md:w-1/4',
           'md:w-1/5',
+          // These classes are used by food programme countries, let's add them to the safe list
+          'lg:grid-cols-4',
           ],
         },
       },
