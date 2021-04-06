@@ -15,4 +15,13 @@ collection:
 	<?// var_dump($category) ?>
 <?// endforeach ?>
 
-<? var_dump(collection()->get('fundraisingPages')['fundraisingPage']) ?>
+<? //var_dump(collection()->get('fundraisingPages')['fundraisingPage']) ?>
+
+<a 
+	href="https://link.staging.justgiving.com/v1/charity/donate/charityId/187701?donationValue=25&currency=GBP&exiturl=http%3A%2F%2Fwww.wellfoundation.ork.uk?jgDonationId=JUSTGIVING-DONATION-ID&reference=demobutton" 
+	class="
+		button 
+		<?= (isset($button_colour)) ? 'bg-'.$button_colour.'-600' : 'bg-indigo-600' ?> 
+		<?= (isset($button_colour)) ? 'hover:bg-'.$button_colour.'-400' : 'hover:bg-indigo-400' ?>">
+	<?= (isset($button_text)) ? $button_text : 'Donate Today!' ?>
+</a>
