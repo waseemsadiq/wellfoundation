@@ -7,15 +7,11 @@ image: images://office-watercooler.jpg
 slug: water
 metadata:
     og:type: article
-modalCount: 1
 ---
-
 <!-- BEGIN HERO SECTION -->
 <?= import('/partials/features/hero',[
-  'form' => 'water-wells',
-  'form_title' => 'Please complete all sections',
+  'button_url' => '#pricing',
   'button_colour' => 'green',
-  'modal_window' => 1,
 ]); ?>
 <!-- HERO SECTION END -->
 
@@ -82,8 +78,11 @@ modalCount: 1
             <p class="text-xs text-gray-500 mb-2">The wells are located in convenient locations, often between a cluster of houses.</p>
           </div>
           <div class="text-center">
-            <span id="copy1"></span>
-            <script data-inline>var elem = document.querySelector('#button1');var here = document.querySelector('#copy1');var clone = elem.cloneNode(true);clone.id = 'button2';here.after(clone);</script>
+            <? $item = collection('products', ['slug' => 'tube-hand-pumps']); ?>
+            <? //$item = data('https://api.airtable.com/v0/appBkb3dw8veD8BO3/water?api_key=keyziFXaehsfT8Rzk')->records->get(3)->fields;?>
+            <?=  import('/partials/snipcart/buttons/variants', [
+                'item' => $item,
+            ]); ?>
           </div>
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 4/6 weeks as can only be built during certain times of the year.</p>
         </div>
@@ -110,8 +109,11 @@ modalCount: 1
             <p class="text-xs text-gray-500 mb-2">Access to clean water for small villages and communities in locations where Water is Scarce using the latest solar powered water pumps.</p>
           </div>
           <div class="text-center">
-            <span id="copy2"></span>
-            <script data-inline>var elem = document.querySelector('#button2');var here = document.querySelector('#copy2');var clone = elem.cloneNode(true);clone.id = 'button3';here.after(clone);</script>
+            <? $item = collection('products', ['slug' => 'solar-powered-wells']); ?>
+            <? //$item = data('https://api.airtable.com/v0/appBkb3dw8veD8BO3/water?api_key=keyziFXaehsfT8Rzk')->records->get(0)->fields;?>
+            <?=  import('/partials/snipcart/buttons/variants', [
+                'item' => $item
+            ]); ?>
           </div>
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 4/6 weeks as can only be built during certain times of the year.</p>
         </div>
@@ -182,8 +184,11 @@ modalCount: 1
             <p class="text-xs text-gray-500 mb-2">Dig-a-Wells are ideal for families who rely on agriculture and farming. The wells have mechanical hand pumps and draw water from up to 40 metres beneath the ground making them dependable during all seasons.Your Dig-a-Well will be situated in a communal place such as village centre or Schools, Providing water to the whole community.</p>
           </div>
           <div class="text-center">
-            <span id="copy3"></span>
-            <script data-inline>var elem = document.querySelector('#button2');var here = document.querySelector('#copy3');var clone = elem.cloneNode(true);clone.id = 'button4';here.after(clone);</script>
+            <? $item = collection('products', ['slug' => 'dig-a-well']); ?>
+            <? //$item = data('https://api.airtable.com/v0/appBkb3dw8veD8BO3/water?api_key=keyziFXaehsfT8Rzk')->records->get(2)->fields;?>
+            <?=  import('/partials/snipcart/buttons/variants', [
+                'item' => $item
+            ]); ?>
           </div>
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 4/5 months as can only be built during certain times of the year.</p>
         </div>
@@ -239,8 +244,11 @@ modalCount: 1
             <p class="text-xs text-gray-500 mb-2">These wells go from 15 meters to 40 meters into the ground and last over 15 - 20 years.</p>
           </div>
           <div class="text-center">
-            <span id="copy4"></span>
-            <script data-inline>var elem = document.querySelector('#button3');var here = document.querySelector('#copy4');var clone = elem.cloneNode(true);clone.id = 'button5';here.after(clone);</script>
+            <? $item = collection('products', ['slug' => 'community-bore-wells']); ?>
+            <? //$item = data('https://api.airtable.com/v0/appBkb3dw8veD8BO3/water?api_key=keyziFXaehsfT8Rzk')->records->get(1)->fields;?>
+            <?=  import('/partials/snipcart/buttons/variants', [
+                'item' => $item
+            ]); ?>
           </div>
           <p class="text-xs text-gray-500 mt-3">Note: Projects can take 8/9 months as can only be built during certain times of the year.</p>
         </div>

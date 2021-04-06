@@ -42,6 +42,9 @@
 	select.k-form-control {
 		@apply block appearance-none w-full bg-white border-2 border-gray-200 hover:border-gray-200 px-4 py-2 pr-8 rounded leading-tight focus:outline-none;
 	}
+	.snipcart {
+		@apply relative z-50;
+	}
 	/* tailwind doesn't do multiple columns css, so let's do that ourselves */
 	/* md screen and above only */
 	@media (min-width: 768px) {
@@ -49,7 +52,18 @@
 			column-count: 2;
 		}
 	}
+    @media(max-width:1520px) {
+        .left-svg {
+            display: none;
+        }
+    }
 }
+@layer components {
+	.snipcart-add-item {
+		@apply relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white border-t border-gray-200 rounded-md shadow-xl sm:mt-1 lg:mx-0;
+	}
+}
+
 /* CSS Vars */
 #cookieconsent {
   /* Cookie consent colours */

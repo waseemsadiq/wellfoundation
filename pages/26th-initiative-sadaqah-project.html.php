@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: products/snipcart-v2
 name: 26th Initiative
 title: What is Sadaqah?
 sub_title: Sadaqah or Sadaka
@@ -10,8 +10,10 @@ modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
+    <? $item = collection('subscriptions'); ?>
     <?= import('/partials/features/hero',[
-      'form' => 'donate-monthly',
+      'type' => 'product',
+      'item' => $item,
       'form_title' => 'Rewards for the rest of your life',
       'button_text' => 'Donate monthly',
       'button_colour' => 'green'

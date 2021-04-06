@@ -10,6 +10,7 @@ modalCount: 1
 
     <!-- BEGIN HERO SECTION -->
     <?= import('/partials/features/hero',[
+      'type' => 'form',
       'form' => 'food',
       'form_title' => 'Feed the World',
       'button_text' => 'Register now!',

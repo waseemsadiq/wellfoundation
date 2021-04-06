@@ -68,6 +68,14 @@
       </style>
     </noscript>
 
+    <style>
+        @media(max-width:1520px) {
+            .left-svg {
+                display: none;
+            }
+        }
+    </style>
+
 </head>
 
     <ktml:content>

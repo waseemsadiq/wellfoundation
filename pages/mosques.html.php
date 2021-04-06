@@ -49,6 +49,7 @@ modalCount: 1
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Please follow this link to:</p>
                 <div class="flex justify-center">
                     <?= import('/partials/buttons/modal',[
+                      'type' => 'form',
                       'form' => 'education',
                       'form_title' => 'Please complete all sections',
                       'button_text' => 'Build a mosque or request more information',

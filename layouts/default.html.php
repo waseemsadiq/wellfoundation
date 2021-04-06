@@ -20,14 +20,20 @@ layout: index
         //  x-data="{showModal1: false, showModal2: false, showModal3: false, showModal4: false}" :class="{'overflow-y-hidden': showModal1 || showModal2 || showModal3 || showModal4}"
     endif;
     //echo $showModal;
+
+    // Snipcart Api Key
+    $sc_api_key = config()->sc_api_key;
 ?>
-<style>
-    @media(max-width:1520px) {
-        .left-svg {
-            display: none;
-        }
-    }
-</style>
+
+<? if ($sc_api_key): ?>
+<link rel="preconnect" href="https://app.snipcart.com">
+<link rel="preconnect" href="https://cdn.snipcart.com">
+
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css" />
+<script async src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"></script>
+<div hidden id="snipcart" data-api-key="<?= $sc_api_key ?>" data-config-modal-style="side"></div>
+<? endif; ?>
+
 <body 
     class="<?= isset($class) ? config()->site->body_class . ' ' . $class : config()->site->body_class; ?>" <?= $xData ?>>
     <div class="h-screen w-full flex flex-col">

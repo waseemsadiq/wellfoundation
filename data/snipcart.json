@@ -1,0 +1,35 @@
+[
+	{
+		"name" : "Tube/Hand Pumps",
+		"image" : "waterspout-cover.jpg",
+		"description" : "Access to safe drinking water can transform lives. The gift of a tube well will ensure that pockets of small communities and groups of families have access to clean water for drinking, washing and cooking. Tube wells are manually operated and can lift water from about 30 metres beneath the ground. They are designed to last at least 10 years and can be easily maintained by the beneficiary. The wells are located in convenient locations, often between a cluster of houses.",
+		"sku" : "thp",
+		"price" : "175.00",
+		"options" : "Pakistan (Layyah & Sindh)|Pakistan (Punjab)[+5.00]|Cambodia[+100.00]|Sri Lanka[+100.00]|India[+150.00]"
+	},
+	{
+		"name" : "Solar Powered Wells",
+		"image" : "waterspout-cover.jpg",
+		"description" : "Access to clean water for small villages and communities in locations where Water is Scarce using the latest solar powered water pumps.",
+		"sku" : "spw",
+		"price" : "700.00",
+		"options" : ""
+			
+	},
+	{
+		"name" : "Dig a Well",
+		"image" : "waterspout-cover.jpg",
+		"description" : "The gift of a Dig-a-Well project can serve up to 600 to 800 people, providing access to clean water for drinking, washing and cooking, as well as keeping livestock hydrated. Dig-a-Wells are ideal for families who rely on agriculture and farming. The wells have mechanical hand pumps and draw water from up to 40 metres beneath the ground making them dependable during all seasons.Your Dig-a-Well will be situated in a communal place such as village centre or Schools, Providing water to the whole community.",
+		"sku" : "daw",
+		"price" : "800.00",
+		"options" : "Pakistan|Tanzania[+450.00]|Kenya[+450.00]|Uganda[+700.00]|Gambia[+1000.00]|Niger[+1100.00]"
+	},
+	{
+		"name" : "Community Bore Wells",
+		"image" : "waterspout-cover.jpg",
+		"description" : "Access to clean water for small villages and communities can serve over 1000 people and are built in locations where Water is Scarce. These wells go from 15 meters to 40 meters into the ground and last over 15 - 20 years.",
+		"sku" : "cbw",
+		"price" : "5500.00",
+		"options" : "Gambia|Uganda[+500.00]|Somalia[+500.00]|Cameroon[+750.00]|Malawi[+750.00]"
+	}
+]

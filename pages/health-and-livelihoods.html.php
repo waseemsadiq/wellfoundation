@@ -11,6 +11,7 @@ modalCount: 2
 
     <!-- BEGIN HERO SECTION -->
     <?= import('/partials/features/hero',[
+      'type' => 'form',
       'form' => 'eye-camp',
       'form_title' => 'Please complete all sections',
       'button_colour' => 'green'
@@ -42,6 +43,7 @@ modalCount: 2
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">The Income Generating Programme helps poor families to set up income generating activities based on their skills and availability of local resources. In case of lack of skills and resources the programme also helps family members by providing training to enhance their skills. Through trained social mobilisers local resources are explored to create livelihood opportunities and generate income on a sustainable basis.</p>
                 <p class="flex items-center text-gray-600 mb-6 px-8 lg:px-20">
                     <?= import('/partials/buttons/modal',[
+                      'type' => 'form',
                       'form' => 'livelihoods',
                       'form_title' => 'Please complete all sections',
                       'button_colour' => 'green',

@@ -10,6 +10,7 @@ modalCount: 1
 
 <!-- BEGIN HERO SECTION -->
 <?= import('/partials/features/hero',[
+  'type' => 'form',
   'form' => 'education',
   'form_title' => 'Please complete all sections',
   'button_colour' => 'green'

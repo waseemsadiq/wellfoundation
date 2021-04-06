@@ -37,6 +37,7 @@ modalCount: 1
             </p>
             <p class="mb-0">
               <?= import('/partials/buttons/modal',[
+                'type' => 'form',
                 'form' => 'sports',
                 'form_title' => 'Please complete all sections',
                 'button_text'=>'Register your child with Well Sports Academy',

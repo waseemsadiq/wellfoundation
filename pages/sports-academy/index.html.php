@@ -21,6 +21,7 @@ modalCount: 1
           <p class="px-8 mb-6 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">The Well Foundation works with a number of organisations including Scottish Football Association, Motherwell FC, The Rangers FC and The Princes' Trust, ensuring opportunities for sport and participation are made available to everyone regardless of their background or abilities.</p>
           <p class="mb-6 px-8 lg:px-20">
             <?= import('/partials/buttons/modal',[
+              'type' => 'form',
               'form' => 'sports',
               'form_title' => 'Please complete all sections',
               'button_text' => 'Register for our sports and activities',
