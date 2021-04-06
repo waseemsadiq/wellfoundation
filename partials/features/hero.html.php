@@ -13,6 +13,7 @@ if(isset($slug)):
         break;
     endswitch;
 endif;
+$type = isset($type) ? $type : '';
 ?>
 <div class="relative items-center justify-center w-full overflow-x-hidden lg:pt-40 lg:pb-40 xl:pt-40 xl:pb-64">
     <div class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
@@ -24,7 +25,6 @@ endif;
             <p class="pr-0 mb-8 text-base text-gray-600 md:text-lg xl:text-xl lg:pr-20"><?= $summary ?></p>
 
             <? 
-            if(isset($type)):
                 //var_dump($type);
                 switch ($type) :
                 case 'form':
@@ -45,7 +45,6 @@ endif;
                         'button_colour' => isset($button_colour) ? $button_colour : NULL,
                     ]);
                 endswitch;
-            endif;
             ?>
 
         </div>
