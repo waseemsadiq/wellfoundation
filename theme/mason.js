@@ -1,10 +1,11 @@
 const mason = require('@joomlatools/mason-tools-v1');
+const revalidatorUrl = "http://www.well.test/sites/thewell.foundation/theme/mason-revalidator.js";
 
 async function postcss() {
   await mason.css.process(`css/input.css`, `css/output.css`, {
     tailwind: {    
       purge: {
-        enabled: 1,
+        enabled: 0,
         content: [
           '../**/*.html.php',
         ],
@@ -92,7 +93,7 @@ async function postcss() {
       stage: 2, // default is 2 (A Working Draft championed by a W3C Working Group.)
       autoprefixer: { cascade: true },
       features: {
-          //'focus-within-pseudo-class': false, // Uncomment this if purge is set to false
+          'focus-within-pseudo-class': false, // Uncomment this if purge is set to false
       },
     }
 
@@ -103,7 +104,7 @@ async function sync() {
   mason.browserSync({
     watch: true,
     server: {
-       baseDir: './joomlatools-pages/theme'
+       baseDir: './sites/thewell.foundation/theme'
     },
     files: 'css/*.css',
   });
