@@ -26,10 +26,10 @@
   </div>
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3">
-      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="DonationAmount">Donation Amount (&pound;)</label>
+      <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Amount">Donation Amount (&pound;)</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="DonationAmount" name="DonationAmount" type="text">
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4" id="Amount" name="Amount" type="text">
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
@@ -60,6 +60,7 @@
   </div>
   
   <div class="md:flex md:items-center mb-6">
+    <input type="hidden" name="PageId" value="13946978">
     <div class="md:w-1/3"><?= helper('form.honeypot', page('forms/eye-camp')->form->honeypot); ?></div>
     <div class="md:w-2/3">
       <button class="shadow bg-purple-600 hover:bg-purple-500 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" onclick="return validChk()">
@@ -68,24 +69,3 @@
     </div>
   </div>
 </form>
-
-<script>
-  function validChk() {
-    var radio = document.getElementsByName('CataractOperation');
-    var lenRadio = radio.length;
-    //CataractOperation
-    var valid=0;
-    for(var i=0;i<lenRadio;i++) {
-      if(radio[i].checked==true) {
-        valid=1;
-        break;
-      }
-    }
-    if(valid==0) {
-      msg='Please select your donation type';
-      alert(msg);
-      return false;
-    }
-    return true;
-  }
-</script>

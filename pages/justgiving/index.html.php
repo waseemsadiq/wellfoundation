@@ -4,10 +4,6 @@ layout: default
 summary: Just Giving test page
 image: images://food-cover.jpg
 visible: false
-#collection:
-#    model: justgiving
-#    config:
-#        url: https://api.justgiving.com/c529958f/v1/account/fahim.baqir@wellfoundation.org.uk/pages?charityid=187701
 collection:
     model: justgiving
     state:
@@ -16,7 +12,7 @@ collection:
         jg_charityid: data://config/justgiving[charityid]
 ---
 <? 
-	//var_dump(count(collection()));return;
+	//var_dump(collection());return;
 	//var_dump($event); return; 
 ?>
 
@@ -42,7 +38,7 @@ collection:
 			    <div class="px-6 py-4">
 			        
 			        <div class="text-gray-800 dark:text-white">
-			            <p>You can fundraise with us, and help us install more water wells all around the World, just follw this link:</p>
+			            <p>You can fundraise with us, and help us install more water wells all around the World, just follow this link:</p>
 			        </div>
 
 			        <div class="flex items-center mt-4 text-gray-700 dark:text-gray-200">
@@ -61,7 +57,8 @@ collection:
 			<!-- JustGiving Projects -->
 			<? foreach(collection() as $event): ?>
 				<? if($event->pageStatus === 'Active'): ?>
-					<?= import('/partials/fundraising/page-card',['event'=>$event]); ?>
+					<? $content = data('https://api.justgiving.com/'.$collection['state']['jg_appid'].'/v1/fundraising/pages/'.$event->pageShortName)->find('fundraisingPage');?>
+					<?= import('/partials/fundraising/page-card',['event'=>$event, 'content'=>$content]); ?>
 				<? endif; ?>
 			<? endforeach; ?>
 			<!-- End JustGiving Projects -->

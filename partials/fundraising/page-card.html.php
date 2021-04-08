@@ -1,6 +1,4 @@
 <? 
-//$content = data('https://api.justgiving.com/{appId}/v1/fundraising/pages/{pageShortName}');
-$content = data('https://api.justgiving.com/c529958f/v1/fundraising/pages/'.$event->pageShortName)->find('fundraisingPage');
 $safeStory = str_replace('.', '. ', strip_tags($content->story));
 $story = (strlen($safeStory) > 143) ? substr($safeStory,0,140).'...' : $safeStory;
 ?>
@@ -14,7 +12,7 @@ $story = (strlen($safeStory) > 143) ? substr($safeStory,0,140).'...' : $safeStor
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M17 21C15.8954 21 15 20.1046 15 19V15C15 13.8954 15.8954 13 17 13H19V12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12V13H7C8.10457 13 9 13.8954 9 15V19C9 20.1046 8.10457 21 7 21H3V12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12V21H17ZM19 15H17V19H19V15ZM7 15H5V19H7V15Z"/>
             </svg>
             -->
-            <h1 class="mx-3 text-lg font-semibold text-white"><?= $content->title ?></h1>
+            <h1 class="mx-3 text-lg font-semibold text-white"><?= $content->title ?> <?= (JDEBUG) ? $content->pageId : '' ; ?></h1>
         </div>
 
         <div class="px-6 py-4 text-gray-800 dark:text-white">

@@ -1,5 +1,5 @@
 const mason = require('@joomlatools/mason-tools-v1');
-const revalidatorUrl = "http://www.well.test/sites/thewell.foundation/theme/mason-revalidator.js";
+const revalidatorUrl = "https://files.joomlatools.com/pages@0.19.3/mason-revalidator.js";
 
 async function postcss() {
   await mason.css.process(`css/input.css`, `css/output.css`, {

@@ -17,13 +17,14 @@ form:
                 - info@wellfoundation.org.uk
             title: Well foundation Eye camp Form
             subject: New notification from the Well foundation Eye camp form
+    redirect: https://link.justgiving.com/v1/fundraisingpage/donate/pageid/{PageId}?amount={Amount}&reference={Email}&ExitUrl=https%3A%2F%2Fwww.wellfoundation.org.uk%2F2health-and-livelihoods
     schema:
         Name: [string, required]
         MobileNumber: [string, required]
         Email: [email, required]
-        DonationAmount: [string]
-        CataractOperation: [string]
-    redirect: https://justgiving.com/wfeye21
+        Amount: [string, required]
+        CataractOperation: [string, required]
+        PageId: [string, required]
     honeypot: well_786d3z11
 ---
 <!-- Form -->

@@ -6,11 +6,12 @@ collection:
 metadata:
     'og:type': article
 visible: false
+jg_appid: data://config/justgiving[appid]
 ---
 <? 
 	$jgpage = collection(); 
-	$content = data('https://api.justgiving.com/c529958f/v1/fundraising/pages/'.$jgpage->pageShortName)->find('fundraisingPage');
-	// var_dump($content);return;
+	$content = data('https://api.justgiving.com/'.$jg_appid.'/v1/fundraising/pages/'.$jgpage->pageShortName)->find('fundraisingPage');
+	//var_dump($content);return;
 	$button_text = 'Donate now towards our ' . str_replace('Project', '', $content->title) . ' project'
 ?>
 
@@ -19,7 +20,7 @@ visible: false
 	<div class="w-full mx-auto mb-6 text-left md:w-3/4 lg:w-1/2">
 		
 		<h1 class="w-full max-w-4xl px-5 px-8 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8" itemprop="headline" title="<?= isset($content->description) ? $content->description : ''; ?>">
-			<?= $content->title ?>
+			<?= $content->title ?> <?= (JDEBUG) ? $content->pageId : '' ; ?>
 		</h1>
 
 		<img src="<?= $content->image->absoluteUrl ?>" class="object-cover w-full h-64 bg-center rounded-lg" alt="<?= $content->title ?>" />
