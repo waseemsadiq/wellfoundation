@@ -5,7 +5,7 @@
       <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ParentName">Your / Parent's name</label>
     </div>
     <div class="md:w-2/3">
-      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ParentFirstname" name="ParentFirstname" type="text" placeholder="Firstname Lastname" required>
+      <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="ParentName" name="ParentName" type="text" placeholder="Firstname Lastname" required>
     </div>
   </div>
 
@@ -252,13 +252,6 @@
       </label>
 
       <label class="block text-gray-500 font-bold">
-        <input class="mr-2 leading-tight" type="checkbox" name="MaleSports[]" value="Fri - Footaball" id="MaleSports_20">
-        <span class="text-sm">
-          Fri - Footaball<span class="block ml-6 font-normal text-gray-400">5.30pm - Aberdeen Soccer Academy - Contact Nav 07870 601691.</span>
-        </span>
-      </label>
-
-      <label class="block text-gray-500 font-bold">
         <input class="mr-2 leading-tight" type="checkbox" name="MaleSports[]" value="Sat - Boys Tae Kwan Do Classes" id="MaleSports_21">
         <span class="text-sm">
           Sat - Boys Tae Kwan Do Classes<span class="block ml-6 font-normal text-gray-400">10am - 11am - Lanarkshire Mosque - ages 5 to 14 years old - £3 per child - Contact Atief 07790 006583.</span>
@@ -283,6 +276,13 @@
         <input class="mr-2 leading-tight" type="checkbox" name="MaleSports[]" value="Sun - Adults Cricket" id="MaleSports_24">
         <span class="text-sm">
           Sun - Adults Cricket<span class="block ml-6 font-normal text-gray-400">Dalziel Park - times TBC - contact Imtiaz 07834 010308 - £TBC.</span>
+        </span>
+      </label>
+
+      <label class="block text-gray-500 font-bold">
+        <input class="mr-2 leading-tight" type="checkbox" name="MaleSports[]" value="Sun - Aberdeen Football Academy" id="MaleSports_34">
+        <span class="text-sm">
+          Sun - Aberdeen Football Academy<span class="block ml-6 font-normal text-gray-400">Nelson Street, Aberdeen AB24 5EH 10.00am - 11am - Contact Naveed 07870601691 - £4 Per Class.</span>
         </span>
       </label>
 

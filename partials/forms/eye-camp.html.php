@@ -39,11 +39,11 @@
     </div>
     <div class="md:w-2/3">
       <label class="block text-gray-500 font-bold">
-        <input value="Donate as Sadkah" id="CataractOperation_41" name="CataractOperation" type="radio">
+        <input value="Donate as Sadkah" id="CataractOperation_41" name="CataractOperation" type="radio" required>
         <span class="text-sm">Donate as Sadkah</span>
       </label>
       <label class="block text-gray-500 font-bold">
-        <input value="Donate as Zakat" id="CataractOperation_42" name="CataractOperation" type="radio">
+        <input value="Donate as Zakat" id="CataractOperation_42" name="CataractOperation" type="radio" required>
         <span class="text-sm">Donate as Zakat</span>
       </label>
     </div>
@@ -62,30 +62,9 @@
   <div class="md:flex md:items-center mb-6">
     <div class="md:w-1/3"><?= helper('form.honeypot', page('forms/eye-camp')->form->honeypot); ?></div>
     <div class="md:w-2/3">
-      <button class="shadow bg-purple-600 hover:bg-purple-500 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" onclick="return validChk()">
+      <button class="shadow bg-purple-600 hover:bg-purple-500 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit" data-errormsg="Send message" data-successmsg="Sending" <? //onclick="return validChk()" ?>>
         Send
       </button>
     </div>
   </div>
 </form>
-
-<script>
-  function validChk() {
-    var radio = document.getElementsByName('CataractOperation');
-    var lenRadio = radio.length;
-    //CataractOperation
-    var valid=0;
-    for(var i=0;i<lenRadio;i++) {
-      if(radio[i].checked==true) {
-        valid=1;
-        break;
-      }
-    }
-    if(valid==0) {
-      msg='Please select your donation type';
-      alert(msg);
-      return false;
-    }
-    return true;
-  }
-</script>

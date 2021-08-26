@@ -22,7 +22,7 @@ form:
         MobileNumber: [string, required]
         Email: [email, required]
         DonationAmount: [string]
-        CataractOperation: [string]
+        CataractOperation: [string, required]
     redirect: https://justgiving.com/wfeye21
     honeypot: well_786d3z11
 ---
