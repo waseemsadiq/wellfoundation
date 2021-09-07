@@ -30,7 +30,7 @@ jg_appid: data://config/justgiving[appid]
 	</div>
 
 	<div class="w-full mx-auto prose md:w-3/4 lg:w-1/2">
-		<?= $content->story ?>
+		<?= str_replace('<br/>', '', preg_replace('/<div .*?>(.*?)<\/div>/','<p>$1</p>',$content->story)); // remove the <br /> and replace <div></div> with <p></p> tags from justgiving's content ?>
 	</div>
 
 	<div class="w-full mx-auto md:w-3/4 lg:w-1/2">
