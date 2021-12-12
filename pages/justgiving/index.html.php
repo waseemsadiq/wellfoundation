@@ -49,7 +49,7 @@ collection:
 			                </g>
 			            </svg>
 			            
-			            <h2 class="px-2 text-sm"><a href="https://www.justgiving.com/" rel="nofollow noreferrer" target="_blank">www.justgiving.com/</a></h2>
+			            <h2 class="px-2 text-sm"><a href="https://www.justgiving.com/fundraising-page/creation/?cid=<?= $collection['state']['jg_charityid'] ?>" rel="nofollow noreferrer" target="_blank">www.justgiving.com<?= (JDEBUG) ? '/fundraising-page/creation/?cid='.$collection['state']['jg_charityid'] : '' ; ?></a></h2>
 			        </div>
 			    </div>
 			</article>

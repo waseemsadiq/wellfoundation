@@ -11,6 +11,7 @@ jg_appid: data://config/justgiving[appid]
 <? 
 	$jgpage = collection(); 
 	$content = data('https://api.justgiving.com/'.$jg_appid.'/v1/fundraising/pages/'.$jgpage->pageShortName)->find('fundraisingPage');
+	$images = collection()->images['image'];
 	//var_dump($content);return;
 	$button_text = 'Donate now towards our ' . str_replace('Project', '', $content->title) . ' project'
 ?>
@@ -24,6 +25,26 @@ jg_appid: data://config/justgiving[appid]
 		</h1>
 
 		<img src="<?= $content->image->absoluteUrl ?>" class="object-cover w-full h-64 bg-center rounded-lg" alt="<?= $content->title ?>" />
+		<? 
+			if(is_array($images) && isset($images[0])):
+		?>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6 xl:gap-8 my-4 md:my-8">
+            <!-- image - start -->
+            <? 
+                foreach ($images as $image): 
+                    if(is_array($image) && isset($image['absoluteUrl'])):
+            ?>
+            <a href="#" class="group h-24 flex items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                <img class="w-full h-full object-cover object-center absolute inset-0 transform group-hover:scale-110 transition duration-200" loading="lazy" src="<?= $image['absoluteUrl']; ?>" alt="avatar">
+                <div class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
+            </a>
+            <?
+                    endif;
+                endforeach;
+            ?>
+            <!-- image - end -->
+        </div>
+        <? endif; ?>
 		<p class="mt-6 mb-2 text-xs font-semibold tracking-wider uppercase text-gray-700 dark:text-gray-200">
 			<?= $content->currencySymbol; ?><?= number_format($content->grandTotalRaisedExcludingGiftAid); ?> of <?= $content->currencySymbol; ?> <?= number_format($content->fundraisingTarget); ?> (<?= $content->totalRaisedPercentageOfFundraisingTarget; ?>&percnt;) of target already donated!
 		</p>

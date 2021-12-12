@@ -2,10 +2,11 @@
 $safeStory = str_replace('.', '. ', strip_tags($content->story));
 $story = (strlen($safeStory) > 143) ? substr($safeStory,0,140).'...' : $safeStory;
 ?>
+
 <article class="flex flex-col h-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    
     <a href="/justgiving/<?= $event->slug ?>">
         <img class="object-cover object-center w-full h-56" src="<?= $content->image->absoluteUrl; ?>" alt="avatar">
-        
         <div class="flex items-center px-6 py-3 bg-indigo-500">
             <!--
             <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
