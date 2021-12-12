@@ -35,13 +35,19 @@ modalCount: 1
             <p class="mb-8 text-base   text-gray-600 md:text-lg xl:text-xl">
               <?= $summary; ?>
             </p>
-            <p class="mb-0">
+            <p class="mb-8">
               <?= import('/partials/buttons/modal',[
                 'form' => 'sports',
                 'form_title' => 'Please complete all sections',
                 'button_text'=>'Register your child with Well Sports Academy',
                 'button_colour' => 'green'
               ]); ?>
+            </p>
+            <p id="banking" class="mb-0text-base text-gray-600 md:text-lg xl:text-xl">
+              <span class="mb-4">Please set up a standing order for your / your child's sports academy classes to the following account:</span><br>
+              <strong>Account name</strong>: The Well Foundation<br>
+              <strong>Sort code</strong>: 83-22-26<br>
+              <strong>Account number</strong>: 00157932
             </p>
           </div>
 
