@@ -94,7 +94,7 @@ modalCount: 1
           <h2 class="text-sm tracking-widest title-font mb-1 font-medium upercase">Solar Powered Wells</h2>
           <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
             <span class="text-lg ml-1 font-normal text-gray-500">From:</span>
-            <span>&pound;700</span>
+            <span>&pound;900</span>
           </h1>
           <div>
             <p class="text-xs text-gray-500 mb-4 font-bold">Areas and cost:</p>
@@ -103,7 +103,7 @@ modalCount: 1
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Pakistan &pound;700
+              </span>Pakistan &pound;900
             </p>
           </div>
           <div class="flex-grow">
@@ -123,7 +123,7 @@ modalCount: 1
           <h2 class="text-sm tracking-widest title-font mb-1 font-medium upercase">Dig a Well</h2>
           <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
             <span class="text-lg ml-1 font-normal text-gray-500">From:</span>
-            <span>&pound;800</span>
+            <span>&pound;1,000</span>
           </h1>
           <div>
             <p class="text-xs text-gray-500 mb-4 font-bold">Areas and cost:</p>
@@ -132,7 +132,7 @@ modalCount: 1
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
-              </span>Pakistan &pound;800
+              </span>Pakistan &pound;1,000
             </p>
             <p class="flex items-center text-gray-600 mb-2">
               <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -191,52 +191,13 @@ modalCount: 1
       
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
         <div class="h-full p-6 rounded-lg border-2 border-gray-200 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest title-font mb-1 font-medium upercase">Community Bore Wells</h2>
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium upercase">Filtration Water Wells</h2>
           <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
             <span class="text-lg ml-1 font-normal text-gray-500">From:</span>
-            <span>&pound;5,500</span>
+            <span>&pound;2,000</span>
           </h1>
-          <div>
-            <p class="text-xs text-gray-500 mb-4 font-bold">Areas and cost:</p>
-            <p class="flex items-center text-gray-600 mb-2">
-              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                  <path d="M20 6L9 17l-5-5"></path>
-                </svg>
-              </span>Gambia &pound;5,500
-            </p>
-            <p class="flex items-center text-gray-600 mb-2">
-              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                  <path d="M20 6L9 17l-5-5"></path>
-                </svg>
-              </span>Uganda &pound;6,000
-            </p>
-            <p class="flex items-center text-gray-600 mb-2">
-              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                  <path d="M20 6L9 17l-5-5"></path>
-                </svg>
-              </span>Somalia &pound;6,000
-            </p>
-            <p class="flex items-center text-gray-600 mb-2">
-              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                  <path d="M20 6L9 17l-5-5"></path>
-                </svg>
-              </span>Cameroon &pound;6,250
-            </p>
-            <p class="flex items-center text-gray-600 mb-6">
-              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                  <path d="M20 6L9 17l-5-5"></path>
-                </svg>
-              </span>Malawi &pound;6,250
-            </p>
-          </div>
           <div class="flex-grow">
             <p class="text-xs text-gray-500 mb-2">Access to clean water for small villages and communities can serve over 1000 people and are built in locations where Water is Scarce.</p>
-            <p class="text-xs text-gray-500 mb-2">These wells go from 15 meters to 40 meters into the ground and last over 15 - 20 years.</p>
           </div>
           <div class="text-center">
             <span id="copy4"></span>

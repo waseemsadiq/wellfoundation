@@ -74,7 +74,7 @@
     <div class="md:w-2/3 text-left">
       <span class="block">
         <input value="Pakistan (£600)" id="SolarPowerWaterWells_7" name="SolarPowerWaterWells" type="radio" aria-labelledby="SolarPowerWaterWells-ariaLabel" />
-        <label for="SolarPowerWaterWells_7" id="SolarPowerWaterWells-ariaLabel">Pakistan (£600)</label>
+        <label for="SolarPowerWaterWells_7" id="SolarPowerWaterWells-ariaLabel">Pakistan (£900)</label>
       </span>
     </div>
   </div>
@@ -82,8 +82,8 @@
     <div class="md:w-1/3 text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">Dig a Well</div>
     <div class="md:w-2/3 text-left">
       <span class="block">
-        <input value="Pakistan (£800)" id="DigaWell_8" name="DigaWell" type="radio" aria-labelledby="DigaWell-ariaLabel" />
-        <label for="DigaWell_8" id="DigaWell-ariaLabel">Pakistan (£800)</label>
+        <input value="Pakistan (£1000)" id="DigaWell_8" name="DigaWell" type="radio" aria-labelledby="DigaWell-ariaLabel" />
+        <label for="DigaWell_8" id="DigaWell-ariaLabel">Pakistan (£1000)</label>
       </span>
       <span class="block">
         <input value="Tanzania (£1250)" id="DigaWell_9" name="DigaWell" type="radio" aria-labelledby="DigaWell-ariaLabel" />
@@ -116,27 +116,11 @@
     </div>
   </div>
   <div class="md:flex md:items-center mb-6">
-    <div class="md:w-1/3 text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">Community Bore Wells</div>
+    <div class="md:w-1/3 text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">Filtration Water Wells</div>
     <div class="md:w-2/3 text-left">
       <span class="block">
-        <input value="Gambia (£6000)" id="CommunityBoreWells_16" name="CommunityBoreWells" type="radio" aria-labelledby="CommunityBoreWells-ariaLabel" />
-        <label for="CommunityBoreWells_16" id="CommunityBoreWells-ariaLabel">Gambia (£6000)</label>
-      </span>
-      <span class="block">
-        <input value="Uganda (£6000)" id="CommunityBoreWells_17" name="CommunityBoreWells" type="radio" aria-labelledby="CommunityBoreWells-ariaLabel" />
-        <label for="CommunityBoreWells_17" id="CommunityBoreWells-ariaLabel">Uganda (£6000)</label>
-      </span>
-      <span class="block">
-        <input value="Somalia (£6000)" id="CommunityBoreWells_18" name="CommunityBoreWells" type="radio" aria-labelledby="CommunityBoreWells-ariaLabel" />
-        <label for="CommunityBoreWells_18" id="CommunityBoreWells-ariaLabel">Somalia (£6000)</label>
-      </span>
-      <span class="block">
-        <input value="Cameroon (£6250)" id="CommunityBoreWells_19" name="CommunityBoreWells" type="radio" aria-labelledby="CommunityBoreWells-ariaLabel" />
-        <label for="CommunityBoreWells_19" id="CommunityBoreWells-ariaLabel">Cameroon (£6250)</label>
-      </span>
-      <span class="block">
-        <input value="Malawi (£6250)" id="CommunityBoreWells_20" name="CommunityBoreWells" type="radio" aria-labelledby="CommunityBoreWells-ariaLabel" />
-        <label for="CommunityBoreWells_20" id="CommunityBoreWells-ariaLabel">Malawi (£6250)</label>
+        <input value="Filtration Water Well (£2000)" id="FiltrationWaterWells_16" name="FiltrationWaterWells" type="radio" aria-labelledby="FiltrationWaterWells-ariaLabel" />
+        <label for="FiltrationWaterWells_16" id="FiltrationWaterWells-ariaLabel">Filtration Water Well (£2000)</label>
       </span>
     </div>
   </div>
@@ -189,7 +173,7 @@
       }
     }
     //CommunityBoreWells
-    var radio4 = document.getElementsByName('CommunityBoreWells');
+    var radio4 = document.getElementsByName('FiltrationWaterWells');
     var lenRadio4 = radio4.length;
     for(var i=0;i<lenRadio4;i++) {
       if(radio4[i].checked==true) {
