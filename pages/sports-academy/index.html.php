@@ -1,16 +1,16 @@
 ---
-layout: default
+@layout: default
 name: Sports
 title: Providing access to sports & activities
 summary: The Well Foundation Community Sports hub and Sports academy has been incredibly successful in providing access which is often lacking to sports and activities to children within the BME community. The collaboration with youth football teams allows integration of children from all backgrounds to enjoy sport in safe and professional environments.
-image: images://sports-cover.jpg
+img: images://sports-cover.jpg
 slug: sports-academy
 modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero',[
-      'button_url'=>route('sports-academy/classes'),
+    <?= partial('/features/hero',[
+      'button_url'=>'/sports-academy/classes',
       'button_text'=>'View all sports and activities',
     ]); ?>
     <!-- HERO SECTION END -->
@@ -20,7 +20,7 @@ modalCount: 1
       <div class="relative pb-20 lg:pb-40 lg:px-20">
           <p class="px-8 mb-6 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">The Well Foundation works with a number of organisations including Scottish Football Association, Motherwell FC, The Rangers FC and The Princes' Trust, ensuring opportunities for sport and participation are made available to everyone regardless of their background or abilities.</p>
           <p class="mb-6 px-8 lg:px-20">
-            <?= import('/partials/buttons/modal',[
+            <?= partial('/buttons/modal',[
               'form' => 'sports',
               'form_title' => 'Please complete all sections',
               'button_text' => 'Register for our sports and activities',
@@ -45,8 +45,8 @@ modalCount: 1
           </div>
 
           <p class="mt-16 mb-6 px-8 lg:px-20">
-            <?= import('/partials/buttons/primary',[
-              'button_url'=>route('sports-academy/classes'),
+            <?= partial('/buttons/primary',[
+              'button_url'=>'/sports-academy/classes',
               'button_text'=>'View all sports and activities',
             ]); ?>
           </p>
@@ -62,7 +62,7 @@ modalCount: 1
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base  ">Well Foundation are working with Rangers FC delivering kit and training equipment, to countries in Asia and Africa, helping those communities with much needed sports equipment.</p>
           </div>
 
-          <?=  import('/partials/images/random', [
+          <?=  partial('/images/random', [
             'folder' => 'images://sports/rangers-kits',
             'layout' => 'grid',
             'shuffle' => true,
@@ -74,7 +74,7 @@ modalCount: 1
             <h3 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Cycle club</h3>
           </div>
 
-          <?=  import('/partials/images/random', [
+          <?=  partial('/images/random', [
             'folder' => 'images://sports/cycle-club',
             'layout' => 'grid',
             'shuffle' => true,
@@ -86,7 +86,7 @@ modalCount: 1
             <h3 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Walking club</h3>
           </div>
 
-          <?=  import('/partials/images/random', [
+          <?=  partial('/images/random', [
             'folder' => 'images://sports/walking-club',
             'layout' => 'grid',
             'shuffle' => true,
@@ -106,5 +106,5 @@ modalCount: 1
 
     
     <!-- Start Testimonials -->
-    <?= import('/partials/features/testimonials'); ?>
+    <?= partial('/features/testimonials'); ?>
     <!-- End Testimonials-->

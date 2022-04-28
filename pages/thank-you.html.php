@@ -1,5 +1,5 @@
 ---
-layout: default
+@layout: default
 title: Thank you for contacting us
 summary: Thank you for contacting us
 visible: false
@@ -19,5 +19,5 @@ metadata:
 </div>
 
 <!-- Start Testimonials -->
-<?= import('/partials/features/testimonials'); ?>
+<?= partial('/features/testimonials'); ?>
 <!-- End Testimonials-->

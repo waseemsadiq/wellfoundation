@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Business Partners Form
 title: Business Partners' registration
 summary: Please click the Gift aid box as this is used for future repairs to any Water Wells, there is also a small percentage added to each project for the maintenance and upkeep of all water projects thus ensuring longevity of all projects. If you need more info please contact Fahim Baqir.
@@ -29,5 +29,5 @@ form:
     honeypot: well_786d3z02
 ---
 <!-- Form -->
-<?=  import('/partials/forms/business-partners'); ?>
+<?=  partial('/forms/business-partners'); ?>
 <!-- end Form -->

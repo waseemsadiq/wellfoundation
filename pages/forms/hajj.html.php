@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Hajj Form
 title: Hajj
 summary: Please complete this form for each person that you would like to send on Hajj. If you need more info please contact Fahim Baqir.
@@ -26,5 +26,5 @@ form:
     honeypot: well_786d3z17
 ---
 <!-- Form -->
-<?=  import('/partials/forms/hajj'); ?>
+<?=  partial('/forms/hajj'); ?>
 <!-- end Form -->

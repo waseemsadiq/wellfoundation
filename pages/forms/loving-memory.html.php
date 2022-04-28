@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: In loving memory Form
 title: In loving memory Projects
 summary: If you need more info please contact Fahim Baqir.
@@ -30,5 +30,5 @@ form:
     honeypot: well_786d3z13
 ---
 <!-- Form -->
-<?=  import('/partials/forms/loving-memory'); ?>
+<?=  partial('/forms/loving-memory'); ?>
 <!-- end Form -->

@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Food Form
 title: Feed the World
 summary: Please complete this form to register as a fundraiser for The Well Foundation's food programme. If you need more info please contact Fahim Baqir.
@@ -25,5 +25,5 @@ form:
     honeypot: well_786d3z18
 ---
 <!-- Form -->
-<?=  import('/partials/forms/food'); ?>
+<?=  partial('/forms/food'); ?>
 <!-- end Form -->

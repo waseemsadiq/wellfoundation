@@ -1,14 +1,15 @@
 ---
-layout: default
+@layout: default
 name: Home
 title: Fresh, clean drinking water for all!
 summary: The WELL Foundation's primary aim is to raise money to install Hand Pumps, Deep Bore wells and establish health & sanitation programmes to provide safe, clean drinking Water for all
+img: images://waterspout-cover.jpg
 slug: home
 visible: false
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero'); ?>
+    <?= partial('/features/hero'); ?>
     <!-- HERO SECTION END -->
 
     <!-- BEGIN FEATURES SECTION -->
@@ -347,5 +348,5 @@ visible: false
     <!-- END FEATURES SECTION -->
 
     <!-- Start Testimonials -->
-    <?= import('/partials/features/testimonials'); ?>
+    <?= partial('/features/testimonials'); ?>
     <!-- End Testimonials-->

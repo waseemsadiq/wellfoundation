@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Qurbani Form
 title: Qurbani Program
 summary: Please complete this form to donate to Well foundation Qurbani Program. If you need more info please contact Fahim Baqir.
@@ -32,5 +32,5 @@ form:
     honeypot: well_786d3z15
 ---
 <!-- Form -->
-<?=  import('/partials/forms/qurbani'); ?>
+<?=  partial('/forms/qurbani'); ?>
 <!-- end Form -->

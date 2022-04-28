@@ -1,5 +1,5 @@
 ---
-layout: index
+@layout: index
 title: Browser not supported
 summary: Sorry! We don't support your browser
 class: bg-gray-50

@@ -1,9 +1,9 @@
 ---
-layout: default
+@layout: default
 name: Water
 title: Give Life, Give Water.
 summary: The Well foundation at its heart is a water charity with the primary aim to raise money to install hand pumps, deep bore wells and establish health and sanitation programmes in order to provide safe clean drinking water for all
-image: images://office-watercooler.jpg
+img: images://office-watercooler.jpg
 slug: water
 metadata:
     og:type: article
@@ -11,7 +11,7 @@ modalCount: 1
 ---
 
 <!-- BEGIN HERO SECTION -->
-<?= import('/partials/features/hero',[
+<?= partial('/features/hero',[
   'form' => 'water-wells',
   'form_title' => 'Please complete all sections',
   'button_colour' => 'green',
@@ -222,7 +222,7 @@ modalCount: 1
         </div>
         <div class="mt-8 sm:w-full sm:max-w-md sm:m-auto xl:mt-0 xl:ml-8 text-center lg:text-left">
             <p class="mt-8 xl:mt-3 m-auto lg:ml-0 text-white">
-                <?= import('/partials/logos/giftaid',[
+                <?= partial('/logos/giftaid',[
                   'class' => 'text-white',
                 ]); ?>
             </p>
@@ -236,5 +236,5 @@ modalCount: 1
 </div>
 
 <!-- Start Testimonials -->
-<?= import('/partials/features/testimonials'); ?>
+<?= partial('/features/testimonials'); ?>
 <!-- End Testimonials-->

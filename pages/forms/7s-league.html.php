@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Well foundation 7s league Form
 title: Well foundation 7s league Registration
 summary: Please complete this form to register for the Well foundation 7s league. If you need more info please contact Fahim Baqir.
@@ -33,5 +33,5 @@ form:
     honeypot: well_786d3z07
 ---
 <!-- Form -->
-<?=  import('/partials/forms/7s-league'); ?>
+<?=  partial('/forms/7s-league'); ?>
 <!-- end Form -->

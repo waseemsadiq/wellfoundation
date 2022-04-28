@@ -1,9 +1,9 @@
 ---
-layout: default
+@layout: default
 name: Donate
 title: Donate to The Well Foundation
 summary: 100% of the money you donate to The Well Foundation is spent on our projects.
-image: images://26th-cover.jpg
+img: images://26th-cover.jpg
 sub_title: Support our work
 slug: donate
 visible: false
@@ -40,7 +40,7 @@ visible: false
             </div>
             <div class="relative z-10 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
                 <div class="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
-                    <img src="<?= $image ?>" alt="<?= $title ?>" class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-20">
+                    <img src="<?= $img ?>" alt="<?= $title ?>" class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-20">
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@ visible: false
 
 
     <!-- Start Testimonials -->
-    <?= import('/partials/features/testimonials'); ?>
+    <?= partial('/features/testimonials'); ?>
     <!-- End Testimonials-->
 
 <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.0.x/dist/screen.min.js"></script>

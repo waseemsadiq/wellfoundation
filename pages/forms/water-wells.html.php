@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Water Wells Form
 title: Donate a water well
 summary: Please complete this form to purchase your water well(s) If you need more info please contact Fahim Baqir.
@@ -8,7 +8,7 @@ visible: false
 metadata:
     og:type: false
     robots: [none]
-form:
+@form:
     name: water-wells-form
     processors:
         - csv
@@ -28,8 +28,7 @@ form:
         DigaWell: [string]
         CommunityBoreWells: [string]
     redirect: https://justgiving.com/wfwells
-    honeypot: well_786d3z00
 ---
 <!-- Form -->
-<?=  import('/partials/forms/water-wells'); ?>
+<?=  partial('/forms/water-wells'); ?>
 <!-- end Form -->

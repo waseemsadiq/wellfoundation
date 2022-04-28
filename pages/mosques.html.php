@@ -1,15 +1,15 @@
 ---
-layout: default
+@layout: default
 name: Mosques
 title: Amazing sadaqah for you or your loved ones
 summary: Once built, mosques offer all Namazes, Children’s Hifiz, Islamic Education, Trawia and Jumma
-image: images://prayer-cover.jpg
+img: images://prayer-cover.jpg
 slug: mosques
 modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero'); ?>
+    <?= partial('/features/hero'); ?>
     <!-- HERO SECTION END -->
 
     <div class="relative px-8 py-10  border-t border-gray-200 xl:px-0">
@@ -48,7 +48,7 @@ modalCount: 1
                 </p>
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Please follow this link to:</p>
                 <div class="flex justify-center">
-                    <?= import('/partials/buttons/modal',[
+                    <?= partial('/buttons/modal',[
                       'form' => 'education',
                       'form_title' => 'Please complete all sections',
                       'button_text' => 'Build a mosque or request more information',
@@ -60,5 +60,5 @@ modalCount: 1
     </div>
 
     <!-- Start Testimonials -->
-    <?= import('/partials/features/testimonials'); ?>
+    <?= partial('/features/testimonials'); ?>
     <!-- End Testimonials-->

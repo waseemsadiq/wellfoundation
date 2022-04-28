@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Humanitarian Cup Form
 title: Humanitarian Cup Registration
 summary: Please complete this form to register your team. If you need more info please contact Fahim Baqir.
@@ -33,5 +33,5 @@ form:
     honeypot: well_786d3z05
 ---
 <!-- Form -->
-<?=  import('/partials/forms/humanitarian-cup'); ?>
+<?=  partial('/forms/humanitarian-cup'); ?>
 <!-- end Form -->

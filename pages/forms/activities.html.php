@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Activities Form
 title: Activities
 summary: Please complete this form to request your Well foundation Activities. If you need more info please contact Fahim Baqir.
@@ -28,5 +28,5 @@ form:
     honeypot: well_786d3z09
 ---
 <!-- Form -->
-<?=  import('/partials/forms/activities'); ?>
+<?=  partial('/forms/activities'); ?>
 <!-- end Form -->

@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Well foundation Hoodies Form
 title: Well foundation Hoodies
 summary: Please complete this form to request your Well foundation Hoodies. If you need more info please contact Fahim Baqir.
@@ -30,5 +30,5 @@ form:
     honeypot: well_786d3z08
 ---
 <!-- Form -->
-<?=  import('/partials/forms/hoodies'); ?>
+<?=  partial('/forms/hoodies'); ?>
 <!-- end Form -->

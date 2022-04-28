@@ -1,5 +1,5 @@
 ---
-layout: default
+@layout: default
 title: Terms & Conditions
 summary: The Well Foundation terms and conditions
 route: terms-and-conditions

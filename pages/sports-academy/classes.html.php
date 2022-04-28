@@ -1,5 +1,5 @@
 ---
-layout: default
+@layout: default
 name: Sports Academy
 title: Sports Academy
 summary: Please check this page regularly to see our weekly sports academy events.
@@ -36,7 +36,7 @@ modalCount: 1
               <?= $summary; ?>
             </p>
             <p class="mb-8">
-              <?= import('/partials/buttons/modal',[
+              <?= partial('/buttons/modal',[
                 'form' => 'sports',
                 'form_title' => 'Please complete all sections',
                 'button_text'=>'Register your child with Well Sports Academy',

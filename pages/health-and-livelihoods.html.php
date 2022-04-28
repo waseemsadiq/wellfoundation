@@ -1,16 +1,16 @@
 ---
-layout: default
+@layout: default
 name: Health & Livelihoods
 title: The Well Foundation eye camp programme
 sub_title: Giving the gift of sight
 summary: The Well Foundation Eye and Health care programme has been implemented in Punjab Pakistan. There is a real need for support and help for the people who are poverty stricken. In a nation of 180 million cataract accounts for nearly 66 percent of all blindness.
-image: images://eyecamp-cover.jpg
+img: images://eyecamp-cover.jpg
 slug: health-and-livelihoods
 modalCount: 2
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero',[
+    <?= partial('/features/hero',[
       'form' => 'eye-camp',
       'form_title' => 'Please complete all sections',
       'button_colour' => 'green'
@@ -41,7 +41,7 @@ modalCount: 2
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Over 1 billion people live on less than £1.25 a day. Nearly 250 million children have to work to help their families. More than 1.3 billion around the world live in extreme poverty</p>
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">The Income Generating Programme helps poor families to set up income generating activities based on their skills and availability of local resources. In case of lack of skills and resources the programme also helps family members by providing training to enhance their skills. Through trained social mobilisers local resources are explored to create livelihood opportunities and generate income on a sustainable basis.</p>
                 <p class="flex items-center text-gray-600 mb-6 px-8 lg:px-20">
-                    <?= import('/partials/buttons/modal',[
+                    <?= partial('/buttons/modal',[
                       'form' => 'livelihoods',
                       'form_title' => 'Please complete all sections',
                       'button_colour' => 'green',
@@ -81,7 +81,7 @@ modalCount: 2
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base  ">These are just some of the livelihoods projects that we've complete thanks to our donors. A special thanks goes to our "Monthly blessings" donors without whom we wouldn't have been able to complete some of these projects.</p>
           </div>
 
-          <?=  import('/partials/images/random', [
+          <?=  partial('/images/random', [
             'folder' => 'images://livelihoods-donate-monthly',
             'layout' => 'grid',
             'shuffle' => true,
@@ -94,5 +94,5 @@ modalCount: 2
     </div>
 
     <!-- Start Testimonials -->
-    <?= import('/partials/features/testimonials'); ?>
+    <?= partial('/features/testimonials'); ?>
     <!-- End Testimonials-->

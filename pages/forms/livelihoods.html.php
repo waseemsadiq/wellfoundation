@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Livelihoods Form
 title: Livelihoods
 summary: Please complete this form to donate to Well foundation Livelihoods. If you need more info please contact Fahim Baqir.
@@ -30,5 +30,5 @@ form:
     honeypot: well_786d3z10
 ---
 <!-- Form -->
-<?=  import('/partials/forms/livelihoods'); ?>
+<?=  partial('/forms/livelihoods'); ?>
 <!-- end Form -->

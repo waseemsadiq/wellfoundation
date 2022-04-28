@@ -1,15 +1,15 @@
 ---
-layout: default
+@layout: default
 name: Business Partners
 title: The Proposal
 sub_title: Get involved
 summary: Our proposal is based around the basic costing of the benefits we can provide to you; we ask that a basic minimum cost of £350 be applied to open the affiliation. We then add you to our Business Partners portfolio thus your business becomes an official charity business partner. You would ask what does this mean and why the cost? The money will be used for the cost of resources to promote your business throughout the year at our events and for published media i.e. charity pamphlets, pop up boards. Your business’s name will also be carried on our Website and Facebook pages adding greater exposure for your business throughout the year.
-image: images://business-cover.jpg
+img: images://business-cover.jpg
 slug: business-partners
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero',[
+    <?= partial('/features/hero',[
       'form'=>NULL,
       'button_url'=>'#form',
       'button_text'=>'Work With Us!',
@@ -36,11 +36,11 @@ slug: business-partners
           <p class="px-8 mb-2 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">We work with our donors and provide feedback which includes project report and pictures of the wells and construction. All wells are personalised with a Plaque of the donors name or name chosen by the donor.</p>
           <p class="px-8 mb-24 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">Please click the Gift aid box as this is used for future repairs to any Water Wells, there is also a small percentage added to each project for the maintenance and upkeep of all water projects thus ensuring longevity of all projects.</p>
           <!-- Form -->
-          <?=  import('/partials/forms/business-partners'); ?>
+          <?=  partial('/forms/business-partners'); ?>
           <!-- End Form -->
         </div>
     </div>
 
     <!-- Start Testimonials -->
-    <?= import('/partials/features/testimonials'); ?>
+    <?= partial('/features/testimonials'); ?>
     <!-- End Testimonials-->

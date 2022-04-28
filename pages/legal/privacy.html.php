@@ -1,5 +1,5 @@
 ---
-layout: default
+@layout: default
 title: Privacy Policy
 summary: The Well Foundation privacy policy
 route: privacy

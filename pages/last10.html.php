@@ -1,9 +1,9 @@
 ---
-layout: default
+@layout: default
 name: Last Ten
 title: Last Ten Days
 summary: Never miss the reward of giving sadaqa during Laylatul Qadr by automating your donations
-image: images://last-ten-days-cover.jpg
+img: images://last-ten-days-cover.jpg
 slug: last10
 visible: false
 form:

@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Education Form
 title: Education Projects
 summary: Please select the education project(s) that you would like to donate towards. If you need more info please contact Fahim Baqir.
@@ -30,5 +30,5 @@ form:
     honeypot: well_786d3z12
 ---
 <!-- Form -->
-<?=  import('/partials/forms/education'); ?>
+<?=  partial('/forms/education'); ?>
 <!-- end Form -->

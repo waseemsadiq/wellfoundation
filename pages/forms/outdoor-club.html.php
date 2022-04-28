@@ -1,5 +1,5 @@
 ---
-layout: form
+@layout: form
 name: Outdoor Club Form
 title: Outdoor Club
 summary: Please complete this form to register your interest in the Well foundation's Outdoor Club. If you need more info please contact Fahim Baqir.
@@ -32,5 +32,5 @@ form:
     honeypot: well_786d3z16
 ---
 <!-- Form -->
-<?=  import('/partials/forms/outdoor-club'); ?>
+<?=  partial('/forms/outdoor-club'); ?>
 <!-- end Form -->
