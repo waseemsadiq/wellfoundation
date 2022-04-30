@@ -59,6 +59,26 @@ modalCount: 1
         </div>
     </div>
 
+    <div class="relative px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 lg:pb-40 lg:px-20 xl:py-40 xl:px-20">
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-16">
+                    <h3 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Iftari opened in The Well Foundation Mosque<br>Layyah, Pakistan. Ramadan 2022</h3>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base  ">Thanks to all who donated.<br>You can still donate to any of The Well Foundation Ramadan 2022 projects at <a href="https://linktr.ee/wellfoundation">Linktr.ee/WellFoundation</a></p>
+                </div>
+
+                <?=  import('/partials/images/random', [
+                'folder' => 'images/mosque-layyah',
+                'layout' => 'grid',
+                'shuffle' => true,
+                'limit' => 8,
+                'columns' => 4,
+                ]); ?>
+
+            </div>
+        </section>
+    </div>
+
     <!-- Start Testimonials -->
     <?= import('/partials/features/testimonials'); ?>
     <!-- End Testimonials-->

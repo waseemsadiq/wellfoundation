@@ -63,7 +63,7 @@ modalCount: 1
           </div>
 
           <?=  import('/partials/images/random', [
-            'folder' => 'images://sports/rangers-kits',
+            'folder' => 'images/sports/rangers-kits',
             'layout' => 'grid',
             'shuffle' => true,
             'limit' => 8,
@@ -75,7 +75,7 @@ modalCount: 1
           </div>
 
           <?=  import('/partials/images/random', [
-            'folder' => 'images://sports/cycle-club',
+            'folder' => 'images/sports/cycle-club',
             'layout' => 'grid',
             'shuffle' => true,
             'limit' => 4,
@@ -87,7 +87,7 @@ modalCount: 1
           </div>
 
           <?=  import('/partials/images/random', [
-            'folder' => 'images://sports/walking-club',
+            'folder' => 'images/sports/walking-club',
             'layout' => 'grid',
             'shuffle' => true,
             'limit' => 4,

@@ -140,7 +140,7 @@ modalCount: 1
           </div>
 
           <?=  import('/partials/images/random', [
-            'folder' => 'images://livelihoods-donate-monthly',
+            'folder' => 'images/livelihoods-donate-monthly',
             'layout' => 'grid',
             'shuffle' => true,
             'limit' => 12,

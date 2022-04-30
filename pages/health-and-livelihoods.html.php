@@ -82,7 +82,7 @@ modalCount: 2
           </div>
 
           <?=  import('/partials/images/random', [
-            'folder' => 'images://livelihoods-donate-monthly',
+            'folder' => 'images/livelihoods-donate-monthly',
             'layout' => 'grid',
             'shuffle' => true,
             'limit' => 12,
