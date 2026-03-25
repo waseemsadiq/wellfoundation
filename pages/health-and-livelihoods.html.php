@@ -1,16 +1,19 @@
 ---
-layout: default
+@layout: default
 name: Health & Livelihoods
 title: The Well Foundation eye camp programme
 sub_title: Giving the gift of sight
 summary: The Well Foundation Eye and Health care programme has been implemented in Punjab Pakistan. There is a real need for support and help for the people who are poverty stricken. In a nation of 180 million cataract accounts for nearly 66 percent of all blindness.
-image: images://eyecamp-cover.jpg
+image: eyecamp-cover.jpg
 slug: health-and-livelihoods
-modalCount: 2
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero',[
+    <?= partial('/features/hero',[
+      'title' => $title,
+      'summary' => $summary,
+      'slug' => $slug,
+      'image' => $image,
       'form' => 'eye-camp',
       'form_title' => 'Please complete all sections',
       'button_colour' => 'green'
@@ -20,6 +23,7 @@ modalCount: 2
     <div class="relative lg:pb-40 lg:px-20">
         <p class="px-8 mb-2 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">Surprising to hear yes but sadly with a lack of human resources, coupled with a lack of training facilities for qualified ophthalmologists and soaring costs the prevention measures are difficult to achieve; the problem is compounded further by a lack of the necessary infrastructure combined with little modern technology at the district level. Poorly maintained equipment and the absence of any referral chain along with a lack of motivation, advocacy, and awareness make cataract a huge burden for the poor.</p>
         <p class="px-8 mb-2 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">Our dedicated team in Pakistan work around the year identifying areas and planning the two assessment camps.</p>
+        <div id="jg-widget-wfeye21-633" class="mb-2 px-8 lg:px-20"></div><script data-inline>(function(){var id='jg-widget-wfeye21-633',doc=document,pfx=(window.location.toString().indexOf('https')==0)?'https':'http';var el=doc.getElementById(id);if(el){var js=doc.createElement('script');js.src=pfx+'://widgets.justgiving.com/fundraisingpage/wfeye21?enc=ZT1qZy13aWRnZXQtd2ZleWUyMS02MzMmdz00MDAmYj1pbm5lciZpYj1yYWlzZWQ%3D';el.parentNode.insertBefore(js, el);}})();</script>
     </div>
 
 
@@ -41,11 +45,10 @@ modalCount: 2
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">Over 1 billion people live on less than £1.25 a day. Nearly 250 million children have to work to help their families. More than 1.3 billion around the world live in extreme poverty</p>
                 <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl lg:pr-20">The Income Generating Programme helps poor families to set up income generating activities based on their skills and availability of local resources. In case of lack of skills and resources the programme also helps family members by providing training to enhance their skills. Through trained social mobilisers local resources are explored to create livelihood opportunities and generate income on a sustainable basis.</p>
                 <p class="flex items-center text-gray-600 mb-6 px-8 lg:px-20">
-                    <?= import('/partials/buttons/modal',[
+                    <?= partial('buttons/modal',[
                       'form' => 'livelihoods',
                       'form_title' => 'Please complete all sections',
                       'button_colour' => 'green',
-                      'modal_window' => '2',
                     ]); ?>
                 </p>
             </div>
@@ -57,12 +60,13 @@ modalCount: 2
     <div class="relative pb-20 lg:pb-40 lg:px-20">
         <h3 class="relative mb-2 text-lg font-black leading-tight text-gray-900 sm:text-2xl xl:mb-4 px-8 lg:px-20">Creating a Chance and an Opportunity</h3>
         <p class="px-8 mb-6 text-base   text-gray-600 md:text-lg xl:text-xl lg:px-20">Many people in developing countries have the skills and enthusiasm to generate an income for themselves, yet lack the opportunity to put it into practice, we at the Well Foundation believe in empowering people to help themselves. We strive to give people access to sustainable ways of supporting themselves and their communities. With support from our donors we’re making a real difference.</p>
+        <div id="jg-widget-welllivelihoods-749" class="px-8 lg:px-20 mb-6"></div><script data-inline>(function(){var id="jg-widget-welllivelihoods-749",doc=document,pfx=(window.location.toString().indexOf("https")==0)?"https":"http";var el=doc.getElementById(id);if(el){var js=doc.createElement('script');js.src=pfx+"://widgets.justgiving.com/fundraisingpage/welllivelihoods?enc=ZT1qZy13aWRnZXQtd2VsbGxpdmVsaWhvb2RzLTc0OSZ3PTQwMCZiPWlubmVyJmliPXJhaXNlZA%3D%3D";el.parentNode.insertBefore(js, el);}})();</script>
         <h3 class="w-full max-w-4xl px-5 px-8 mx-auto pt-24 text-2xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0 mb-8">A few of the amazing projects that we have delivered:</h3>
 
         <div class="container px-8 lg:px-20 projects-list">
             <? foreach (data('projects')->livelihoods as $item) : ?>
                 <div class="flex items-start text-gray-600 mb-2">
-                    <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
@@ -81,8 +85,8 @@ modalCount: 2
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base  ">These are just some of the livelihoods projects that we've complete thanks to our donors. A special thanks goes to our "Monthly blessings" donors without whom we wouldn't have been able to complete some of these projects.</p>
           </div>
 
-          <?=  import('/partials/images/random', [
-            'folder' => 'images://livelihoods-donate-monthly',
+          <?= partial('/images/random',[
+            'folder' => 'images/livelihoods-donate-monthly',
             'layout' => 'grid',
             'shuffle' => true,
             'limit' => 12,
@@ -94,5 +98,5 @@ modalCount: 2
     </div>
 
     <!-- Start Testimonials -->
-    <?= import('/partials/features/testimonials'); ?>
+    <?= partial('/features/testimonials'); ?>
     <!-- End Testimonials-->

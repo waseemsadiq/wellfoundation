@@ -1,10 +1,9 @@
 ---
-layout: default
+@layout: default
 name: Sports Academy
 title: Sports Academy
 summary: Please check this page regularly to see our weekly sports academy events.
 slug: events
-modalCount: 1
 ---
 <style type="text/css">
 /*<![CDATA[*/
@@ -35,13 +34,19 @@ modalCount: 1
             <p class="mb-8 text-base   text-gray-600 md:text-lg xl:text-xl">
               <?= $summary; ?>
             </p>
-            <p class="mb-0">
-              <?= import('/partials/buttons/modal',[
+            <p class="mb-8">
+              <?= partial('/buttons/modal',[
                 'form' => 'sports',
                 'form_title' => 'Please complete all sections',
                 'button_text'=>'Register your child with Well Sports Academy',
                 'button_colour' => 'green'
               ]); ?>
+            </p>
+            <p id="banking" class="mb-0text-base text-gray-600 md:text-lg xl:text-xl">
+              <span class="mb-4">Please set up a standing order for your / your child's sports academy classes to the following account:</span><br>
+              <strong>Account name</strong>: The Well Foundation<br>
+              <strong>Sort code</strong>: 83-22-26<br>
+              <strong>Account number</strong>: 00157932
             </p>
           </div>
 
@@ -55,8 +60,8 @@ modalCount: 1
                 <tbody class="">
 
                   <? foreach(data('sports-academy/academy') as $academy) : ?>
-                  <tr class="relative transform scale-100 text-sm py-1 border-b-2 border-blue-100 cursor-default">
-                  <td class="pl-5 pr-3 whitespace-no-wrap">
+                  <tr class="relative scale-100 text-sm py-1 border-b-2 border-blue-100 cursor-default">
+                  <td class="pl-5 pr-3 whitespace-nowrap">
                       <div class="text-gray-400">
                         <?= $academy->day ?>
                       </div>
@@ -66,11 +71,11 @@ modalCount: 1
                       </div>
                   </td>
 
-                  <td class="px-2 py-2 whitespace-no-wrap hidden xl:block">
+                  <td class="px-2 py-2 whitespace-nowrap hidden xl:block">
                     <img class="w-20 h-20 object-cover rounded border-2 border-indigo-500" src="<?= $academy->image ?>">
                   </td>
 
-                  <td class="px-2 py-2 whitespace-no-wrap">
+                  <td class="px-2 py-2 whitespace-nowrap">
                     <div class="leading-5 text-gray-500 font-bold">
                       <?= $academy->title ?>
                     </div>
@@ -168,8 +173,7 @@ modalCount: 1
               Make sure your child is registered.
             </p>
             <p class="mb-0">
-              <span id="here"></span>
-              <script data-inline>var elem = document.querySelector('#button1');var here = document.querySelector('#here');var clone = elem.cloneNode(true);clone.id = 'button2';here.after(clone);</script>
+              <a href="/forms/sports" class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-green-600 hover:bg-green-400 border-t border-gray-200 rounded-md sm:mt-1 lg:mx-0 fold-bold focus:ring shadow-lg hover:shadow-none transition-all duration-300">Register your child with Well Sports Academy</a>
             </p>
           </div>
 
@@ -183,8 +187,8 @@ modalCount: 1
                 <tbody class="">
 
                 <? foreach(data('sports-academy/soccer-academies') as $academy) : ?>
-                <tr class="relative transform scale-100 text-sm py-1 border-b-2 border-blue-100 cursor-default">
-                  <td class="pl-5 pr-3 py-2 whitespace-no-wrap align-top">
+                <tr class="relative scale-100 text-sm py-1 border-b-2 border-blue-100 cursor-default">
+                  <td class="pl-5 pr-3 py-2 whitespace-nowrap align-top">
                       <div class="text-gray-400">
                         <?= $academy->day ?>
                       </div>
@@ -194,7 +198,7 @@ modalCount: 1
                       </div>
                   </td>
 
-                  <td class="px-2 py-2 whitespace-no-wrap">
+                  <td class="px-2 py-2 whitespace-nowrap">
                     <div class="leading-5 text-gray-500 font-bold">
                       <?= $academy->title ?>
                     </div>

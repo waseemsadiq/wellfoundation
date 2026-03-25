@@ -12,12 +12,11 @@ metadata:
     'limit'  => 0,
     'sort'   => 'date',
     'order'  => 'desc',
-    'filter' => [
-        'metadata' => [
-            'robots' => ['nin:noindex', 'nin:none'],
-        ],
-        'redirect' => 'null',
-    ]
+], [
+    'metadata' => [
+        'robots' => ['nin:noindex', 'nin:none'],
+    ],
+    'redirect' => 'null',
 ]); ?>
 
 <? $urls = []; ?>
@@ -35,12 +34,10 @@ metadata:
 <? endif ?>
 <? endforeach ?>
 
-<? $cache = collection('cache.json', [
-    'filter' => [
-        'robots' => ['nin:noindex', 'nin:none'],
-        'format' => 'html',
-        'status' => 200,
-    ]
+<? $cache = collection('cache.json', [], [
+    'robots' => ['nin:noindex', 'nin:none'],
+    'format' => 'html',
+    'status' => 200,
 ]); ?>
 
 <? foreach($cache as $item) : ?>

@@ -1,16 +1,19 @@
 ---
-layout: default
+@layout: default
 name: 26th Initiative
 title: What is Sadaqah?
 sub_title: Sadaqah or Sadaka
 summary: Sadaqah or Sadaka in the modern context has come to signify "voluntary charity". According to the Quran, the word means voluntary offering, the amount of which is at the will of the "benefactor".
-image: images://26th-cover.jpg
+image: 26th-cover.jpg
 slug: 26th-initiative-sadaqah-project
-modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero',[
+    <?= partial('/features/hero',[
+      'title' => $title,
+      'summary' => $summary,
+      'slug' => $slug,
+      'image' => $image,
       'form' => 'donate-monthly',
       'form_title' => 'Rewards for the rest of your life',
       'button_text' => 'Donate monthly',
@@ -43,7 +46,7 @@ modalCount: 1
                   </h1>
 
                   <p class="flex items-center text-gray-600 mb-2">
-                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
@@ -61,49 +64,49 @@ modalCount: 1
                   </h1>
                   <div class="flex flex-wrap">
                     <p class="flex items-center text-gray-600 mb-2 w-full md:w-1/2">
-                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                           <path d="M20 6L9 17l-5-5"></path>
                         </svg>
                       </span>Sewing machines
                     </p>
                     <p class="flex items-center text-gray-600 mb-2 w-full md:w-1/2">
-                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                           <path d="M20 6L9 17l-5-5"></path>
                         </svg>
                       </span>Planting olive trees
                     </p>
                     <p class="flex items-center text-gray-600 mb-2 w-full md:w-1/2">
-                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                           <path d="M20 6L9 17l-5-5"></path>
                         </svg>
                       </span>Providing fishing equipment
                     </p>
                     <p class="flex items-center text-gray-600 mb-2 w-full md:w-1/2">
-                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                           <path d="M20 6L9 17l-5-5"></path>
                         </svg>
                       </span>Building women's centres etc
                     </p>
                     <p class="flex items-center text-gray-600 mb-2 w-full md:w-1/2">
-                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                           <path d="M20 6L9 17l-5-5"></path>
                         </svg>
                       </span>Building Classrooms in Africa
                     </p>
                     <p class="flex items-center text-gray-600 mb-2 w-full md:w-1/2">
-                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                           <path d="M20 6L9 17l-5-5"></path>
                         </svg>
                       </span>Building Classrooms in Pakistan
                     </p>
                     <p class="flex items-center text-gray-600 mb-2 w-full md:w-1/2">
-                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                           <path d="M20 6L9 17l-5-5"></path>
                         </svg>
@@ -128,7 +131,7 @@ modalCount: 1
               <div class="lg:w-2/3 mx-auto leading-relaxed text-base   projects-list">
                 <? foreach (data('projects')->sadaqah as $item) : ?>
                     <div class="flex items-start text-gray-600 mb-2">
-                        <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                             <path d="M20 6L9 17l-5-5"></path>
                           </svg>
@@ -140,7 +143,7 @@ modalCount: 1
           </div>
 
           <?=  import('/partials/images/random', [
-            'folder' => 'images://livelihoods-donate-monthly',
+            'folder' => 'images/livelihoods-donate-monthly',
             'layout' => 'grid',
             'shuffle' => true,
             'limit' => 12,

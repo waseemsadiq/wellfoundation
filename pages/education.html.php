@@ -1,15 +1,18 @@
 ---
-layout: default
+@layout: default
 name: Education
 title: Education provides a path out of the poverty life-cycle.
 summary: Many children come from families who struggle to feed themselves, they are forced to sell land and livestock to buy food. They have to cut back on education and often children are forced to work instead of going to school. We work with organisations to help provide safe environments for children’s free education, schools are built from scratch or buildings repaired. Children are provided with equipment and resources to give them the very best chance to succeed.
-image: images://education-cover.jpg
+image: education-cover.jpg
 slug: education
-modalCount: 1
 ---
 
 <!-- BEGIN HERO SECTION -->
-<?= import('/partials/features/hero',[
+<?= partial('/features/hero',[
+  'title' => $title,
+  'summary' => $summary,
+  'slug' => $slug,
+  'image' => $image,
   'form' => 'education',
   'form_title' => 'Please complete all sections',
   'button_colour' => 'green'
@@ -34,7 +37,7 @@ modalCount: 1
           </h1>
           <? foreach (data('education')->malawi as $item) : ?>
             <div class="flex items-start text-gray-600 mb-2">
-              <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>
@@ -51,7 +54,7 @@ modalCount: 1
           </h1>
           <? foreach (data('education')->pakistan as $item) : ?>
             <div class="flex items-start text-gray-600 mb-2">
-              <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <p class="w-4 h-4 mr-2 mt-1 inline-flex items-center justify-center bg-gray-400 text-white rounded-full shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                   <path d="M20 6L9 17l-5-5"></path>
                 </svg>

@@ -1,20 +1,22 @@
 ---
-layout: default
+@layout: default
 name: Food
 title: Food Programme
 summary: Over 500m children, throughout the World, are going to sleep every night without having had a decent meal that day. With your help, The Well Foundation food programme aims to provide meals in 26 countries every 26 weeks
-image: images://food-cover.jpg
+image: food-cover.jpg
 slug: food
-modalCount: 1
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero',[
+    <?= partial('/features/hero',[
+      'title' => $title,
+      'summary' => $summary,
+      'slug' => $slug,
+      'image' => $image,
       'form' => 'food',
       'form_title' => 'Feed the World',
       'button_text' => 'Register now!',
       'button_colour' => 'green',
-      'modal_window' => 1,
     ]); ?>
     <!-- HERO SECTION END -->
 
@@ -30,8 +32,7 @@ modalCount: 1
             ]); ?>
           </div>
           <div class="text-center">
-            <span id="copy1"></span>
-            <script data-inline>var elem = document.querySelector('#button1');var here = document.querySelector('#copy1');var clone = elem.cloneNode(true);clone.id = 'button2';here.after(clone);</script>
+            <a href="/forms/food" class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-green-600 hover:bg-green-400 border-t border-gray-200 rounded-md sm:mt-1 lg:mx-0 fold-bold focus:ring shadow-lg hover:shadow-none transition-all duration-300">Register now!</a>
           </div>
       </div>
       <!-- End Countries Section -->

@@ -1,8 +1,8 @@
 ---
-layout: default
+@layout: default
 title: Privacy Policy
 summary: The Well Foundation privacy policy
-route: privacy
+@route: /privacy
 visible: false
 ---
 <div class="relative px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 lg:pb-40 lg:px-20 xl:py-40 xl:px-20">

@@ -17,7 +17,7 @@ return array(
     '/qurbani'							=> '/forms/qurbani',
     '/bepartners'						=> '/business-partners',
     '/Humanitarian-Cup'					=> '/forms/humanitarian-cup',
-    '/well-foundation-7s-league'		=> '/forms/well-foundation-7s-league',
+    '/well-foundation-7s-league'		=> '/forms/7s-league',
     '/7s-league'						=> '/forms/7s-league',
     '/projects'							=> '/',
     '/component/content/article/[**]'   => '/',

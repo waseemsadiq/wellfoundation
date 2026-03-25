@@ -2,11 +2,11 @@
   "legal": [
     {
       "title": "Terms of Service",
-      "route": "legal/terms-and-conditions"
+      "route": "terms-and-conditions"
     },
     {
       "title": "Privacy Policy",
-      "route": "legal/privacy"
+      "route": "privacy"
     },
     {
       "title": "Contact Us",
@@ -16,7 +16,7 @@
   "getinvolved": [
     {
       "title": "Who We Are",
-      "route": "about"
+      "route": "about-well-foundation"
     },
     {
       "title": "Sponsor A Well",

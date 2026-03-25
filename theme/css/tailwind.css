@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* Site templates and pages (outside auto-detection since package.json is in theme/) */
+@source "../../**/*.html.php";
+
+/* Formman component views (outside site directory entirely) */
+@source "../../../../components/com_formman/view/**/*.html.php";
+
+/* Dynamically-assembled classes (PHP string interpolation) */
+@source inline("bg-green-600 hover:bg-green-400 bg-indigo-600 hover:bg-indigo-400 bg-blue-600 hover:bg-blue-400 bg-red-600 hover:bg-red-400 md:w-1/2 md:w-1/3 md:w-1/4 md:w-1/5 lg:grid-cols-4 lazyprogressive");
+
+@theme {
+  --color-brand: #51CC41;
+
+  --color-green-50:  #F7FDF6;
+  --color-green-100: #EEFAEC;
+  --color-green-200: #D4F3D0;
+  --color-green-300: #B8EBB2;
+  --color-green-400: #86DC7A;
+  --color-green-500: #51CC41;
+  --color-green-600: #49B63A;
+  --color-green-700: #317B27;
+  --color-green-800: #255C1E;
+  --color-green-900: #183C13;
+
+  --color-blue-50:  #f3fbff;
+  --color-blue-100: #e6f7fe;
+  --color-blue-200: #c0ebfb;
+  --color-blue-300: #97def9;
+  --color-blue-400: #4dc6f4;
+  --color-blue-500: #00adef;
+  --color-blue-600: #009ad5;
+  --color-blue-700: #006890;
+  --color-blue-800: #004e6c;
+  --color-blue-900: #003346;
+
+  --spacing-104: 26em;
+  --spacing-112: 28em;
+  --spacing-120: 30em;
+  --spacing-128: 32em;
+}
+
+@layer base {
+  @media screen and (prefers-reduced-motion: no-preference) {
+    html, body { scroll-behavior: smooth; }
+  }
+  .main-content, .modal-window, header, footer { content-visibility: auto; }
+  header { contain-intrinsic-size: 100px; }
+  .main-content, .modal-window { contain-intrinsic-size: 100vh; }
+  footer { contain-intrinsic-size: 400px; }
+  body > * { font-size: clamp(0.75rem, 4vw, 1rem); }
+  [x-cloak] { display: none; }
+  select.k-form-control {
+    @apply block appearance-none w-full bg-white border-2 border-gray-200 hover:border-gray-200 px-4 py-2 pr-8 rounded leading-tight focus:outline-none;
+  }
+  @media (min-width: 768px) {
+    .projects-list { column-count: 2; }
+  }
+}
+
+#cookieconsent {
+  --green-500: rgba(81, 204, 65, 0.9);
+  --purple-700: rgba(109, 40, 217, 1);
+}

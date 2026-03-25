@@ -1,5 +1,5 @@
 ---
-layout: default
+@layout: default
 title: Thank you for contacting us
 summary: Thank you for contacting us
 visible: false

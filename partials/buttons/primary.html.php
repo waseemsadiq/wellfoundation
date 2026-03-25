@@ -1,1 +1,0 @@
-<a href="<?= (isset($button_url)) ? $button_url : '/donate' ?>" class="button<?= (isset($button_class)) ? ' ' . $button_class : '' ?> <?= (isset($button_colour)) ? 'bg-'.$button_colour.'-600' : 'bg-indigo-600' ?> <?= (isset($button_colour)) ? 'hover:bg-'.$button_colour.'-400' : 'hover:bg-indigo-400' ?>"><?= (isset($button_text)) ? $button_text : 'Donate Today!' ?></a>

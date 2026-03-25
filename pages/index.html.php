@@ -1,5 +1,5 @@
 ---
-layout: default
+@layout: default
 name: Home
 title: Fresh, clean drinking water for all!
 summary: The WELL Foundation's primary aim is to raise money to install Hand Pumps, Deep Bore wells and establish health & sanitation programmes to provide safe, clean drinking Water for all
@@ -8,7 +8,11 @@ visible: false
 ---
 
     <!-- BEGIN HERO SECTION -->
-    <?= import('/partials/features/hero'); ?>
+    <?= partial('/features/hero', [
+        'title' => $title, 
+        'summary' => $summary, 
+        'slug' => $slug
+    ]); ?>
     <!-- HERO SECTION END -->
 
     <!-- BEGIN FEATURES SECTION -->
@@ -292,10 +296,6 @@ visible: false
                     <!-- END FT5 -->
 
                     <!-- BEGIN FT6 -->
-                    <div class="hidden lg:block"></div>
-                    <!-- END FT5 -->
-
-                    <!-- BEGIN FT6 -->
                     <a href="/sports-academy" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute z-0 w-full h-full text-blue-50 hover:text-blue-100 transition-all duration-200 ease fill-current" viewBox="0 0 358 372" xmlns="http://www.w3.org/2000/svg">
                             <path d="M315.7 6.5c30.2 15.1 42.6 61.8 41.5 102.5-1.1 40.6-15.7 75.2-24.3 114.8-8.7 39.7-11.3 84.3-34.3 107.2-23 22.9-66.3 23.9-114.5 30.7-48.2 6.7-101.3 19.1-123.2-4.1-21.8-23.2-12.5-82.1-21.6-130.2C30.2 179.3 2.6 141.9.7 102c-2-39.9 21.7-82.2 57.4-95.6 35.7-13.5 83.3 2.1 131.2 1.7 47.9-.4 96.1-16.8 126.4-1.6z" />
@@ -340,6 +340,13 @@ visible: false
                         <span class="relative flex mt-2 text-sm font-medium text-indigo-700 underline">Learn More</span>
                     </a>
                     <!-- END FT6 -->
+
+                    <!-- BEGIN FT7 -->
+                    <a href="https://kavs.dcms.gov.uk/awardees/?awardee_filters%5Bgroup_name%5D=well+foundation&awardee_filters%5Byear_awarded%5D=&awardee_filters%5Btype_of_group%5D=&awardee_filters%5Bceremonial_county%5D=" class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg" target="_blank">
+                        <img src="images://sports/kings-award-alt.jpg" alt="King's Award for Voluntary Service" />
+                        <p class="relative mt-2 text-base   text-center text-gray-600">Recipient of the prestigious King’s Award for Voluntary Service</p>
+                    </a>
+                    <!-- END FT7 -->
                 </div>
             </div>
         </div>

@@ -1,26 +1,11 @@
 ---
-layout: default
+@layout: default
 name: Contact
 title: Contact Us 
 summary: The Well Foundation is a volunteer-staffed charity, as such we don't have a full-time admin team, or an office telephone number. Whilst we try to answer all messages and enquiries quickly, please bear with us if you send us a message, one of our volunteers will respond as soon as possible.
-image: images://contact-cover.jpg
+image: contact-cover.jpg
 slug: contact
 visible: false
-form:
-    name: contact-form
-    processors:
-        - csv
-        - 'email':
-            recipients: 
-                - info@wellfoundation.org.uk
-            title: Contact Us Form
-            subject: New message from the contact page
-    schema:
-        Name: [string, required]
-        Email: [email, required]
-        Message: [string, required]
-    redirect: thank-you
-    honeypot: well_786d3z01
 ---
 
 <!-- BEGIN HERO SECTION -->
@@ -28,49 +13,22 @@ form:
     <div class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
         <div class="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
             <h1 class="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8"><?= $title ?></h1>
-            <p class="pr-0 mb-8 text-base   text-gray-600 md:text-lg xl:text-xl"><?= $summary ?></p>
-            <form method="post" class="w-full">
-              <div class="md:flex md:items-center mb-6">
-                <div class="md:w-1/3">
-                  <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Name" id="Name-ariaLabel">Contact Name</label>
-                </div>
-                <div class="md:w-2/3">
-                  <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Name" name="Name" type="text" aria-labelledby="Name-ariaLabel" placeholder="Firstname Lastname" required>
-                </div>
-              </div>
-              <div class="md:flex md:items-center mb-6">
-                <div class="md:w-1/3">
-                  <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="Email" id="Email-ariaLabel">
-                    Your Email
-                  </label>
-                </div>
-                <div class="md:w-2/3">
-                  <input class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="Email" name="Email" type="email" aria-labelledby="Email-ariaLabel" placeholder="you@example.com" required>
-                </div>
-              </div>
-              <div class="md:flex md:items-center mb-6">
-                <div class="md:w-1/3">
-                  <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"  for="Message" id="Message-ariaLabel">
-                    Message
-                  </label>
-                </div>
-                <div class="md:w-2/3">
-                  <textarea id="Message" name="Message" cols="20" rows="3" aria-labelledby="Message-ariaLabel" class="appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" placeholder="Please leave a message for our team" required></textarea>
-                </div>
-              </div>
-              <div class="md:flex md:items-center">
-                <div class="md:w-1/3"><?= helper('form.honeypot', page()->form->honeypot); ?></div>
-                <div class="md:w-2/3">
-                  <button class="shadow bg-purple-600 hover:bg-purple-500 focus:ring focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
-                    Send
-                  </button>
-                </div>
-              </div>
-            </form>
+            <p class="pr-0 mb-8 text-base text-gray-600 md:text-lg xl:text-xl"><?= $summary ?></p>
+            <h3 class="relative mb-4 text-xl font-black leading-tight text-gray-900 sm:text-3xl xl:mb-6">Visit our office</h3>
+            <p class="pr-0 mb-8 text-base text-gray-600 md:text-lg xl:text-xl">
+                <span>
+                  Building 2<sup>*</sup>, <br>Unit C, <br>Ground Floor, <br>4 Parklands Way, <br>Eurocentral, <br>Holytown, <br>ML1 4WR
+                </span>
+            </p>
+            <p class="pr-0 -mt-4 mb-8 text-base text-gray-600 xl:text-lg">
+                <sup>*</sup>Entrance at rear of building
+            </p>
+            <h3 class="relative mb-4 text-xl font-black leading-tight text-gray-900 sm:text-3xl xl:mb-6">Send us an email</h3>
+            <?= form('contact-us'); ?>
         </div>
         <div class="relative z-10 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
             <div class="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
-                <img src="<?= $image ?>" alt="Image of man holding an @ sign with an envelope background" class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-20">
+                <img src="images://<?= $image ?>" alt="Image of man holding an @ sign with an envelope background" class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-20">
             </div>
         </div>
     </div>
